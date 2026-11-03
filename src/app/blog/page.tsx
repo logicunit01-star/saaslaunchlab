@@ -51,11 +51,30 @@ export default async function BlogIndexPage() {
     ]
   };
 
+  const blogJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${siteConfig.url}/blog#blog`,
+    name: "SaaS Launch Lab Blueprints",
+    description:
+      "Production-tested SaaS engineering blueprints, database architectures, and economics.",
+    url: `${siteConfig.url}/blog`,
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url
+    }
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
       />
 
       <div className="py-12 sm:py-16">

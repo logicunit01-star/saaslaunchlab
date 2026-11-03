@@ -6,8 +6,8 @@ originalUrl: >-
 publishedAt: '2026-04-30T14:11:51+00:00'
 modifiedAt: '2026-06-24T10:36:21+00:00'
 excerpt: >-
-  This is the quiet crisis in SaaS right now: platforms that could be financial
-  hubs for their users are still operating as single-function tools
+  Learn how to architect embedded lending services into your SaaS platform.
+  Review API providers, data compliance, underwriting rails, and revenue models.
 category: Architecture
 readingTime: 9
 wordCount: 1831

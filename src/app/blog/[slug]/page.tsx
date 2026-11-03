@@ -16,6 +16,27 @@ import { ArticleAuthorBox } from "@/components/blog/ArticleAuthorBox";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { ArrowLeft } from "lucide-react";
 
+function extractFaqs(markdown: string): { question: string; answer: string }[] {
+  const faqMatch = markdown.match(
+    /(?:##|###)\s*(?:Frequently Asked Questions|FAQs|FAQ)[\s\S]*?(?=(?:##\s+[^#]|$))/i
+  );
+  if (!faqMatch) return [];
+  const faqSection = faqMatch[0];
+
+  const faqs: { question: string; answer: string }[] = [];
+  const qMatches = [
+    ...faqSection.matchAll(/\*\*(.+?\?)\*\*\s*([\s\S]*?)(?=(?:\*\*|$))/g)
+  ];
+  for (const m of qMatches) {
+    const q = m[1].replace(/[*#]/g, "").trim();
+    const a = m[2].replace(/[*#]/g, "").trim();
+    if (q && a && q.length > 5 && a.length > 10) {
+      faqs.push({ question: q, answer: a });
+    }
+  }
+  return faqs;
+}
+
 interface ArticlePageProps {
   params: Promise<{ slug: string }>;
 }
@@ -146,6 +167,23 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     ]
   };
 
+  const faqs = extractFaqs(article.content);
+  const faqJsonLd =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.answer
+            }
+          }))
+        }
+      : null;
+
   return (
     <>
       {/* Schema.org Structured Data */}
@@ -157,6 +195,12 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <div className="py-10 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

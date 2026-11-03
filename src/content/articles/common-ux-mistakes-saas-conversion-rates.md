@@ -1,14 +1,12 @@
 ---
-title: >-
-  Common UX Mistakes That Kill SaaS Conversion Rates (Complete CRO Guide for
-  SaaS)
+title: Common UX Mistakes That Kill SaaS Conversion Rates
 slug: common-ux-mistakes-saas-conversion-rates
 originalUrl: 'https://saaslaunchlab.com/blog/common-ux-mistakes-saas-conversion-rates/'
 publishedAt: '2026-04-27T08:15:21+00:00'
 modifiedAt: '2026-06-24T10:36:22+00:00'
 excerpt: >-
-  Common UX mistakes hurting SaaS conversion rates. Learn CRO fixes for
-  onboarding, pricing, CTAs, and UX to increase SaaS signups and leads.
+  Identify and fix common SaaS UX mistakes that harm conversion rates. Optimize
+  self-serve onboarding, pricing page clarity, and frictionless signup.
 category: Audits & Economics
 readingTime: 6
 wordCount: 1223
