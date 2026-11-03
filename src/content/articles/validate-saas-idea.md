@@ -134,6 +134,8 @@ What “validated” actually means: A SaaS idea is validated not when people sa
 
 This framework is built around one principle: every step should cost you nothing except time, and each one should generate a concrete signal, not just a feeling.
 
+Validating customer demand protects founders from expensive development mistakes. Once customer demand is proven, consult our benchmark on [SaaS MVP development costs](/blog/mvp-development-cost/) to budget your initial build accurately, and follow our sprint framework for building a [SaaS MVP in 30 days](/blog/saas-mvp-in-30-days/).
+
 ### Step 1: Articulate the Problem With Surgical Precision
 
 Before you think about a solution, write down the problem in one sentence: who has it, what makes it painful, and what it costs them in time or money. If you can’t write that sentence clearly, your idea isn’t ready to validate yet. A vague problem attracts vague feedback.
@@ -254,7 +256,7 @@ Yes, Reddit is one of the most underrated SaaS validation tools available. Post 
 SaaS validation isn’t a bureaucratic hurdle between you and your product — it’s the most efficient use of your time at the earliest stage. The founders who validate first ship faster, waste less money, and reach revenue earlier than those who build on assumptions.
 ```
 
-Start with a specific, measurable problem statement. [Audit](/blog/saas-audit-checklist-before-launch/) the market for existing signals. Talk to 10–15 real people in your target segment. Build a smoke-test landing page in an afternoon. Collect pre-sales before you write code. Run basic market size maths to confirm it’s worth building.
+Start with a specific, measurable problem statement. Consulting a [pre-launch SaaS audit checklist](/blog/saas-audit-checklist-before-launch/) the market for existing signals. Talk to 10–15 real people in your target segment. Build a smoke-test landing page in an afternoon. Collect pre-sales before you write code. Run basic market size maths to confirm it’s worth building.
 
 ### Key Takeaways
 

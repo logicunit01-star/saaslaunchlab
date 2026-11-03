@@ -247,6 +247,24 @@ Yes. Pre-launch SEO helps you gain early rankings, traffic, and authority.
 
     
 
+## Production Infrastructure Pre-Flight & Stress-Testing Protocols
+
+A technical audit is only as good as its real-world failure simulation. Before exposing your SaaS platform to early adopters or running Product Hunt launches, your engineering team must conduct four non-negotiable stress tests:
+
+1. **Database Connection Pool Exhaustion:** Simulate high-concurrency traffic bursts using load-testing tools (such as k6 or Artillery). Verify that your database connection pooler (e.g., PgBouncer or Supabase pooling) smoothly queues concurrent connections rather than throwing connection limit errors under burst load.
+2. **Payment Webhook Idempotency & Failure Retries:** Simulate network dropouts during Stripe checkout sessions. Ensure your webhook handler uses idempotency keys and transactional database locks to prevent duplicate credit allocations or double-billing when Stripe automatically retries failed HTTP webhook events.
+3. **Async Queue Backpressure & Worker Monitoring:** Test asynchronous worker queues (such as BullMQ, Celery, or AWS SQS) under backpressure. Verify that heavy background processing tasks—such as PDF invoice generation, bulk CSV exports, or third-party CRM syncing—do not block core HTTP API request-response loops or exhaust worker memory.
+4. **Cold Start & Global CDN Asset Validation:** Validate that all bundled JavaScript and stylesheet assets are served with immutable HTTP cache headers (`Cache-Control: public, max-age=31536000, immutable`) via a global CDN. Verify that serverless API route cold starts remain strictly under 500ms across international edge regions.
+
+### Security Headers & Rate-Limiting Audit Checklist
+
+Before pointing production DNS to your web application, verify your edge HTTP response headers:
+
+- **Strict-Transport-Security (HSTS):** Enforce `max-age=63072000; includeSubDomains; preload` to ensure browsers never establish insecure plaintext connections.
+- **Content-Security-Policy (CSP):** Restrict script execution to trusted CDNs and domains, mitigating cross-site scripting (XSS) vectors.
+- **X-Frame-Options & Permissions-Policy:** Prevent clickjacking by setting `DENY` or `SAMEORIGIN`, and disable unneeded browser features (camera, microphone, geolocation).
+- **Per-IP and Per-User Rate Limiting:** Implement sliding-window rate limiting on `/api/auth` and sensitive mutation endpoints via Redis (e.g., Upstash) to thwart brute-force credential stuffing.
+
 ## Conclusion: Audit Before You Launch or Pay Later
 
 Launching a SaaS without an audit is like flying blind.

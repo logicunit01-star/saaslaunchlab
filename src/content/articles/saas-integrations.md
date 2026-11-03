@@ -87,6 +87,8 @@ The right SaaS integrations do not just save time. They create a connected nervo
 
 In this guide, you will learn which integrations actually move the needle in the early stage (zero to $1M ARR), how to sequence them so you do not over-engineer too soon, and what a lean, scalable stack looks like in 2026.
 
+Integrating external services is central to modern modular software systems. For guidance on structuring secure API gateways and webhook workers, reference our foundational [SaaS website architecture blueprint](/blog/saas-website-architecture/). To determine how different programming languages handle asynchronous webhooks, review our guide to [backend choices for SaaS](/blog/backend-choices-for-saas/).
+
 ## Why Integrations Are a Strategic Decision, Not a Tech Chore
 
 Most early-stage founders treat integrations as a to-do item. They set up Stripe because they need to charge money, plug in Google Analytics because everyone does, and connect Slack to their project management tool because someone in a YouTube video told them to. That approach produces a disconnected stack. You end up with customer data in four places, revenue metrics that don't match, and a team spending Friday afternoons copy-pasting spreadsheets

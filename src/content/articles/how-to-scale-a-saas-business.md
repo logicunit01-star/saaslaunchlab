@@ -172,6 +172,6 @@ Existing customer expansion, generally. It's cheaper to grow revenue from happy 
 
 ## Final Thoughts: Scale Deliberately, Not Reactively
 
-[Scaling a SaaS business](/blog/saas-audit-checklist-before-launch/) successfully comes down to sequencing: confirm the product earns its retention, build pricing that grows with your customers, tighten operations before adding headcount, and let data, not instinct, guide the next move. Businesses that scale sustainably tend to do these things in order rather than all at once under pressure.
+Conducting a [pre-launch SaaS audit](/blog/saas-audit-checklist-before-launch/) successfully comes down to sequencing: confirm the product earns its retention, build pricing that grows with your customers, tighten operations before adding headcount, and let data, not instinct, guide the next move. Businesses that scale sustainably tend to do these things in order rather than all at once under pressure.
 
 If you're mapping out your own scaling plan and want feedback on pricing strategy, retention metrics, or infrastructure that supports growth, you can [contact our team](/contact). A focused review of where your SaaS architecture and unit economics stand today can save months of trial and error.

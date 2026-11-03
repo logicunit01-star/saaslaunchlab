@@ -71,23 +71,170 @@ export async function getFeaturedArticle(): Promise<ArticleMeta | null> {
   return flagship;
 }
 
+const TOPIC_CLUSTERS: Record<string, string[]> = {
+  // Cluster A: SaaS Architecture
+  "saas-website-architecture": [
+    "multi-tenant-saas-architecture",
+    "saas-database-design",
+    "backend-choices-for-saas",
+    "saas-integrations"
+  ],
+  "multi-tenant-saas-architecture": [
+    "saas-website-architecture",
+    "saas-database-design",
+    "backend-choices-for-saas",
+    "saas-integrations"
+  ],
+  "saas-database-design": [
+    "saas-website-architecture",
+    "multi-tenant-saas-architecture",
+    "backend-choices-for-saas",
+    "saas-integrations"
+  ],
+  "backend-choices-for-saas": [
+    "saas-website-architecture",
+    "multi-tenant-saas-architecture",
+    "saas-database-design",
+    "saas-integrations"
+  ],
+  "saas-integrations": [
+    "saas-website-architecture",
+    "multi-tenant-saas-architecture",
+    "saas-database-design",
+    "backend-choices-for-saas"
+  ],
+
+  // Cluster B: MVP & Building
+  "mvp-development-cost": [
+    "saas-mvp-in-30-days",
+    "why-most-saas-mvps-fail",
+    "no-code-saas-guide",
+    "saas-product-development",
+    "validate-saas-idea"
+  ],
+  "saas-mvp-in-30-days": [
+    "mvp-development-cost",
+    "why-most-saas-mvps-fail",
+    "no-code-saas-guide",
+    "saas-product-development"
+  ],
+  "why-most-saas-mvps-fail": [
+    "mvp-development-cost",
+    "saas-mvp-in-30-days",
+    "validate-saas-idea",
+    "saas-product-development"
+  ],
+  "no-code-saas-guide": [
+    "mvp-development-cost",
+    "saas-mvp-in-30-days",
+    "saas-product-development",
+    "validate-saas-idea"
+  ],
+  "saas-product-development": [
+    "mvp-development-cost",
+    "saas-mvp-in-30-days",
+    "validate-saas-idea",
+    "why-most-saas-mvps-fail"
+  ],
+  "validate-saas-idea": [
+    "mvp-development-cost",
+    "saas-mvp-in-30-days",
+    "why-most-saas-mvps-fail",
+    "saas-product-development"
+  ],
+
+  // Cluster C: SaaS Economics and Pricing
+  "saas-platform-development-cost-2025-2026-per-feature": [
+    "saas-development-cost",
+    "cost-of-ai-in-saas",
+    "how-to-turn-a-spreadsheet-into-a-saas-product"
+  ],
+  "saas-development-cost": [
+    "saas-platform-development-cost-2025-2026-per-feature",
+    "cost-of-ai-in-saas",
+    "mvp-development-cost",
+    "how-to-turn-a-spreadsheet-into-a-saas-product"
+  ],
+  "cost-of-ai-in-saas": [
+    "saas-platform-development-cost-2025-2026-per-feature",
+    "saas-development-cost",
+    "how-to-turn-a-spreadsheet-into-a-saas-product"
+  ],
+  "how-to-turn-a-spreadsheet-into-a-saas-product": [
+    "saas-platform-development-cost-2025-2026-per-feature",
+    "saas-development-cost",
+    "no-code-saas-guide",
+    "mvp-development-cost"
+  ],
+
+  // Cluster D: Growth and Scaling
+  "how-to-scale-a-saas-business": [
+    "customer-success-in-saas-2026",
+    "9-common-saas-seo-mistakes",
+    "what-is-b2b-saas",
+    "what-is-saas-sales"
+  ],
+  "customer-success-in-saas-2026": [
+    "how-to-scale-a-saas-business",
+    "what-is-b2b-saas",
+    "what-is-saas-sales",
+    "9-common-saas-seo-mistakes"
+  ],
+  "9-common-saas-seo-mistakes": [
+    "how-to-scale-a-saas-business",
+    "what-is-b2b-saas",
+    "customer-success-in-saas-2026",
+    "common-ux-mistakes-saas-conversion-rates"
+  ],
+  "what-is-b2b-saas": [
+    "how-to-scale-a-saas-business",
+    "what-is-saas-sales",
+    "customer-success-in-saas-2026",
+    "9-common-saas-seo-mistakes"
+  ],
+  "what-is-saas-sales": [
+    "how-to-scale-a-saas-business",
+    "what-is-b2b-saas",
+    "customer-success-in-saas-2026",
+    "9-common-saas-seo-mistakes"
+  ]
+};
+
 export async function getRelatedArticles(
   currentSlug: string,
   category: string,
-  limit: number = 3
+  limit: number = 4
 ): Promise<ArticleMeta[]> {
   const all = await getAllArticles();
   const others = all.filter((a) => a.slug !== currentSlug);
-  
-  // Prefer same category
-  const sameCategory = others.filter((a) => a.category === category);
-  if (sameCategory.length >= limit) {
-    return sameCategory.slice(0, limit);
+
+  const clusterSlugs = TOPIC_CLUSTERS[currentSlug] || [];
+  const clusterMatches: ArticleMeta[] = [];
+
+  for (const cSlug of clusterSlugs) {
+    const found = others.find((a) => a.slug === cSlug);
+    if (found && !clusterMatches.some((m) => m.slug === found.slug)) {
+      clusterMatches.push(found);
+    }
   }
 
-  // Backfill with other categories
-  const differentCategory = others.filter((a) => a.category !== category);
-  return [...sameCategory, ...differentCategory].slice(0, limit);
+  if (clusterMatches.length >= limit) {
+    return clusterMatches.slice(0, limit);
+  }
+
+  // Backfill with same category
+  const sameCategory = others.filter(
+    (a) => a.category === category && !clusterMatches.some((m) => m.slug === a.slug)
+  );
+
+  const combined = [...clusterMatches, ...sameCategory];
+  if (combined.length >= limit) {
+    return combined.slice(0, limit);
+  }
+
+  // Backfill with remaining articles
+  const remaining = others.filter((a) => !combined.some((m) => m.slug === a.slug));
+  return [...combined, ...remaining].slice(0, limit);
 }
 
 export async function getAllSlugs(): Promise<string[]> {

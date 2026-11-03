@@ -23,7 +23,7 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
           </p>
         </div>
         <Link
-          href="/#articles"
+          href="/blog"
           className="text-xs font-semibold text-sky-600 hover:text-sky-700 flex items-center space-x-1"
         >
           <span>View all blueprints</span>
@@ -31,7 +31,7 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {articles.map((article) => (
           <article
             key={article.slug}

@@ -123,7 +123,7 @@ Your customers see your brand, not the original provider.
 
 ### Real-World Example
 
-Imagine you want to launch a [tour booking software](https://biketourpro.com/):
+Imagine you want to launch a :
 
 - Instead of building it from scratch
 - You use a white label SaaS platform
@@ -271,6 +271,22 @@ Examples include CRM systems, POS software, chatbot platforms, and booking syste
 White label SaaS is sold to multiple businesses, while private label SaaS is customized for one company.
 
     
+
+## Multi-Tenant White-Label Architecture: Custom Domains & Branding Isolation
+
+Architecting a true white-label SaaS platform requires solving three foundational technical challenges: custom domain resolution, dynamic SSL certificate provisioning, and programmatic styling isolation:
+
+1. **Automated Wildcard & Custom Domain Provisioning:** To allow agency partners and enterprise customers to serve your software from their own domains (e.g., `app.clientbrand.com`), you must integrate automated SSL certificate issuance. Modern white-label architectures utilize edge routing solutions like Cloudflare for SaaS, Caddy Server, or AWS CloudFront with automated ACME challenge verification to issue TLS certificates on-the-fly when custom CNAME records are detected.
+2. **CSS Variable & Brand Token Injection:** Avoid maintaining separate application builds per customer. Use a single application instance that injects dynamic CSS custom properties (`--primary-color`, `--brand-logo-url`, `--font-family`) directly into the HTML root during server-side rendering based on the resolved `tenant_id` associated with the request hostname.
+3. **Data Isolation & Tenant Partitioning:** Behind the rebranded interface, strict multi-tenant row-level security (RLS) must enforce that customer data belonging to Agency A is never accessible or visible to Agency B, even if both agencies share identical backend microservices.
+
+### Automated Usage Metering & Multi-Tenant Billing Attribution
+
+When selling white-label SaaS through reseller agencies, billing requires fine-grained operational metering:
+
+- **Per-Tenant Resource Metering:** Instrument background analytics to track active seat counts, storage gigabytes, and API transaction volume per tenant sub-organization.
+- **Reseller Margin & Split-Billing Infrastructure:** Architect your billing tier to allow agencies to set their own retail subscription pricing for downstream end-users, while your core platform charges the agency wholesale platform licensing rates via automated Stripe Connect destination charges.
+- **Sub-Account Access Controls:** Provide agency administrators with dedicated management dashboards to provision, suspend, or upgrade client sub-accounts instantly without requiring manual support interventions from your engineering team.
 
 ## Conclusion
 

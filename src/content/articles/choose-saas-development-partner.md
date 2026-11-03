@@ -265,6 +265,27 @@ Avoid teams with no SaaS portfolio, unclear pricing, poor communication, and unr
 
     
 
+## Technical Vetting & Contractual Due Diligence Checklist
+
+Before signing a development agreement with any agency or engineering partner, technical founders must establish strict contractual safeguards. Handing over architectural control without formal boundaries is the leading cause of stalled launches and budget blowouts:
+
+1. **IP Ownership & Code Repository Access:** Ensure the contract explicitly states that all intellectual property, source code, database migrations, and architectural assets belong entirely to your company from day one. Development should occur directly in your organization's GitHub or GitLab repository, never an agency-hosted sandbox that can be held hostage during billing disputes.
+2. **Automated CI/CD & Test Coverage Standards:** Require your development partner to establish continuous integration pipelines with automated linting, security audits, and minimum test coverage (unit and end-to-end integration tests for critical payment and authentication flows) before features are merged into main.
+3. **Milestone-Based Architectural Verification:** Structure contracts around verifiable technical deliverables (such as deployed staging environments, load-tested API endpoints, and clean security audits) rather than arbitrary calendar dates or hourly time-and-materials billing.
+4. **Knowledge Transfer & Handover Documentation:** Mandate comprehensive architectural documentation, including environment variable configurations, database schema entity-relationship diagrams (ERDs), third-party webhook endpoints, and disaster recovery procedures as a formal prerequisite for final payment release.
+
+### Partner Evaluation Scoring Rubric
+
+To make an objective hiring decision, rate each prospective development partner across five weighted categories:
+
+| Evaluation Criteria | Weight | What to Look For | Minimum Pass Threshold |
+| :--- | :--- | :--- | :--- |
+| **SaaS Domain Experience** | 30% | Proven production deployments with similar multi-tenant workflows | At least 2 verified live case studies |
+| **Architectural Rigor** | 25% | Clean database schema design, automated test suites, and CI/CD setup | Technical walkthrough with lead architect |
+| **Code & IP Governance** | 20% | Direct client repo commits, non-disclosure terms, full IP ownership | Standard enterprise master services agreement |
+| **Communication Cadence** | 15% | Asynchronous sprint demos, daily standup summaries, Slack access | Dedicated technical project manager |
+| **Post-Launch Warranty** | 10% | 60-90 day bug-fix period and automated production monitoring | Written SLA for critical defect turnaround |
+
 ## Conclusion
 
 Choosing the right SaaS development partner isn’t about finding the cheapest option—it’s about finding the smartest investment.

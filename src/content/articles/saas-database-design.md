@@ -95,7 +95,7 @@ Most SaaS products don’t fail because of bad ideas; they fail because their sy
 
 What works for 100 users often collapses at 10,000.
 
-That’s where [SaaS](/blog/saas-development-agency-vs-freelancer/) database design becomes critical. A poorly [structured](/blog/saas-website-architecture/) database leads to slow queries, data inconsistency, and [expensive](/blog/saas-development-cost/) re-engineering later. A well-designed one becomes your competitive advantage. In this guide, you’ll learn how to design a scalable, secure, and high-performance SaaS database from [multi-tenancy](/blog/multi-tenant-saas-architecture/) models to indexing strategies using real-world practices that actually work in production.
+That’s where [SaaS](/blog/saas-development-agency-vs-freelancer/) database design becomes critical. A poorly [SaaS website architecture blueprint](/blog/saas-website-architecture/) database leads to slow queries, data inconsistency, and [expensive](/blog/saas-development-cost/) re-engineering later. A well-designed one becomes your competitive advantage. In this guide, you’ll learn how to design a scalable, secure, and high-performance SaaS database from [multi-tenancy](/blog/multi-tenant-saas-architecture/) models to indexing strategies using real-world practices that actually work in production.
 
 ## What Is SaaS Database Design?
 
@@ -282,6 +282,28 @@ Use SQL for structured data and transactions. Use NoSQL for flexibility and scal
 
  
  
+
+## Production Indexing Strategies & Query Latency Optimization
+
+Even the cleanest relational schema will degrade into high-latency sequential scans once a multi-tenant table exceeds several million rows. Implementing disciplined indexing strategies prevents cross-tenant slowdowns as your product scales:
+
+1. **Composite Tenant B-Tree Indexing:** Every query in a shared-database multi-tenant system must filter by `tenant_id`. Always place `tenant_id` as the leading column in composite indexes:
+   ```sql
+   -- Optimized composite index for paginated customer logs
+   CREATE INDEX idx_audit_logs_tenant_created 
+   ON audit_logs (tenant_id, created_at DESC);
+   ```
+   This ensures the database traverses the B-tree index directly to the specific tenant's leaf pages before applying ordering or range filters.
+2. **Declarative Table Partitioning for High-Velocity Events:** For event streams, webhook logs, and analytics data, avoid monolithic multi-gigabyte tables. Utilize declarative range or hash partitioning by `tenant_id` or date range (e.g., monthly partitions) so query plans can prune entire partitions during execution.
+3. **Connection Pooling & Query Monitoring:** Implement connection pooling (such as PgBouncer in transaction pooling mode) to handle thousands of concurrent client connections without memory exhaustion. Set strict query timeouts on customer-facing API roles to catch runaway joins before they saturate CPU cores.
+
+### Disaster Recovery, Automated Backups & Failover Drills
+
+No database architecture is enterprise-ready without a tested disaster recovery roadmap:
+
+- **Point-in-Time Recovery (PITR):** Enable continuous write-ahead log (WAL) archiving to cloud storage, enabling your team to restore database state to any specific second within a 30-day retention window in the event of accidental data corruption or malicious deletion.
+- **Automated Health Probes & Read Replica Promotion:** Configure automated health checks that monitor replica lag. In the event of primary database failure, your connection pooler should automatically promote a hot standby replica with zero data loss.
+- **Quarterly Disaster Recovery Drills:** Schedule routine restore drills on staging infrastructure. Proving your team can restore an entire multi-gigabyte database within your Recovery Time Objective (RTO) under simulated pressure is the only true validation of your backup strategy.
 
 #### Conclusion
 

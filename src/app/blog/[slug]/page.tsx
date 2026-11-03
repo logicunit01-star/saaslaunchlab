@@ -103,7 +103,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const relatedArticles = await getRelatedArticles(
     article.slug,
     article.category,
-    3
+    4
   );
 
   const author = getDefaultAuthor();
