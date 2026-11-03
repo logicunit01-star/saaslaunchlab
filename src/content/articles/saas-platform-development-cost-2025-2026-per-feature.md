@@ -185,4 +185,4 @@ Launch with less. The SaaS platforms that survive their first year are almost al
 
 If you're scoping a SaaS build right now, the exercise that saves the most money isn't finding a cheaper developer — it's writing an honest feature list and pricing it line by line before you talk to anyone. For a deeper look at structuring an MVP roadmap that avoids the scope-creep traps covered above, [SaaS Launch Lab](/) has additional resources on MVP planning and feature prioritization worth reading before you request quotes.
 
-I work directly with SaaS founders on scoping and building exactly this kind of platform from initial feature-cost breakdowns through to launch. If you'd rather have a real quote than another estimate, you can reach me through my  or  to discuss your specific feature list.
+Planning a SaaS platform build and need feedback on your architectural requirements or feature-cost breakdowns? You can [contact our editorial and technical team](/contact) to discuss scoping, development tradeoffs, and feature prioritization for your roadmap.

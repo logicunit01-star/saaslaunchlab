@@ -439,31 +439,27 @@ Outcome
 
 Raised $600K seed
 
-#### Case Study 3: Two-Sided Freelance Marketplace
+#### Case Study 3: Two-Sided Marketplace
 
-#### 65,000
+**$65,000**
 
 A funded startup building a niche marketplace connecting independent researchers with biotech companies. Needed dual onboarding, escrow payments via Stripe Connect, messaging, and a review system.
 
-Timeline** 
+**Timeline**
+16 weeks
 
- **16 weeks** 
- 
+**Team**
+1 Designer, 2 Devs, 1 PM, 1 QA
 
- 
- Team 
-
- 1 Designer, 2 Devs, 1 PM, QA**Stack
-
+**Stack**
 Node.js + PostgreSQL + React
 
-Outcome
-
+**Outcome**
 200 users in 60 days
 
 ## Conclusion: What Should You Budget for Your MVP in 2026?
 
-Let's bring it all together. The MVP development cost in 2026 ranges from $8,000 for a basic proof-of-concept** to **$150,000+ for a complex AI or marketplace product**. The most common sweet spot for a properly functional SaaS or mobile MVP with real market validation potential sits between **$25,000 and $70,000**. 
+Let's bring it all together. The MVP development cost in 2026 ranges from **$8,000 for a basic proof-of-concept** to **$150,000+ for a complex AI or marketplace product**. The most common sweet spot for a properly functional SaaS or mobile MVP with real market validation potential sits between **$25,000 and $70,000**. 
 
 The founders who get the most from their MVP budget share three habits:
 

@@ -110,7 +110,7 @@ In my experience, 30 days is absolutely achievable — but it requires brutal sc
 
 ## The 30-Day SaaS MVP Build Plan (Step-by-Step)
 
-This is the exact framework I use with clients. It is not theory — it is a battle-tested roadmap.
+This is the exact step-by-step roadmap we use to guide rapid MVP builds. It is not theory — it is a battle-tested framework for shipping on time.
 
 #### Week 1 (Days 1–7): Define, Design, and Set Up
 

@@ -225,4 +225,4 @@ Not a full team on day one, but they do need the function. A founder or a single
 
 Customer success in [SaaS](/blog/saas-integrations/) is the proactive work of helping customers reach their intended outcome with your product, and in 2026, it's shifted from a relationship-driven support function into a data-backed, revenue-owning discipline shaped heavily by AI. The businesses winning at retention right now aren't the ones with the fanciest chatbot; they're the ones that unified their customer data, picked a handful of metrics that matter, and kept a human in the loop for the conversations that need one.
 
-If you're mapping out a customer success strategy, a content plan around this topic, or a full SEO and site structure for your SaaS product, that's the kind of work I do directly with clients.
+If you're mapping out a customer success strategy, onboarding workflows, or retention architecture for your SaaS product, feel free to [reach out to our editorial team](/contact) to share your feedback or suggest topics for future deep dives.

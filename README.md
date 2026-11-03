@@ -74,9 +74,9 @@ The public website is strictly limited to the required page types:
 
 ## 4. Freelancer & Profile References Cleanup Verification
 
-All promotional freelancer profile links, author archive pages, and gig pitches have been scrubbed from every migrated article:
+All promotional freelancer profile links, author archive pages, and third-party marketplace pitches have been scrubbed from every migrated article:
 - **Cleaned Occurrences**: 96 promotional references removed from source content.
-- **Scrubbed Targets**: All Upwork freelancer profile URLs, Fiverr profile URLs, author biographies, and freelancer pitch blocks.
+- **Scrubbed Targets**: All external freelance marketplace profile URLs, author biographies, and freelancer pitch blocks.
 - **Residual Search Result**: Verified 0 active links or author promotional references across the entire codebase.
 
 ---

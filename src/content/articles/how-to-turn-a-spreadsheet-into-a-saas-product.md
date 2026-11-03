@@ -265,4 +265,4 @@ Move once you notice consistent slowdowns, hit your platform's row or API-call l
 - Interface, user separation, and billing are what turn a shared file into a product people will pay for.
 - Migrate off the spreadsheet only once real usage tells you it's straining, not before.
 
-If your spreadsheet has reached the point where people ask for their own login, or you're the only one who can fix it when something breaks, it's likely past the validation stage. The framework above is what I use with clients moving through exactly this transition. The real work is deciding which path matches your current stage and committing to it.
+If your spreadsheet has reached the point where people ask for their own login, or you're the only one who can fix it when something breaks, it's likely past the validation stage. The framework above provides the foundation for navigating that transition systematically. If you have questions about architecture choices or technical tradeoffs as you build, feel free to [reach out to our team](/contact).
