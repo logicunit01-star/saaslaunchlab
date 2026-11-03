@@ -1597,14 +1597,6 @@
     .hover\:bg-slate-200:hover {
       background-color: var(--color-slate-200);
     }
-    .hover\:bg-slate-200\/80:hover {
-      background-color: color-mix(in srgb, oklch(92.9% 0.013 255.508) 80%, transparent);
-    }
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:bg-slate-200\/80:hover {
-        background-color: color-mix(in oklab, var(--color-slate-200) 80%, transparent);
-      }
-    }
     .hover\:bg-slate-800:hover {
       background-color: var(--color-slate-800);
     }
@@ -1622,9 +1614,6 @@
     }
     .hover\:text-sky-800:hover {
       color: var(--color-sky-800);
-    }
-    .hover\:text-slate-300:hover {
-      color: var(--color-slate-300);
     }
     .hover\:text-slate-600:hover {
       color: var(--color-slate-600);

@@ -55,7 +55,7 @@ export function ArticleGrid({ articles, categories }: ArticleGridProps) {
 
           {/* Category Tabs */}
           <div className="flex items-center overflow-x-auto pb-2 md:pb-0 scrollbar-none gap-1.5">
-            <span className="hidden sm:inline-flex items-center text-xs font-semibold text-slate-400 mr-2 uppercase tracking-wider">
+            <span className="hidden sm:inline-flex items-center text-xs font-semibold text-slate-600 mr-2 uppercase tracking-wider">
               <SlidersHorizontal className="w-3.5 h-3.5 mr-1" />
               Topic:
             </span>
@@ -73,12 +73,12 @@ export function ArticleGrid({ articles, categories }: ArticleGridProps) {
                   className={`px-3.5 py-1.5 text-xs font-medium rounded-full transition-all shrink-0 cursor-pointer ${
                     isActive
                       ? "bg-slate-950 text-white shadow-xs ring-1 ring-sky-500/50"
-                      : "bg-slate-100 text-slate-600 hover:bg-slate-200/80 hover:text-slate-900"
+                      : "bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-950"
                   }`}
                   aria-pressed={isActive}
                 >
                   {category}{" "}
-                  <span className={`text-[11px] ml-1 ${isActive ? "text-sky-300" : "text-slate-400"}`}>
+                  <span className={`text-[11px] ml-1 ${isActive ? "text-sky-300" : "text-slate-500"}`}>
                     ({count})
                   </span>
                 </button>

@@ -55,16 +55,16 @@ export function EditorialSections({ articles }: EditorialSectionsProps) {
                       className="object-cover group-hover:scale-102 transition-transform duration-300"
                     />
                   </div>
-                  <span className="text-[11px] font-semibold text-sky-600 uppercase tracking-wider mb-1.5">
+                  <span className="text-[11px] font-bold text-sky-700 uppercase tracking-wider mb-1.5">
                     {article.category}
                   </span>
-                  <h4 className="text-base font-bold font-serif text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-2 leading-snug">
+                  <h4 className="text-base font-bold font-serif text-slate-900 group-hover:text-sky-700 transition-colors line-clamp-2 leading-snug">
                     {article.title}
                   </h4>
-                  <p className="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
+                  <p className="text-xs text-slate-600 mt-2 line-clamp-2 leading-relaxed">
                     {article.excerpt}
                   </p>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
+                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                     <span>{formatDate(article.publishedAt)}</span>
                     <span className="flex items-center space-x-1">
                       <Clock className="w-3 h-3" />
@@ -112,16 +112,16 @@ export function EditorialSections({ articles }: EditorialSectionsProps) {
                       className="object-cover group-hover:scale-102 transition-transform duration-300"
                     />
                   </div>
-                  <span className="text-[11px] font-semibold text-sky-600 uppercase tracking-wider mb-1.5">
+                  <span className="text-[11px] font-bold text-sky-700 uppercase tracking-wider mb-1.5">
                     {article.category}
                   </span>
-                  <h4 className="text-base font-bold font-serif text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-2 leading-snug">
+                  <h4 className="text-base font-bold font-serif text-slate-900 group-hover:text-sky-700 transition-colors line-clamp-2 leading-snug">
                     {article.title}
                   </h4>
-                  <p className="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
+                  <p className="text-xs text-slate-600 mt-2 line-clamp-2 leading-relaxed">
                     {article.excerpt}
                   </p>
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
+                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                     <span>{formatDate(article.publishedAt)}</span>
                     <span className="flex items-center space-x-1">
                       <Clock className="w-3 h-3" />

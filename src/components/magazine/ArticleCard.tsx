@@ -31,17 +31,17 @@ export function ArticleCard({ article, priority = false }: ArticleCardProps) {
       <div className="flex flex-col flex-1 p-5 sm:p-6 justify-between space-y-4">
         <div className="space-y-2.5">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-sky-600 uppercase tracking-wider">
+            <span className="text-xs font-bold text-sky-700 uppercase tracking-wider">
               {article.category}
             </span>
-            <span className="text-xs text-slate-400 flex items-center space-x-1">
+            <span className="text-xs text-slate-500 flex items-center space-x-1">
               <Clock className="w-3 h-3" />
               <span>{article.readingTime} min</span>
             </span>
           </div>
 
           <Link href={`/blog/${article.slug}`} className="block">
-            <h3 className="text-lg sm:text-xl font-bold font-serif text-slate-950 group-hover:text-sky-600 transition-colors leading-snug line-clamp-2">
+            <h3 className="text-lg sm:text-xl font-bold font-serif text-slate-950 group-hover:text-sky-700 transition-colors leading-snug line-clamp-2">
               {article.title}
             </h3>
           </Link>
@@ -52,12 +52,12 @@ export function ArticleCard({ article, priority = false }: ArticleCardProps) {
         </div>
 
         {/* Footer Meta */}
-        <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+        <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
           <span className="flex items-center space-x-1">
             <Calendar className="w-3.5 h-3.5" />
             <span>{formatDate(article.publishedAt)}</span>
           </span>
-          <span className="font-medium text-slate-700 group-hover:text-sky-600 transition-colors">
+          <span className="font-semibold text-slate-800 group-hover:text-sky-700 transition-colors">
             Read article &rarr;
           </span>
         </div>

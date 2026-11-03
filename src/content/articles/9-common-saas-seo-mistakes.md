@@ -87,7 +87,7 @@ At SaaSLaunchLab, we don't just write about SaaS, we actually build and launch S
 
 This isn't a list recycled from generic [SEO blogs](/blog/). These are the real, specific mistakes we spot when we look under the hood of [SaaS websites](/blog/saas-website-architecture/), mistakes that quietly drain rankings, bleed traffic, and kill conversions before a single visitor ever reaches your signup page.
 
-If you're new to the SaaS world, start with our guide on [what B2B SaaS actually means](/what-is-b2b-saas/), then come back here. If you already know the landscape, let's get into it.
+If you're new to the SaaS world, start with our guide on [what B2B SaaS actually means](/blog/what-is-b2b-saas/), then come back here. If you already know the landscape, let's get into it.
 
 ```
 ⚡ Quick Answer: What Are the Most Common SaaS SEO Mistakes? Targeting keywords with the wrong intent, ignoring technical SEO, broken internal linking, thin content, UX friction on landing pages, neglected free trial pages, poor outsourcing practices, bad product demo embedding, and measuring the wrong metrics. Every single one of these has a fix and we walk through all nine below.
@@ -109,7 +109,7 @@ SaaS companies get this wrong constantly because keyword tools show search volum
 - Informational → blog post or guide. Commercial → comparison or alternative page. Transactional → landing page with a direct CTA.
 - Use tools like Ahrefs or Semrush to check the SERP if page one is full of blog posts, Google wants a blog post there, not a product page.
 
-And if you're not sure how much proper SaaS development will cost alongside your SEO push, check out our breakdown: [How Much Does SaaS Development Cost in 2026?](/saas-development-cost/)
+And if you're not sure how much proper SaaS development will cost alongside your SEO push, check out our breakdown: [How Much Does SaaS Development Cost in 2026?](/blog/saas-development-cost/)
 
 ## Mistake #2: Blogging Randomly Instead of Building Topic Authority
 

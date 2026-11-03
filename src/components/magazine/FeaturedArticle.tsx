@@ -37,13 +37,13 @@ export function FeaturedArticle({ article }: FeaturedArticleProps) {
           {/* Article Details */}
           <div className="lg:col-span-5 flex flex-col justify-center space-y-4">
             <div>
-              <span className="inline-block text-xs font-semibold text-sky-600 bg-sky-50 border border-sky-100 px-2.5 py-1 rounded-sm uppercase tracking-wide">
+              <span className="inline-block text-xs font-bold text-sky-700 bg-sky-50 border border-sky-100 px-2.5 py-1 rounded-sm uppercase tracking-wide">
                 {article.category}
               </span>
             </div>
 
             <Link href={`/blog/${article.slug}`}>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-serif text-slate-950 group-hover:text-sky-500 transition-colors leading-tight">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold font-serif text-slate-950 group-hover:text-sky-700 transition-colors leading-tight">
                 {article.title}
               </h2>
             </Link>

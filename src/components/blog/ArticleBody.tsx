@@ -38,7 +38,7 @@ function renderInline(rawText: string): React.ReactNode[] {
           <Link
             key={match.index}
             href={href}
-            className="text-sky-600 hover:text-sky-700 underline underline-offset-3 font-medium transition-colors"
+            className="text-sky-700 hover:text-sky-800 underline underline-offset-3 font-semibold transition-colors"
           >
             {linkText}
           </Link>
@@ -50,7 +50,7 @@ function renderInline(rawText: string): React.ReactNode[] {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-600 hover:text-sky-700 underline underline-offset-3 font-medium transition-colors"
+            className="text-sky-700 hover:text-sky-800 underline underline-offset-3 font-semibold transition-colors"
           >
             {linkText}
           </a>
