@@ -39,8 +39,18 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/#articles" className="hover:text-white transition-colors">
+                <Link href="/blog" className="hover:text-white transition-colors">
                   All Articles
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="hover:text-white transition-colors">
+                  About & Standards
+                </Link>
+              </li>
+              <li>
+                <Link href="/author/editorial-team" className="hover:text-white transition-colors">
+                  Editorial Staff
                 </Link>
               </li>
               <li>
@@ -56,23 +66,52 @@ export function Footer() {
             <h3 className="text-xs font-semibold text-sky-400 uppercase tracking-wider mb-4">
               Pillars
             </h3>
-            <ul className="space-y-2.5 text-sm text-slate-400">
-              <li>Multi-Tenant & System Architecture</li>
-              <li>AI Economics & Tooling Costs</li>
-              <li>Rapid MVP & Engineering Velocity</li>
-              <li>Audits, UX & Scalability Benchmarks</li>
+            <ul className="space-y-2.5 text-sm">
+              <li>
+                <Link href="/blog/category/architecture" className="text-slate-400 hover:text-white transition-colors">
+                  Architecture & Databases
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/category/ai-automation" className="text-slate-400 hover:text-white transition-colors">
+                  AI & Automation
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/category/mvp-engineering" className="text-slate-400 hover:text-white transition-colors">
+                  MVP & Engineering
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/category/growth-strategy" className="text-slate-400 hover:text-white transition-colors">
+                  Growth & Strategy
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/category/audits-economics" className="text-slate-400 hover:text-white transition-colors">
+                  Audits & Economics
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
-        {/* Bottom copyright row */}
+        {/* Bottom copyright & legal row */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <p>
             &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
-          <p className="text-slate-400">
-            Engineered with Next.js App Router & Tailwind CSS.
-          </p>
+          <div className="flex items-center space-x-6">
+            <Link href="/privacy" className="hover:text-slate-300 transition-colors">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="hover:text-slate-300 transition-colors">
+              Terms of Service
+            </Link>
+            <Link href="/about" className="hover:text-slate-300 transition-colors">
+              Editorial Standards
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

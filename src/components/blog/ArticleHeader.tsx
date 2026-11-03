@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Article } from "@/types/article";
 import { formatDate } from "@/lib/utils";
+import { getCategorySlugByName } from "@/lib/categories";
 import { ChevronRight, Calendar, Clock, RefreshCw } from "lucide-react";
 
 interface ArticleHeaderProps {
@@ -14,26 +15,36 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
     article.modifiedAt !== article.publishedAt &&
     new Date(article.modifiedAt).getTime() > new Date(article.publishedAt).getTime() + 86400000;
 
+  const categorySlug = getCategorySlugByName(article.category);
+
   return (
     <header className="space-y-6 pb-8 border-b border-slate-200">
-      {/* Breadcrumbs */}
-      <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-xs text-slate-500">
+      {/* Breadcrumbs: Home > Category > Article */}
+      <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-xs text-slate-500 flex-wrap">
         <Link href="/" className="hover:text-sky-600 transition-colors">
           Home
         </Link>
-        <ChevronRight className="w-3 h-3 text-slate-400" />
-        <Link href="/#articles" className="hover:text-sky-600 transition-colors">
-          Articles
+        <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+        <Link
+          href={`/blog/category/${categorySlug}`}
+          className="hover:text-sky-600 transition-colors font-medium text-slate-700"
+        >
+          {article.category}
         </Link>
-        <ChevronRight className="w-3 h-3 text-slate-400" />
-        <span className="text-slate-700 font-medium">{article.category}</span>
+        <ChevronRight className="w-3 h-3 text-slate-400 shrink-0" />
+        <span className="text-slate-500 truncate max-w-[220px] sm:max-w-[360px]" title={article.title}>
+          {article.title}
+        </span>
       </nav>
 
       {/* Category Pill */}
       <div>
-        <span className="inline-block text-xs font-bold text-sky-700 bg-sky-50 px-2.5 py-1 rounded-sm uppercase tracking-wider">
+        <Link
+          href={`/blog/category/${categorySlug}`}
+          className="inline-block text-xs font-bold text-sky-700 bg-sky-50 hover:bg-sky-100 hover:text-sky-800 transition-colors px-2.5 py-1 rounded-sm uppercase tracking-wider"
+        >
           {article.category}
-        </span>
+        </Link>
       </div>
 
       {/* H1 Title */}

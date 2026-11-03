@@ -15,10 +15,10 @@ export function EditorialMasthead() {
           <div>
             <div className="inline-flex items-center space-x-2 text-xs font-semibold uppercase tracking-widest text-sky-600 bg-sky-50 border border-sky-100 px-2.5 py-1 rounded-sm mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-sky-500"></span>
-              <span>Engineering & Product Journal</span>
+              <span>{siteConfig.name} &bull; Engineering & Architecture Journal</span>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-950 font-serif tracking-tight">
-              {siteConfig.name}
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-950 font-serif tracking-tight leading-[1.15] max-w-4xl">
+              SaaS Building Guides for Founders: Architecture, MVP, Costs & Growth
             </h1>
           </div>
           <div className="text-xs sm:text-sm text-slate-500 font-medium md:text-right">

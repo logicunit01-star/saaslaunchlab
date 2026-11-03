@@ -7,6 +7,7 @@ import {
   getAllSlugs,
   getRelatedArticles
 } from "@/lib/articles";
+import { getCategorySlugByName } from "@/lib/categories";
 import { ArticleHeader } from "@/components/blog/ArticleHeader";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { ArticleBody } from "@/components/blog/ArticleBody";
@@ -112,6 +113,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     wordCount: article.wordCount
   };
 
+  const categorySlug = getCategorySlugByName(article.category);
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -125,18 +128,12 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "Articles",
-        item: `${siteConfig.url}/#articles`
+        name: article.category,
+        item: `${siteConfig.url}/blog/category/${categorySlug}`
       },
       {
         "@type": "ListItem",
         position: 3,
-        name: article.category,
-        item: `${siteConfig.url}/#articles`
-      },
-      {
-        "@type": "ListItem",
-        position: 4,
         name: article.title,
         item: `${siteConfig.url}/blog/${article.slug}`
       }
@@ -160,7 +157,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           {/* Top back navigation */}
           <div className="mb-8">
             <Link
-              href="/#articles"
+              href="/blog"
               className="inline-flex items-center space-x-2 text-xs font-semibold text-slate-500 hover:text-slate-900 transition-colors py-1.5 px-3 rounded-lg bg-slate-50 hover:bg-slate-100 border border-slate-200/60"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
@@ -196,7 +193,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 </p>
                 <div className="pt-2">
                   <Link
-                    href="/#articles"
+                    href="/blog"
                     className="inline-flex items-center space-x-1.5 text-xs font-semibold text-sky-600 hover:text-sky-700"
                   >
                     <span>Browse complete article archive</span>

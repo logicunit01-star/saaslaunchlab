@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { siteConfig } from "@/lib/config";
 import {
   getAllArticles,
   getFeaturedArticle,
@@ -8,7 +10,23 @@ import { FeaturedArticle } from "@/components/magazine/FeaturedArticle";
 import { ArticleGrid } from "@/components/magazine/ArticleGrid";
 import { EditorialSections } from "@/components/magazine/EditorialSections";
 
-export const revalidate = 3600; // ISR hourly or static generation
+export const revalidate = 3600;
+
+export const metadata: Metadata = {
+  title: "SaaS Building Guides for Founders | SaaS Launch Lab",
+  description:
+    "Practical SaaS engineering blueprints for founders: multi-tenant database architecture, MVP development velocity, AI tool costs, and scaling economics.",
+  alternates: {
+    canonical: siteConfig.url
+  },
+  openGraph: {
+    title: "SaaS Building Guides for Founders | SaaS Launch Lab",
+    description:
+      "Practical SaaS engineering blueprints for founders: multi-tenant database architecture, MVP development velocity, AI tool costs, and scaling economics.",
+    url: siteConfig.url,
+    type: "website"
+  }
+};
 
 export default async function HomePage() {
   const [articles, featuredArticle, categories] = await Promise.all([

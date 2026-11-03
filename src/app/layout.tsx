@@ -8,7 +8,7 @@ import { getAllArticles } from "@/lib/articles";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — ${siteConfig.tagline}`,
+    default: "SaaS Building Guides for Founders | SaaS Launch Lab",
     template: `%s | ${siteConfig.name}`
   },
   description: siteConfig.description,
@@ -20,14 +20,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/images/favicon.png"
   },
-  keywords: [
-    "SaaS Architecture",
-    "Multi-tenant Database Design",
-    "AI SaaS Economics",
-    "MVP Development",
-    "SaaS Scaling",
-    "Engineering Blueprints"
-  ],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   publisher: siteConfig.name,

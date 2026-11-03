@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { ArticleMeta } from "@/types/article";
 import { ArticleCard } from "./ArticleCard";
-import { ChevronDown, SlidersHorizontal } from "lucide-react";
+import { ChevronDown, SlidersHorizontal, ArrowRight } from "lucide-react";
 
 interface ArticleGridProps {
   articles: ArticleMeta[];
@@ -99,22 +100,31 @@ export function ArticleGrid({ articles, categories }: ArticleGridProps) {
           </div>
         )}
 
-        {/* Load More Control */}
-        {hasMore && (
-          <div className="mt-14 text-center">
-            <button
-              type="button"
-              onClick={handleLoadMore}
-              className="inline-flex items-center space-x-2 px-6 py-3 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-800 hover:bg-slate-50 hover:border-sky-500 shadow-xs transition-all cursor-pointer focus:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500"
+        {/* Load More & Crawlable Archive Links */}
+        <div className="mt-14 flex flex-col items-center justify-center gap-3">
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            {hasMore && (
+              <button
+                type="button"
+                onClick={handleLoadMore}
+                className="inline-flex items-center space-x-2 px-6 py-3 rounded-lg border border-slate-300 bg-white text-sm font-semibold text-slate-800 hover:bg-slate-50 hover:border-sky-500 shadow-xs transition-all cursor-pointer focus:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500"
+              >
+                <span>Load More Blueprints</span>
+                <ChevronDown className="w-4 h-4 text-slate-500" />
+              </button>
+            )}
+            <Link
+              href="/blog"
+              className="inline-flex items-center space-x-2 px-5 py-3 rounded-lg bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors shadow-xs"
             >
-              <span>Load More Blueprints</span>
-              <ChevronDown className="w-4 h-4 text-slate-500" />
-            </button>
-            <div className="text-xs text-slate-400 mt-2">
-              Displaying {displayedArticles.length} of {filteredArticles.length} articles
-            </div>
+              <span>Browse Full Paginated Archive</span>
+              <ArrowRight className="w-3.5 h-3.5 text-sky-400" />
+            </Link>
           </div>
-        )}
+          <div className="text-xs text-slate-400 mt-1">
+            Displaying {displayedArticles.length} of {filteredArticles.length} articles
+          </div>
+        </div>
       </div>
     </section>
   );
