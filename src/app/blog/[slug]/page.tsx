@@ -8,9 +8,11 @@ import {
   getRelatedArticles
 } from "@/lib/articles";
 import { getCategorySlugByName } from "@/lib/categories";
+import { getDefaultAuthor } from "@/lib/authors";
 import { ArticleHeader } from "@/components/blog/ArticleHeader";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { ArticleBody } from "@/components/blog/ArticleBody";
+import { ArticleAuthorBox } from "@/components/blog/ArticleAuthorBox";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { ArrowLeft } from "lucide-react";
 
@@ -83,18 +85,22 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     3
   );
 
+  const author = getDefaultAuthor();
+
   const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: article.title,
     description: article.excerpt,
     image: `${siteConfig.url}${article.featuredImage}`,
     datePublished: article.publishedAt,
     dateModified: article.modifiedAt,
     author: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      url: siteConfig.url
+      "@type": "Person",
+      name: author.name,
+      jobTitle: author.role,
+      url: `${siteConfig.url}/author/${author.slug}`,
+      sameAs: [author.linkedin, author.github, author.twitter].filter(Boolean)
     },
     publisher: {
       "@type": "Organization",
@@ -181,6 +187,13 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div className="mt-8 article-prose">
                 <ArticleBody content={article.content} />
               </div>
+
+              {/* Author & Editorial Verification Box */}
+              <ArticleAuthorBox
+                author={author}
+                modifiedAt={article.modifiedAt}
+                publishedAt={article.publishedAt}
+              />
 
               {/* End of article footer banner */}
               <div className="mt-14 p-6 bg-slate-50 rounded-xl border border-slate-200 text-center space-y-2">

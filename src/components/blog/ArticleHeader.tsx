@@ -59,6 +59,22 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
         </p>
       )}
 
+      {/* Author Byline */}
+      <div className="flex items-center space-x-3 pt-2">
+        <div className="w-9 h-9 rounded-full bg-slate-900 text-sky-400 flex items-center justify-center font-bold text-xs shrink-0 shadow-xs">
+          AV
+        </div>
+        <div className="text-xs">
+          <Link
+            href="/author/alex-vance"
+            className="font-bold text-slate-900 hover:text-sky-600 transition-colors"
+          >
+            Alex Vance [PLACEHOLDER]
+          </Link>
+          <div className="text-slate-500">Lead Systems Architect &bull; Peer-Reviewed</div>
+        </div>
+      </div>
+
       {/* Publication Meta */}
       <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 pt-2 border-t border-slate-100">
         <span className="flex items-center space-x-1.5">
