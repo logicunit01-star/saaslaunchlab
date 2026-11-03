@@ -1,9 +1,22 @@
 import type { Metadata } from "next";
+import { Inter, Lora } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/lib/config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { getAllArticles } from "@/lib/articles";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-sans"
+});
+
+const lora = Lora({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-serif"
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -100,7 +113,7 @@ export default async function RootLayout({
   };
 
   return (
-    <html lang="en" className="h-full antialiased scroll-smooth">
+    <html lang="en" className={`${inter.variable} ${lora.variable} h-full antialiased scroll-smooth`}>
       <head>
         <script
           type="application/ld+json"

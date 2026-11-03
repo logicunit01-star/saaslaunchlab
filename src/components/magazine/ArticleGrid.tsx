@@ -94,8 +94,8 @@ export function ArticleGrid({ articles, categories }: ArticleGridProps) {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {displayedArticles.map((article, idx) => (
-              <ArticleCard key={article.slug} article={article} priority={idx < 3} />
+            {displayedArticles.map((article) => (
+              <ArticleCard key={article.slug} article={article} priority={false} />
             ))}
           </div>
         )}
