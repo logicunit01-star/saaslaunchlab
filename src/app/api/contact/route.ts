@@ -40,11 +40,9 @@ export async function POST(req: Request) {
       );
     }
 
-    // Split name into first and last name for HubSpot CRM
     const trimmedName = (name || "").trim();
     const nameParts = trimmedName.split(/\s+/);
-    const firstName = nameParts[0] || trimmedName;
-    const lastName = nameParts.slice(1).join(" ") || firstName;
+    const lastName = nameParts.length > 1 ? nameParts.slice(1).join(" ") : "";
 
     // 1. Submit lead to HubSpot Form API (Portal 246175508, na2 region)
     const portalId = process.env.HUBSPOT_PORTAL_ID || "246175508";
@@ -53,21 +51,36 @@ export async function POST(req: Request) {
 
     const hubspotEndpoint = `https://api-${region}.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
 
-    const clientIp = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "";
+    // Extract client IP address for HubSpot geolocation and form analytics
+    const clientIp =
+      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      req.headers.get("x-real-ip") ||
+      req.headers.get("cf-connecting-ip") ||
+      undefined;
+
+    // Build fields array mapping strictly to HubSpot CRM properties
+    // Note: Do NOT send 'name' because HubSpot Contact records only have 'firstname' and 'lastname'
+    // The "Full Name" field on this form is mapped to 'firstname'
+    const fields: Array<{ name: string; value: string }> = [
+      { name: "email", value: email! },
+      { name: "firstname", value: trimmedName },
+      { name: "subject", value: subject! },
+      { name: "message", value: message! },
+      { name: "content", value: message! },
+      { name: "hs_ticket_subject", value: subject! },
+      { name: "hs_ticket_content", value: message! }
+    ];
+
+    if (lastName) {
+      fields.push({ name: "lastname", value: lastName });
+    }
 
     const hubspotPayload = {
-      fields: [
-        { name: "email", value: email },
-        { name: "firstname", value: firstName },
-        { name: "lastname", value: lastName },
-        { name: "name", value: trimmedName },
-        { name: "subject", value: subject },
-        { name: "message", value: message }
-      ],
+      fields,
       context: {
         pageUri: `${siteConfig.url}/contact`,
         pageName: "Contact Us - SaaS Launch Lab",
-        ipAddress: clientIp || undefined,
+        ipAddress: clientIp && clientIp !== "::1" && clientIp !== "127.0.0.1" ? clientIp : undefined,
         hutk: hutk || undefined
       }
     };
