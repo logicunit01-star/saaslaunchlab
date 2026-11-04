@@ -40,11 +40,21 @@ export function ContactForm() {
     setStatus("submitting");
     setFeedbackMessage("");
 
+    // Extract HubSpot tracking cookie if present
+    const getHubspotUtk = () => {
+      if (typeof document === "undefined") return undefined;
+      const match = document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]*)/);
+      return match ? decodeURIComponent(match[1]) : undefined;
+    };
+
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+          ...formData,
+          hutk: getHubspotUtk()
+        })
       });
 
       const data = await res.json();
