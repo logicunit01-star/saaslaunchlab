@@ -58,17 +58,12 @@ export async function POST(req: Request) {
       req.headers.get("cf-connecting-ip") ||
       undefined;
 
-    // Build fields array mapping strictly to HubSpot CRM properties
-    // Note: Do NOT send 'name' because HubSpot Contact records only have 'firstname' and 'lastname'
-    // The "Full Name" field on this form is mapped to 'firstname'
+    // Send only fields that match the exact form definition in HubSpot
     const fields: Array<{ name: string; value: string }> = [
       { name: "email", value: email! },
       { name: "firstname", value: trimmedName },
       { name: "subject", value: subject! },
-      { name: "message", value: message! },
-      { name: "content", value: message! },
-      { name: "hs_ticket_subject", value: subject! },
-      { name: "hs_ticket_content", value: message! }
+      { name: "message", value: message! }
     ];
 
     if (lastName) {

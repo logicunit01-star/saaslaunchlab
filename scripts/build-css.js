@@ -170,6 +170,80 @@ body {
   height: auto;
   border: 1px solid #f1f5f9;
 }
+
+/* HubSpot Embedded Form styling */
+.hubspot-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-family: inherit;
+}
+.hubspot-form-wrapper .hs-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+.hubspot-form-wrapper label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+.hubspot-form-wrapper input[type="text"],
+.hubspot-form-wrapper input[type="email"],
+.hubspot-form-wrapper textarea,
+.hubspot-form-wrapper select {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #cbd5e1;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: #0f172a;
+  background-color: #ffffff;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.hubspot-form-wrapper input:focus,
+.hubspot-form-wrapper textarea:focus {
+  border-color: #0284c7;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.15);
+}
+.hubspot-form-wrapper .hs-submit,
+.hubspot-form-wrapper .actions {
+  margin-top: 0.75rem;
+}
+.hubspot-form-wrapper input[type="submit"],
+.hubspot-form-wrapper .hs-button {
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  padding: 0.875rem 1.75rem !important;
+  border-radius: 0.75rem !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: background-color 0.15s !important;
+  font-size: 0.95rem !important;
+}
+.hubspot-form-wrapper input[type="submit"]:hover,
+.hubspot-form-wrapper .hs-button:hover {
+  background-color: #1e293b !important;
+}
+.hubspot-form-wrapper .hs-error-msgs {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0 0;
+  color: #e11d48;
+  font-size: 0.8rem;
+}
+.hubspot-form-wrapper .submitted-message {
+  padding: 1.5rem;
+  background-color: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  border-radius: 0.75rem;
+  color: #065f46;
+  font-weight: 600;
+  text-align: center;
+}
 `;
 
   const compiler = await tw.compile(baseCss, {
