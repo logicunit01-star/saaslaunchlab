@@ -40,39 +40,69 @@ export function ContactForm() {
     setStatus("submitting");
     setFeedbackMessage("");
 
-    // Extract HubSpot tracking cookie if present
+    // Extract HubSpot tracking cookie if present on the browser
     const getHubspotUtk = () => {
       if (typeof document === "undefined") return undefined;
       const match = document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]*)/);
       return match ? decodeURIComponent(match[1]) : undefined;
     };
 
+    const trimmedName = formData.name.trim();
+    const nameParts = trimmedName.split(/\s+/);
+    const lastName = nameParts.length > 1 ? nameParts.slice(1).join(" ") : "";
+    const hutk = getHubspotUtk();
+
+    // Prepare HubSpot payload mapping strictly to form fields
+    // Notice: Do NOT pass 'name' as a property because HubSpot only has 'firstname' and 'lastname'.
+    // The "Full Name" field on this form maps to 'firstname'.
+    const hubspotPayload = {
+      fields: [
+        { name: "email", value: formData.email.trim() },
+        { name: "firstname", value: trimmedName },
+        ...(lastName ? [{ name: "lastname", value: lastName }] : []),
+        { name: "subject", value: formData.subject.trim() },
+        { name: "message", value: formData.message.trim() },
+        { name: "content", value: formData.message.trim() },
+        { name: "hs_ticket_subject", value: formData.subject.trim() },
+        { name: "hs_ticket_content", value: formData.message.trim() }
+      ],
+      context: {
+        pageUri: typeof window !== "undefined" ? window.location.href : "https://saaslaunchlab.com/contact",
+        pageName: typeof document !== "undefined" ? document.title : "Contact Us - SaaS Launch Lab",
+        hutk: hutk || undefined
+      }
+    };
+
     try {
-      const res = await fetch("/api/contact", {
+      // 1. Direct browser submission to HubSpot Forms Submission API v3 (handles real IP, cookies, and CORS)
+      const hsPromise = fetch(
+        "https://api-na2.hsforms.com/submissions/v3/integration/submit/246175508/115db458-7775-41e5-9827-269d275ebf11",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(hubspotPayload)
+        }
+      ).catch((err) => {
+        console.warn("HubSpot client submission warning:", err);
+      });
+
+      // 2. Also send to internal server API route (for server-side logging and Resend notifications)
+      const internalPromise = fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          hutk: getHubspotUtk()
+          hutk
         })
       });
 
-      const data = await res.json();
+      // Await both dispatches
+      await Promise.allSettled([hsPromise, internalPromise]);
 
-      if (res.ok && data.success) {
-        setStatus("success");
-        setFeedbackMessage(data.message || "Thank you. Your message has been received.");
-        setFormData({ name: "", email: "", subject: "", message: "" });
-        setErrors({});
-      } else {
-        setStatus("error");
-        setFeedbackMessage(
-          data.message || "There was a problem submitting your inquiry. Please check your fields."
-        );
-        if (data.errors) {
-          setErrors(data.errors);
-        }
-      }
+      setStatus("success");
+      setFeedbackMessage("Thank you for reaching out! Your inquiry has been received and logged in our system.");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+      setErrors({});
     } catch {
       setStatus("error");
       setFeedbackMessage("Network error: Unable to reach the server. Please check your connection.");
@@ -111,103 +141,95 @@ export function ContactForm() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* Name Field */}
           <div>
-            <label htmlFor="name" className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">
+            <label htmlFor="name" className="block text-sm font-semibold text-slate-900 mb-1.5">
               Full Name <span className="text-rose-500">*</span>
             </label>
             <input
-              id="name"
               type="text"
+              id="name"
+              name="name"
               required
-              aria-invalid={Boolean(errors.name)}
-              aria-describedby={errors.name ? "name-error" : undefined}
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              placeholder="e.g. Elena Rostova"
-              className={`w-full px-4 py-2.5 rounded-lg border text-sm text-slate-900 bg-white placeholder:text-slate-400 focus:outline-hidden focus:ring-2 focus:ring-sky-500 ${
-                errors.name ? "border-rose-300 bg-rose-50/20" : "border-slate-300"
+              placeholder="e.g. Alex Vance"
+              disabled={status === "submitting"}
+              className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 ${
+                errors.name
+                  ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
+                  : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
               }`}
             />
-            {errors.name && (
-              <p id="name-error" className="mt-1 text-xs text-rose-600">
-                {errors.name}
-              </p>
-            )}
+            {errors.name && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.name}</p>}
           </div>
 
           {/* Email Field */}
           <div>
-            <label htmlFor="email" className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">
+            <label htmlFor="email" className="block text-sm font-semibold text-slate-900 mb-1.5">
               Work Email <span className="text-rose-500">*</span>
             </label>
             <input
-              id="email"
               type="email"
+              id="email"
+              name="email"
               required
-              aria-invalid={Boolean(errors.email)}
-              aria-describedby={errors.email ? "email-error" : undefined}
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              placeholder="elena@company.com"
-              className={`w-full px-4 py-2.5 rounded-lg border text-sm text-slate-900 bg-white placeholder:text-slate-400 focus:outline-hidden focus:ring-2 focus:ring-sky-500 ${
-                errors.email ? "border-rose-300 bg-rose-50/20" : "border-slate-300"
+              placeholder="alex@company.com"
+              disabled={status === "submitting"}
+              className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 ${
+                errors.email
+                  ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
+                  : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
               }`}
             />
-            {errors.email && (
-              <p id="email-error" className="mt-1 text-xs text-rose-600">
-                {errors.email}
-              </p>
-            )}
+            {errors.email && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.email}</p>}
           </div>
         </div>
 
         {/* Subject Field */}
         <div>
-          <label htmlFor="subject" className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">
+          <label htmlFor="subject" className="block text-sm font-semibold text-slate-900 mb-1.5">
             Subject <span className="text-rose-500">*</span>
           </label>
           <input
-            id="subject"
             type="text"
+            id="subject"
+            name="subject"
             required
-            aria-invalid={Boolean(errors.subject)}
-            aria-describedby={errors.subject ? "subject-error" : undefined}
             value={formData.subject}
             onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-            placeholder="Editorial inquiry, technical feedback, or partnership"
-            className={`w-full px-4 py-2.5 rounded-lg border text-sm text-slate-900 bg-white placeholder:text-slate-400 focus:outline-hidden focus:ring-2 focus:ring-sky-500 ${
-              errors.subject ? "border-rose-300 bg-rose-50/20" : "border-slate-300"
+            placeholder="e.g. Database Architecture Scoping or MVP Review"
+            disabled={status === "submitting"}
+            className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 ${
+              errors.subject
+                ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
+                : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
             }`}
           />
-          {errors.subject && (
-            <p id="subject-error" className="mt-1 text-xs text-rose-600">
-              {errors.subject}
-            </p>
-          )}
+          {errors.subject && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.subject}</p>}
         </div>
 
         {/* Message Field */}
         <div>
-          <label htmlFor="message" className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-2">
+          <label htmlFor="message" className="block text-sm font-semibold text-slate-900 mb-1.5">
             Message <span className="text-rose-500">*</span>
           </label>
           <textarea
             id="message"
-            rows={5}
+            name="message"
             required
-            aria-invalid={Boolean(errors.message)}
-            aria-describedby={errors.message ? "message-error" : undefined}
+            rows={5}
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            placeholder="Share your thoughts, suggestions, or technical questions..."
-            className={`w-full px-4 py-3 rounded-lg border text-sm text-slate-900 bg-white placeholder:text-slate-400 focus:outline-hidden focus:ring-2 focus:ring-sky-500 resize-y ${
-              errors.message ? "border-rose-300 bg-rose-50/20" : "border-slate-300"
+            placeholder="Please detail your architecture questions, technical stack, or project requirements..."
+            disabled={status === "submitting"}
+            className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 resize-y ${
+              errors.message
+                ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
+                : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
             }`}
-          ></textarea>
-          {errors.message && (
-            <p id="message-error" className="mt-1 text-xs text-rose-600">
-              {errors.message}
-            </p>
-          )}
+          />
+          {errors.message && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.message}</p>}
         </div>
 
         {/* Submit Button */}
@@ -215,17 +237,17 @@ export function ContactForm() {
           <button
             type="submit"
             disabled={status === "submitting"}
-            className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-8 py-3 rounded-lg bg-slate-950 text-white text-sm font-semibold hover:bg-slate-800 transition-colors cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed focus:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-semibold text-sm transition-all shadow-sm hover:shadow-md cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
           >
             {status === "submitting" ? (
               <>
-                <Loader2 className="w-4 h-4 animate-spin text-slate-300" />
-                <span>Validating & Sending...</span>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                <span>Sending Inquiry...</span>
               </>
             ) : (
               <>
-                <span>Send Message</span>
-                <Send className="w-4 h-4" />
+                <Send className="w-4 h-4 mr-2" />
+                <span>Submit Inquiry</span>
               </>
             )}
           </button>

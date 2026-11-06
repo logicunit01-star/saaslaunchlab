@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteConfig } from "@/lib/config";
-import { HubspotForm } from "@/components/contact/HubspotForm";
+import { ContactForm } from "@/components/contact/ContactForm";
 import { ChevronRight, Mail, Clock, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ export default function ContactPage() {
         </div>
 
         {/* Form Component */}
-        <HubspotForm />
+        <ContactForm />
 
         {/* Editorial Desk Information */}
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 border-t border-slate-200">
