@@ -7,12 +7,13 @@ interface ContactRequestBody {
   subject?: string;
   message?: string;
   hutk?: string;
+  skipHubspot?: boolean;
 }
 
 export async function POST(req: Request) {
   try {
     const body: ContactRequestBody = await req.json();
-    const { name, email, subject, message, hutk } = body;
+    const { name, email, subject, message, hutk, skipHubspot } = body;
 
     // Server-side validation
     const errors: Record<string, string> = {};
@@ -44,62 +45,71 @@ export async function POST(req: Request) {
     const nameParts = trimmedName.split(/\s+/);
     const lastName = nameParts.length > 1 ? nameParts.slice(1).join(" ") : "";
 
-    // 1. Submit lead to HubSpot Form API (Portal 246175508, na2 region)
-    const portalId = process.env.HUBSPOT_PORTAL_ID || "246175508";
-    const formId = process.env.HUBSPOT_FORM_ID || "115db458-7775-41e5-9827-269d275ebf11";
-    const region = process.env.HUBSPOT_REGION || "na2";
+    // 1. Submit lead to HubSpot Form API (Portal 246175508, na2 region) if not already submitted from client
+    if (!skipHubspot) {
+      const portalId = process.env.HUBSPOT_PORTAL_ID || "246175508";
+      const formId = process.env.HUBSPOT_FORM_ID || "115db458-7775-41e5-9827-269d275ebf11";
+      const region = process.env.HUBSPOT_REGION || "na2";
 
-    const hubspotEndpoint = `https://api-${region}.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
+      const hubspotEndpoint = `https://api-${region}.hsforms.com/submissions/v3/integration/submit/${portalId}/${formId}`;
 
-    // Extract client IP address for HubSpot geolocation and form analytics
-    const clientIp =
-      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
-      req.headers.get("x-real-ip") ||
-      req.headers.get("cf-connecting-ip") ||
-      undefined;
+      // Extract client IP address for HubSpot geolocation and form analytics
+      const clientIp =
+        req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+        req.headers.get("x-real-ip") ||
+        req.headers.get("cf-connecting-ip") ||
+        undefined;
 
-    // Build fields array mapping strictly to HubSpot CRM properties
-    // Note: Do NOT send 'name' because HubSpot Contact records only have 'firstname' and 'lastname'
-    // The "Full Name" field on this form is mapped to 'firstname'
-    const fields: Array<{ name: string; value: string }> = [
-      { name: "email", value: email! },
-      { name: "firstname", value: trimmedName },
-      { name: "subject", value: subject! },
-      { name: "message", value: message! },
-      { name: "content", value: message! },
-      { name: "hs_ticket_subject", value: subject! },
-      { name: "hs_ticket_content", value: message! }
-    ];
+      // Build fields array mapping strictly to HubSpot CRM properties
+      // Note: Do NOT send 'name' because HubSpot Contact records only have 'firstname' and 'lastname'
+      // The "Full Name" field on this form is mapped to 'firstname'
+      const fields: Array<{ name: string; value: string }> = [
+        { name: "email", value: email! },
+        { name: "firstname", value: trimmedName },
+        { name: "subject", value: subject! },
+        { name: "message", value: message! },
+        { name: "content", value: message! },
+        { name: "hs_ticket_subject", value: subject! },
+        { name: "hs_ticket_content", value: message! }
+      ];
 
-    if (lastName) {
-      fields.push({ name: "lastname", value: lastName });
-    }
-
-    const hubspotPayload = {
-      fields,
-      context: {
-        pageUri: `${siteConfig.url}/contact`,
-        pageName: "Contact Us - SaaS Launch Lab",
-        ipAddress: clientIp && clientIp !== "::1" && clientIp !== "127.0.0.1" ? clientIp : undefined,
-        hutk: hutk || undefined
+      if (lastName) {
+        fields.push({ name: "lastname", value: lastName });
       }
-    };
 
-    try {
-      const hsRes = await fetch(hubspotEndpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
+      const hubspotPayload = {
+        submittedAt: Date.now(),
+        fields,
+        context: {
+          pageUri: `${siteConfig.url}/contact`,
+          pageName: "Contact Us - SaaS Launch Lab",
+          ipAddress: clientIp && clientIp !== "::1" && clientIp !== "127.0.0.1" ? clientIp : undefined,
+          hutk: hutk || undefined
         },
-        body: JSON.stringify(hubspotPayload)
-      });
+        legalConsentOptions: {
+          consent: {
+            consentToProcess: true,
+            text: "I agree to allow SaaS Launch Lab to store and process my personal data."
+          }
+        }
+      };
 
-      if (!hsRes.ok) {
-        const errorText = await hsRes.text();
-        console.error("HubSpot submission warning:", hsRes.status, errorText);
+      try {
+        const hsRes = await fetch(hubspotEndpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(hubspotPayload)
+        });
+
+        if (!hsRes.ok) {
+          const errorText = await hsRes.text();
+          console.error("HubSpot submission warning:", hsRes.status, errorText);
+        }
+      } catch (hsErr) {
+        console.error("HubSpot network submission error:", hsErr);
       }
-    } catch (hsErr) {
-      console.error("HubSpot network submission error:", hsErr);
     }
 
     // 2. Dispatch email notification if RESEND_API_KEY is configured

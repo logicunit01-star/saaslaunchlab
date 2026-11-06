@@ -52,10 +52,26 @@ export function ContactForm() {
     const lastName = nameParts.length > 1 ? nameParts.slice(1).join(" ") : "";
     const hutk = getHubspotUtk();
 
+    // Identify user in HubSpot tracking script if active
+    if (typeof window !== "undefined" && (window as unknown as { _hsq?: unknown[] })._hsq) {
+      try {
+        (window as unknown as { _hsq: unknown[] })._hsq.push([
+          "identify",
+          {
+            email: formData.email.trim(),
+            firstname: trimmedName
+          }
+        ]);
+      } catch {
+        // non-blocking
+      }
+    }
+
     // Prepare HubSpot payload mapping strictly to form fields
     // Notice: Do NOT pass 'name' as a property because HubSpot only has 'firstname' and 'lastname'.
     // The "Full Name" field on this form maps to 'firstname'.
     const hubspotPayload = {
+      submittedAt: Date.now(),
       fields: [
         { name: "email", value: formData.email.trim() },
         { name: "firstname", value: trimmedName },
@@ -70,37 +86,47 @@ export function ContactForm() {
         pageUri: typeof window !== "undefined" ? window.location.href : "https://saaslaunchlab.com/contact",
         pageName: typeof document !== "undefined" ? document.title : "Contact Us - SaaS Launch Lab",
         hutk: hutk || undefined
+      },
+      legalConsentOptions: {
+        consent: {
+          consentToProcess: true,
+          text: "I agree to allow SaaS Launch Lab to store and process my personal data."
+        }
       }
     };
 
+    let clientHubspotSuccess = false;
     try {
       // 1. Direct browser submission to HubSpot Forms Submission API v3 (handles real IP, cookies, and CORS)
-      const hsPromise = fetch(
+      const hsRes = await fetch(
         "https://api-na2.hsforms.com/submissions/v3/integration/submit/246175508/115db458-7775-41e5-9827-269d275ebf11",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(hubspotPayload)
         }
-      ).catch((err) => {
-        console.warn("HubSpot client submission warning:", err);
-      });
+      );
+      if (hsRes.ok) {
+        clientHubspotSuccess = true;
+      }
+    } catch (err) {
+      console.warn("HubSpot client submission warning:", err);
+    }
 
-      // 2. Also send to internal server API route (for server-side logging and Resend notifications)
-      const internalPromise = fetch("/api/contact", {
+    try {
+      // 2. Also send to internal server API route (for email notifications and server-side fallback if client was blocked)
+      await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          hutk
+          hutk,
+          skipHubspot: clientHubspotSuccess
         })
       });
 
-      // Await both dispatches
-      await Promise.allSettled([hsPromise, internalPromise]);
-
       setStatus("success");
-      setFeedbackMessage("Thank you for reaching out! Your inquiry has been received and logged in our system.");
+      setFeedbackMessage("Thank you for reaching out! Your message has been sent successfully.");
       setFormData({ name: "", email: "", subject: "", message: "" });
       setErrors({});
     } catch {
@@ -141,8 +167,8 @@ export function ContactForm() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* Name Field */}
           <div>
-            <label htmlFor="name" className="block text-sm font-semibold text-slate-900 mb-1.5">
-              Full Name <span className="text-rose-500">*</span>
+            <label htmlFor="name" className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+              FULL NAME <span className="text-rose-500">*</span>
             </label>
             <input
               type="text"
@@ -151,21 +177,21 @@ export function ContactForm() {
               required
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              placeholder="e.g. Alex Vance"
+              placeholder="e.g. Elena Rostova"
               disabled={status === "submitting"}
-              className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 ${
+              className={`w-full px-4 py-3 rounded-lg border text-sm transition-colors focus:outline-hidden ${
                 errors.name
-                  ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
-                  : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
+                  ? "border-rose-300 focus:border-rose-500 bg-rose-50/30"
+                  : "border-slate-200 focus:border-slate-400 bg-white text-slate-900 placeholder:text-slate-400"
               }`}
             />
-            {errors.name && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.name}</p>}
+            {errors.name && <p className="mt-1.5 text-xs text-rose-600 font-medium">{errors.name}</p>}
           </div>
 
           {/* Email Field */}
           <div>
-            <label htmlFor="email" className="block text-sm font-semibold text-slate-900 mb-1.5">
-              Work Email <span className="text-rose-500">*</span>
+            <label htmlFor="email" className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+              WORK EMAIL <span className="text-rose-500">*</span>
             </label>
             <input
               type="email"
@@ -174,22 +200,22 @@ export function ContactForm() {
               required
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              placeholder="alex@company.com"
+              placeholder="elena@company.com"
               disabled={status === "submitting"}
-              className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 ${
+              className={`w-full px-4 py-3 rounded-lg border text-sm transition-colors focus:outline-hidden ${
                 errors.email
-                  ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
-                  : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
+                  ? "border-rose-300 focus:border-rose-500 bg-rose-50/30"
+                  : "border-slate-200 focus:border-slate-400 bg-white text-slate-900 placeholder:text-slate-400"
               }`}
             />
-            {errors.email && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.email}</p>}
+            {errors.email && <p className="mt-1.5 text-xs text-rose-600 font-medium">{errors.email}</p>}
           </div>
         </div>
 
         {/* Subject Field */}
         <div>
-          <label htmlFor="subject" className="block text-sm font-semibold text-slate-900 mb-1.5">
-            Subject <span className="text-rose-500">*</span>
+          <label htmlFor="subject" className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+            SUBJECT <span className="text-rose-500">*</span>
           </label>
           <input
             type="text"
@@ -198,21 +224,21 @@ export function ContactForm() {
             required
             value={formData.subject}
             onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-            placeholder="e.g. Database Architecture Scoping or MVP Review"
+            placeholder="Editorial inquiry, technical feedback, or partnership"
             disabled={status === "submitting"}
-            className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 ${
+            className={`w-full px-4 py-3 rounded-lg border text-sm transition-colors focus:outline-hidden ${
               errors.subject
-                ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
-                : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
+                ? "border-rose-300 focus:border-rose-500 bg-rose-50/30"
+                : "border-slate-200 focus:border-slate-400 bg-white text-slate-900 placeholder:text-slate-400"
             }`}
           />
-          {errors.subject && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.subject}</p>}
+          {errors.subject && <p className="mt-1.5 text-xs text-rose-600 font-medium">{errors.subject}</p>}
         </div>
 
         {/* Message Field */}
         <div>
-          <label htmlFor="message" className="block text-sm font-semibold text-slate-900 mb-1.5">
-            Message <span className="text-rose-500">*</span>
+          <label htmlFor="message" className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
+            MESSAGE <span className="text-rose-500">*</span>
           </label>
           <textarea
             id="message"
@@ -221,15 +247,15 @@ export function ContactForm() {
             rows={5}
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-            placeholder="Please detail your architecture questions, technical stack, or project requirements..."
+            placeholder="Share your thoughts, suggestions, or technical questions..."
             disabled={status === "submitting"}
-            className={`w-full px-4 py-2.5 rounded-lg border text-sm transition-all focus:outline-hidden focus:ring-2 resize-y ${
+            className={`w-full px-4 py-3 rounded-lg border text-sm transition-colors focus:outline-hidden resize-y ${
               errors.message
-                ? "border-rose-300 focus:border-rose-500 focus:ring-rose-200 bg-rose-50/30"
-                : "border-slate-300 focus:border-sky-500 focus:ring-sky-200 bg-white"
+                ? "border-rose-300 focus:border-rose-500 bg-rose-50/30"
+                : "border-slate-200 focus:border-slate-400 bg-white text-slate-900 placeholder:text-slate-400"
             }`}
           />
-          {errors.message && <p className="mt-1 text-xs text-rose-600 font-medium">{errors.message}</p>}
+          {errors.message && <p className="mt-1.5 text-xs text-rose-600 font-medium">{errors.message}</p>}
         </div>
 
         {/* Submit Button */}
@@ -237,17 +263,17 @@ export function ContactForm() {
           <button
             type="submit"
             disabled={status === "submitting"}
-            className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3 rounded-xl bg-sky-500 hover:bg-sky-600 text-white font-semibold text-sm transition-all shadow-sm hover:shadow-md cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
+            className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-slate-950 hover:bg-slate-900 text-white font-medium text-sm transition-colors shadow-xs cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
           >
             {status === "submitting" ? (
               <>
                 <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                <span>Sending Inquiry...</span>
+                <span>Sending Message...</span>
               </>
             ) : (
               <>
-                <Send className="w-4 h-4 mr-2" />
-                <span>Submit Inquiry</span>
+                <span>Send Message</span>
+                <Send className="w-4 h-4 ml-2" />
               </>
             )}
           </button>
