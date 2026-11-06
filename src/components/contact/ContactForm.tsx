@@ -163,7 +163,14 @@ export function ContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} noValidate className="space-y-6">
+      <form
+        id="saaslaunchlab-contact-form"
+        action="/api/contact"
+        method="POST"
+        onSubmit={handleSubmit}
+        noValidate
+        className="space-y-6"
+      >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {/* Name Field */}
           <div>
