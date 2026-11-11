@@ -46,7 +46,7 @@
         },
         {
           "text": "Audits & Economics guides",
-          "url": "/blog/audits-economics"
+          "url": "/blog/category/audits-economics"
         },
         {
           "text": "SaaS company",
@@ -65,7 +65,7 @@
       "h4Count": 12,
       "headingsInFrontmatter": 21,
       "hasFaq": true,
-      "contentLength": 18830
+      "contentLength": 18839
     },
     {
       "file": "backend-choices-for-saas.md",
@@ -127,7 +127,7 @@
         },
         {
           "text": "MVP & Engineering category",
-          "url": "/blog/mvp-engineering"
+          "url": "/blog/category/mvp-engineering"
         },
         {
           "text": "launch a SaaS MVP in 30 days",
@@ -162,7 +162,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 13,
       "hasFaq": true,
-      "contentLength": 11281
+      "contentLength": 11290
     },
     {
       "file": "common-ux-mistakes-saas-conversion-rates.md",
@@ -198,7 +198,7 @@
         },
         {
           "text": "Audits & Economics guides",
-          "url": "/blog/audits-economics"
+          "url": "/blog/category/audits-economics"
         }
       ],
       "externalLinks": [
@@ -213,7 +213,7 @@
       "h4Count": 26,
       "headingsInFrontmatter": 45,
       "hasFaq": true,
-      "contentLength": 8999
+      "contentLength": 9008
     },
     {
       "file": "cost-of-ai-in-saas.md",
@@ -234,6 +234,10 @@
         {
           "text": "overall SaaS development costs",
           "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
         }
       ],
       "externalLinks": [],
@@ -243,7 +247,7 @@
       "h4Count": 3,
       "headingsInFrontmatter": 27,
       "hasFaq": true,
-      "contentLength": 14810
+      "contentLength": 14986
     },
     {
       "file": "customer-success-in-saas-2026.md",
@@ -283,7 +287,7 @@
         },
         {
           "text": "Growth & Strategy guides",
-          "url": "/blog/growth-strategy"
+          "url": "/blog/category/growth-strategy"
         },
         {
           "text": "contact our editorial team",
@@ -297,7 +301,7 @@
       "h4Count": 12,
       "headingsInFrontmatter": 21,
       "hasFaq": true,
-      "contentLength": 12490
+      "contentLength": 12499
     },
     {
       "file": "hiring-a-saas-developer.md",
@@ -333,7 +337,7 @@
         },
         {
           "text": "MVP & Engineering guides",
-          "url": "/blog/mvp-engineering"
+          "url": "/blog/category/mvp-engineering"
         }
       ],
       "externalLinks": [
@@ -348,7 +352,7 @@
       "h4Count": 4,
       "headingsInFrontmatter": 12,
       "hasFaq": true,
-      "contentLength": 9212
+      "contentLength": 9221
     },
     {
       "file": "how-to-integrate-lending-services-into-a-saas-product.md",
@@ -418,7 +422,7 @@
         },
         {
           "text": "Growth & Strategy guides",
-          "url": "/blog/growth-strategy"
+          "url": "/blog/category/growth-strategy"
         },
         {
           "text": "SaaS growth",
@@ -452,7 +456,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 12,
       "hasFaq": true,
-      "contentLength": 10128
+      "contentLength": 10137
     },
     {
       "file": "how-to-turn-a-spreadsheet-into-a-saas-product.md",
@@ -616,7 +620,7 @@
         },
         {
           "text": "MVP & Engineering category",
-          "url": "/blog/mvp-engineering"
+          "url": "/blog/category/mvp-engineering"
         }
       ],
       "externalLinks": [
@@ -631,7 +635,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 33,
       "hasFaq": true,
-      "contentLength": 20955
+      "contentLength": 20964
     },
     {
       "file": "no-code-saas-guide.md",
@@ -663,7 +667,7 @@
         },
         {
           "text": "AI & Automation category",
-          "url": "/blog/ai-automation"
+          "url": "/blog/category/ai-automation"
         }
       ],
       "externalLinks": [],
@@ -673,7 +677,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 20,
       "hasFaq": true,
-      "contentLength": 11056
+      "contentLength": 11065
     },
     {
       "file": "saas-audit-checklist-before-launch.md",
@@ -693,7 +697,7 @@
         },
         {
           "text": "Audits & Economics guides",
-          "url": "/blog/audits-economics"
+          "url": "/blog/category/audits-economics"
         },
         {
           "text": "who develops brand identity for SaaS companies",
@@ -706,6 +710,10 @@
         {
           "text": "SaaS database design",
           "url": "/blog/saas-database-design"
+        },
+        {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
         },
         {
           "text": "SaaS integrations architecture",
@@ -744,7 +752,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 12,
       "hasFaq": true,
-      "contentLength": 11035
+      "contentLength": 11241
     },
     {
       "file": "saas-database-design.md",
@@ -772,7 +780,7 @@
         },
         {
           "text": "SaaS Architecture category",
-          "url": "/blog/architecture"
+          "url": "/blog/category/architecture"
         },
         {
           "text": "multi-tenant SaaS architecture",
@@ -811,7 +819,7 @@
       "h4Count": 3,
       "headingsInFrontmatter": 24,
       "hasFaq": true,
-      "contentLength": 13830
+      "contentLength": 13839
     },
     {
       "file": "saas-development-agency-vs-freelancer.md",
@@ -843,7 +851,7 @@
         },
         {
           "text": "MVP & Engineering guides",
-          "url": "/blog/mvp-engineering"
+          "url": "/blog/category/mvp-engineering"
         },
         {
           "text": "Node.js backend",
@@ -861,7 +869,7 @@
       "h4Count": 7,
       "headingsInFrontmatter": 13,
       "hasFaq": true,
-      "contentLength": 9156
+      "contentLength": 9165
     },
     {
       "file": "saas-development-cost.md",
@@ -886,6 +894,10 @@
         {
           "text": "B2C SaaS development",
           "url": "/blog/hiring-a-saas-developer"
+        },
+        {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
         }
       ],
       "externalLinks": [],
@@ -895,7 +907,7 @@
       "h4Count": 21,
       "headingsInFrontmatter": 31,
       "hasFaq": true,
-      "contentLength": 12911
+      "contentLength": 13109
     },
     {
       "file": "saas-integrations.md",
@@ -986,6 +998,10 @@
           "url": "/blog/validate-saas-idea"
         },
         {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
+        },
+        {
           "text": "How to Scale a SaaS Business",
           "url": "/blog/how-to-scale-a-saas-business"
         },
@@ -1013,7 +1029,66 @@
       "h4Count": 0,
       "headingsInFrontmatter": 17,
       "hasFaq": true,
-      "contentLength": 11525
+      "contentLength": 11725
+    },
+    {
+      "file": "saas-pricing-models.md",
+      "slug": "saas-pricing-models",
+      "title": "SaaS Pricing Models Explained: Flat-Rate vs Per-User vs Usage-Based Pricing",
+      "category": "Audits & Economics",
+      "readingTime": 14,
+      "wordCount": 2980,
+      "publishedAt": "2026-11-11T13:30:00+00:00",
+      "modifiedAt": "2026-11-11T13:30:00+00:00",
+      "featuredImage": "/images/articles/saas-pricing-models.webp",
+      "featuredImageAlt": "SaaS Pricing Models Explained: Flat-Rate vs Per-User vs Usage-Based Pricing",
+      "internalLinks": [
+        {
+          "text": "SaaS development cost",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "cost of adding AI to SaaS",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "SaaS platform development cost per feature",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "what is B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "customer success in SaaS",
+          "url": "/blog/customer-success-in-saas-2026"
+        },
+        {
+          "text": "SaaS audit checklist before launch",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        },
+        {
+          "text": "SaaS Audits & Economics",
+          "url": "/blog/category/audits-economics"
+        },
+        {
+          "text": "editorial desk",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "Stripe Billing",
+          "url": "https://docs.stripe.com/billing"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 14,
+      "h3Count": 27,
+      "h4Count": 0,
+      "headingsInFrontmatter": 41,
+      "hasFaq": true,
+      "contentLength": 28024
     },
     {
       "file": "saas-product-development.md",
@@ -1185,7 +1260,7 @@
         },
         {
           "text": "MVP & Engineering guides",
-          "url": "/blog/mvp-engineering"
+          "url": "/blog/category/mvp-engineering"
         },
         {
           "text": "SaaS MVP development costs",
@@ -1207,7 +1282,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 20,
       "hasFaq": true,
-      "contentLength": 13027
+      "contentLength": 13036
     },
     {
       "file": "what-is-b2b-saas.md",
@@ -1275,11 +1350,15 @@
         },
         {
           "text": "Growth & Strategy category",
-          "url": "/blog/growth-strategy"
+          "url": "/blog/category/growth-strategy"
         },
         {
           "text": "How Much Does It Cost to Add AI to a SaaS?",
           "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
         },
         {
           "text": "How Much Does SaaS Development Cost in 2026?",
@@ -1305,7 +1384,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 15,
       "hasFaq": true,
-      "contentLength": 12457
+      "contentLength": 12614
     },
     {
       "file": "what-is-saas-sales.md",
@@ -1371,7 +1450,7 @@
         },
         {
           "text": "Growth & Strategy journal",
-          "url": "/blog/growth-strategy"
+          "url": "/blog/category/growth-strategy"
         },
         {
           "text": "who develops brand identity for SaaS companies",
@@ -1410,7 +1489,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 12,
       "hasFaq": true,
-      "contentLength": 10995
+      "contentLength": 11004
     },
     {
       "file": "who-develops-brand-identity-for-saas-companies.md",
@@ -1426,7 +1505,7 @@
       "internalLinks": [
         {
           "text": "Growth & Strategy guides",
-          "url": "/blog/growth-strategy"
+          "url": "/blog/category/growth-strategy"
         },
         {
           "text": "common UX mistakes that kill SaaS conversion rates",
@@ -1469,7 +1548,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 16,
       "hasFaq": true,
-      "contentLength": 11964
+      "contentLength": 11973
     },
     {
       "file": "why-most-saas-mvps-fail.md",
@@ -1497,7 +1576,7 @@
         },
         {
           "text": "MVP & Engineering guides",
-          "url": "/blog/mvp-engineering"
+          "url": "/blog/category/mvp-engineering"
         },
         {
           "text": "MVPs",
@@ -1527,7 +1606,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 13,
       "hasFaq": true,
-      "contentLength": 11371
+      "contentLength": 11380
     }
   ],
   "inboundLinks": {
@@ -1661,6 +1740,10 @@
         "text": "How Much Does It Cost to Add AI to a SaaS?"
       },
       {
+        "from": "saas-pricing-models",
+        "text": "cost of adding AI to SaaS"
+      },
+      {
         "from": "saas-product-development",
         "text": "How Much Does It Cost to Add AI to a SaaS?"
       },
@@ -1672,6 +1755,10 @@
     "customer-success-in-saas-2026": [
       {
         "from": "how-to-scale-a-saas-business",
+        "text": "customer success in SaaS"
+      },
+      {
+        "from": "saas-pricing-models",
         "text": "customer success in SaaS"
       },
       {
@@ -1863,6 +1950,10 @@
         "text": "pre-launch SaaS audit"
       },
       {
+        "from": "saas-pricing-models",
+        "text": "SaaS audit checklist before launch"
+      },
+      {
         "from": "saas-product-development",
         "text": "SaaS Audit Checklist Before Launch"
       },
@@ -1977,6 +2068,10 @@
         "text": "SaaS development cost"
       },
       {
+        "from": "saas-pricing-models",
+        "text": "SaaS development cost"
+      },
+      {
         "from": "saas-product-development",
         "text": "costs in 2026"
       },
@@ -2075,8 +2170,34 @@
         "text": "per-feature SaaS platform development cost breakdown"
       },
       {
+        "from": "saas-pricing-models",
+        "text": "SaaS platform development cost per feature"
+      },
+      {
         "from": "saas-product-development",
         "text": "how much does it cost to build a SaaS product"
+      }
+    ],
+    "saas-pricing-models": [
+      {
+        "from": "cost-of-ai-in-saas",
+        "text": "SaaS pricing models"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "SaaS pricing models"
+      },
+      {
+        "from": "saas-development-cost",
+        "text": "SaaS pricing models"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "SaaS pricing models"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "SaaS pricing models"
       }
     ],
     "saas-product-development": [
@@ -2189,6 +2310,10 @@
       {
         "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
         "text": "What is B2B SaaS?"
+      },
+      {
+        "from": "saas-pricing-models",
+        "text": "what is B2B SaaS"
       },
       {
         "from": "saas-product-development",

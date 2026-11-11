@@ -221,7 +221,7 @@ Learn About: [How Much Does It Cost to Add AI to a SaaS?](/blog/cost-of-ai-in-sa
 
 The B2B SaaS business model is built on generating recurring, predictable revenue. The main strategies include:
 
-1. Subscription-Based Pricing: The most common model. Recurring revenue via monthly or annual plans.
+1. Subscription-Based Pricing: The most common model. Recurring revenue via monthly or annual plans. For a comprehensive analysis of seat-based vs consumption monetization, see our detailed guide to [SaaS pricing models](/blog/saas-pricing-models).
 2. Freemium Model: Offering a basic version for free to attract users, then converting them to a paid plan for advanced features (e.g., Slack, Zoom).
 3. Tiered Pricing: Providing different plans with varying features, storage, or user limits to cater to different business sizes (e.g., HubSpot's Starter, Professional, and Enterprise plans).
 4. Enterprise Contracts: Custom pricing and feature sets for large organizations, involving dedicated customer support and service-level agreements (SLAs).

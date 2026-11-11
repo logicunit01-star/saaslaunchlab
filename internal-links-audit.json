@@ -270,6 +270,15 @@
     "isGeneric": false
   },
   {
+    "sourceSlug": "cost-of-ai-in-saas",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
     "sourceSlug": "customer-success-in-saas-2026",
     "text": "AI feature costs",
     "url": "/blog/cost-of-ai-in-saas",
@@ -847,6 +856,15 @@
   },
   {
     "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
     "text": "SaaS integrations architecture",
     "url": "/blog/saas-integrations",
     "linkType": "article",
@@ -1062,6 +1080,15 @@
     "isGeneric": false
   },
   {
+    "sourceSlug": "saas-development-cost",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
     "sourceSlug": "saas-integrations",
     "text": "SaaS website architecture blueprint",
     "url": "/blog/saas-website-architecture",
@@ -1135,6 +1162,15 @@
   },
   {
     "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
     "text": "How to Scale a SaaS Business",
     "url": "/blog/how-to-scale-a-saas-business",
     "linkType": "article",
@@ -1172,6 +1208,78 @@
   {
     "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
     "text": "contact our editorial and technical team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "SaaS development cost",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "cost of adding AI to SaaS",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "SaaS platform development cost per feature",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "what is B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "customer success in SaaS",
+    "url": "/blog/customer-success-in-saas-2026",
+    "linkType": "article",
+    "destSlug": "customer-success-in-saas-2026",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "SaaS audit checklist before launch",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "SaaS Audits & Economics",
+    "url": "/blog/category/audits-economics",
+    "linkType": "category",
+    "destSlug": "audits-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
+    "text": "editorial desk",
     "url": "/contact",
     "linkType": "site",
     "destSlug": null,
@@ -1562,6 +1670,15 @@
     "url": "/blog/cost-of-ai-in-saas",
     "linkType": "article",
     "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
     "isBroken": false,
     "isGeneric": false
   },

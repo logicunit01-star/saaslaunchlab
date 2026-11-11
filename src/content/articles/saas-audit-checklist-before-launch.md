@@ -113,7 +113,7 @@ A technical audit is only as reliable as its real-world failure simulation. Befo
 Payment failures at launch permanently destroy early customer trust. Verify your subscription engine:
 
 - **Webhook Idempotency:** Payment providers like Stripe guarantee at-least-once delivery, meaning webhooks can arrive multiple times or out of order. Store event IDs in an immutable database table and process each event inside a database transaction to prevent duplicate account upgrades.
-- **Dunning & Card Expiry Workflows:** Configure automated customer portal links for expired credit cards and grace periods before account suspension.
+- **Dunning & Card Expiry Workflows:** Configure automated customer portal links for expired credit cards and grace periods before account suspension. Ensure your chosen [SaaS pricing models](/blog/saas-pricing-models) (such as seat tiers or usage allowances) calculate prorations and quota overages accurately before taking the subscription live.
 - **Third-Party Service Decoupling:** Build resilient circuit breakers around external APIs. When third-party platforms experience downtime, your software must handle degraded states gracefully using robust [SaaS integrations architecture](/blog/saas-integrations).
 
 ### Pillar 5: HTTP Security Headers, Auth & Edge Rate Limiting

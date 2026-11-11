@@ -1,0 +1,3 @@
+# Cloudflare Pages 301 Redirects
+/blogs/* /blog/:splat 301
+/blogs /blog 301

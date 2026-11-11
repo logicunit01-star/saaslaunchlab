@@ -306,7 +306,7 @@ For most SaaS companies, using the OpenAI API or similar commercial LLM is signi
 
     **Q4: How do AI costs affect SaaS gross margins?**   
 
-Adding AI to a SaaS product typically reduces gross margins by 10–30 percentage points compared to traditional software. Traditional SaaS often achieves 80–88% gross margins. AI-centric SaaS typically operates at 50–60% gross margins because every AI response carries a real compute cost. Your pricing must explicitly account for this — you cannot bundle AI features into existing subscriptions and expect margins to hold.
+Adding AI to a SaaS product typically reduces gross margins by 10–30 percentage points compared to traditional software. Traditional SaaS often achieves 80–88% gross margins. AI-centric SaaS typically operates at 50–60% gross margins because every AI response carries a real compute cost. Your pricing must explicitly account for this — you cannot bundle AI features into existing subscriptions and expect margins to hold. Reviewing [SaaS pricing models](/blog/saas-pricing-models), especially consumption-based and hybrid structures, helps ensure token costs are tied directly to billable metrics.
 
     **Q5: What is the cheapest way to add AI features to my SaaS?**   
 

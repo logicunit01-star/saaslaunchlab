@@ -95,7 +95,7 @@ Basic email/password login is cheap. The cost climbs fast once you add social lo
 
 ### 2. Subscription Billing & Payments — $1,500 to $6,000
 
-This is where most founders underestimate cost. Wiring up Stripe for a single flat monthly plan is straightforward. The price jumps when you need tiered plans, usage-based billing, proration, dunning management (failed payment recovery), invoicing for enterprise customers, or multi-currency support for international markets a common architectural requirement for international platforms that need to price in USD, EUR, and GBP simultaneously.
+This is where most founders underestimate cost. Wiring up Stripe for a single flat monthly plan is straightforward. The price jumps when you need tiered plans, usage-based billing, proration, dunning management (failed payment recovery), invoicing for enterprise customers, or multi-currency support for international markets a common architectural requirement for international platforms that need to price in USD, EUR, and GBP simultaneously. Comparing different [SaaS pricing models](/blog/saas-pricing-models)—such as flat-rate, per-seat, and consumption metering—early in the specification phase prevents expensive billing refactors later.
 
 ### 3. Multi-Tenant Architecture — $2,000 to $8,000
 
