@@ -1,0 +1,2295 @@
+{
+  "articles": [
+    {
+      "file": "9-common-saas-seo-mistakes.md",
+      "slug": "9-common-saas-seo-mistakes",
+      "title": "9 Common SaaS SEO Mistakes That Hurt Rankings Fast (2026)",
+      "category": "Audits & Economics",
+      "readingTime": 15,
+      "wordCount": 2902,
+      "publishedAt": "2026-06-22T13:25:15+00:00",
+      "modifiedAt": "2026-07-03T13:44:52+00:00",
+      "featuredImage": "/images/articles/9-common-saas-seo-mistakes.webp",
+      "featuredImageAlt": "9 Common SaaS SEO Mistakes That Hurt Rankings Fast (2026)",
+      "internalLinks": [
+        {
+          "text": "SEO blogs",
+          "url": "/blog"
+        },
+        {
+          "text": "SaaS websites",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "what B2B SaaS actually means",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "how to scale a SaaS business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "what is B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "How Much Does SaaS Development Cost in 2026?",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "common UX mistakes that kill SaaS conversion rates",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "editorial desk and engineering guides",
+          "url": "/contact"
+        },
+        {
+          "text": "Audits & Economics guides",
+          "url": "/blog/audits-economics"
+        },
+        {
+          "text": "SaaS company",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "Google Search Central VideoObject structured data guide",
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/video"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 11,
+      "h3Count": 0,
+      "h4Count": 12,
+      "headingsInFrontmatter": 21,
+      "hasFaq": true,
+      "contentLength": 18830
+    },
+    {
+      "file": "backend-choices-for-saas.md",
+      "slug": "backend-choices-for-saas",
+      "title": "Backend Choices for SaaS: Node, Django, or Laravel?",
+      "category": "Architecture",
+      "readingTime": 6,
+      "wordCount": 1182,
+      "publishedAt": "2026-05-04T14:29:59+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/backend-choices-for-saas.webp",
+      "featuredImageAlt": "Backend Choices for SaaS: Node, Django, or Laravel?",
+      "internalLinks": [
+        {
+          "text": "SaaS website architecture blueprint",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "multi-tenant SaaS architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "SaaS database design strategies",
+          "url": "/blog/saas-database-design"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 13,
+      "h3Count": 25,
+      "h4Count": 7,
+      "headingsInFrontmatter": 45,
+      "hasFaq": true,
+      "contentLength": 7962
+    },
+    {
+      "file": "choose-saas-development-partner.md",
+      "slug": "choose-saas-development-partner",
+      "title": "How to Choose a SaaS Development Partner in 2026",
+      "category": "MVP & Engineering",
+      "readingTime": 7,
+      "wordCount": 1440,
+      "publishedAt": "2026-05-11T09:57:06+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/choose-saas-development-partner.webp",
+      "featuredImageAlt": "How to Choose a SaaS Development Partner in 2026 (Guide for Smart Founders)",
+      "internalLinks": [
+        {
+          "text": "SaaS development partner",
+          "url": "/blog/hiring-a-saas-developer"
+        },
+        {
+          "text": "SaaS development agency vs freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "MVP development costs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "MVP & Engineering category",
+          "url": "/blog/mvp-engineering"
+        },
+        {
+          "text": "launch a SaaS MVP in 30 days",
+          "url": "/blog/saas-mvp-in-30-days"
+        },
+        {
+          "text": "why most SaaS MVPs fail",
+          "url": "/blog/why-most-saas-mvps-fail"
+        },
+        {
+          "text": "SaaS development agency vs freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "MVP development costs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "contact our technical editorial team",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "ISO/IEC 25010 software engineering standards",
+          "url": "https://iso25000.com/index.php/en/iso-25000-standards/iso-25010"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 3,
+      "h4Count": 0,
+      "headingsInFrontmatter": 13,
+      "hasFaq": true,
+      "contentLength": 11281
+    },
+    {
+      "file": "common-ux-mistakes-saas-conversion-rates.md",
+      "slug": "common-ux-mistakes-saas-conversion-rates",
+      "title": "Common UX Mistakes That Kill SaaS Conversion Rates",
+      "category": "Audits & Economics",
+      "readingTime": 6,
+      "wordCount": 1223,
+      "publishedAt": "2026-04-27T08:15:21+00:00",
+      "modifiedAt": "2026-06-24T10:36:22+00:00",
+      "featuredImage": "/images/articles/common-ux-mistakes-saas-conversion-rates.webp",
+      "featuredImageAlt": "Common UX Mistakes That Kill SaaS Conversion Rates (Complete CRO Guide for SaaS)",
+      "internalLinks": [
+        {
+          "text": "who develops brand identity for SaaS companies",
+          "url": "/blog/who-develops-brand-identity-for-saas-companies"
+        },
+        {
+          "text": "SaaS website architecture",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "9 common SaaS SEO mistakes",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "SaaS audit checklist before launch",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        },
+        {
+          "text": "what is white label SaaS",
+          "url": "/blog/what-is-white-label-saas"
+        },
+        {
+          "text": "Audits & Economics guides",
+          "url": "/blog/audits-economics"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "Nielsen Norman Group usability heuristics",
+          "url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 10,
+      "h4Count": 26,
+      "headingsInFrontmatter": 45,
+      "hasFaq": true,
+      "contentLength": 8999
+    },
+    {
+      "file": "cost-of-ai-in-saas.md",
+      "slug": "cost-of-ai-in-saas",
+      "title": "How Much Does It Cost to Add AI to a SaaS? (2026 Guide)",
+      "category": "AI & Automation",
+      "readingTime": 12,
+      "wordCount": 2345,
+      "publishedAt": "2026-05-14T09:09:22+00:00",
+      "modifiedAt": "2026-06-24T10:36:20+00:00",
+      "featuredImage": "/images/articles/cost-of-ai-in-saas.webp",
+      "featuredImageAlt": "How Much Does It Cost to Add AI to a SaaS?",
+      "internalLinks": [
+        {
+          "text": "per-feature SaaS platform development cost guide",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "overall SaaS development costs",
+          "url": "/blog/saas-development-cost"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 14,
+      "h4Count": 3,
+      "headingsInFrontmatter": 27,
+      "hasFaq": true,
+      "contentLength": 14810
+    },
+    {
+      "file": "customer-success-in-saas-2026.md",
+      "slug": "customer-success-in-saas-2026",
+      "title": "What Is Customer Success in SaaS? 2026 Strategy Guide",
+      "category": "Growth & Strategy",
+      "readingTime": 10,
+      "wordCount": 2004,
+      "publishedAt": "2026-07-07T12:57:36+00:00",
+      "modifiedAt": "2026-07-13T12:34:28+00:00",
+      "featuredImage": "/images/articles/customer-success-in-saas-2026.webp",
+      "featuredImageAlt": "What Is Customer Success in SaaS in 2026? A Practical Guide for Growing Teams",
+      "internalLinks": [
+        {
+          "text": "AI feature costs",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "technical SaaS SEO strategy",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "how to scale a SaaS business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "what is SaaS sales",
+          "url": "/blog/what-is-saas-sales"
+        },
+        {
+          "text": "B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "SaaS integrations",
+          "url": "/blog/saas-integrations"
+        },
+        {
+          "text": "Growth & Strategy guides",
+          "url": "/blog/growth-strategy"
+        },
+        {
+          "text": "contact our editorial team",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 6,
+      "h3Count": 3,
+      "h4Count": 12,
+      "headingsInFrontmatter": 21,
+      "hasFaq": true,
+      "contentLength": 12490
+    },
+    {
+      "file": "hiring-a-saas-developer.md",
+      "slug": "hiring-a-saas-developer",
+      "title": "Hiring a SaaS Developer: What Founders Must Know in 2026",
+      "category": "MVP & Engineering",
+      "readingTime": 6,
+      "wordCount": 1282,
+      "publishedAt": "2026-05-05T10:12:16+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/hiring-a-saas-developer.webp",
+      "featuredImageAlt": "Hiring a SaaS Developer: What Founders Must Know",
+      "internalLinks": [
+        {
+          "text": "SaaS development agency vs freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "how to choose a SaaS development partner in 2026",
+          "url": "/blog/choose-saas-development-partner"
+        },
+        {
+          "text": "multi-tenant SaaS architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "backend choices for SaaS: Node, Django, or Laravel",
+          "url": "/blog/backend-choices-for-saas"
+        },
+        {
+          "text": "MVP development cost breakdown",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "MVP & Engineering guides",
+          "url": "/blog/mvp-engineering"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "ACM Code of Ethics",
+          "url": "https://www.acm.org/code-of-ethics"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 8,
+      "h3Count": 0,
+      "h4Count": 4,
+      "headingsInFrontmatter": 12,
+      "hasFaq": true,
+      "contentLength": 9212
+    },
+    {
+      "file": "how-to-integrate-lending-services-into-a-saas-product.md",
+      "slug": "how-to-integrate-lending-services-into-a-saas-product",
+      "title": "How to Integrate Lending Services into a SaaS Product",
+      "category": "Architecture",
+      "readingTime": 9,
+      "wordCount": 1831,
+      "publishedAt": "2026-04-30T14:11:51+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/how-to-integrate-lending-services-into-a-saas-product.webp",
+      "featuredImageAlt": "How to Integrate Lending Services into a SaaS Product",
+      "internalLinks": [
+        {
+          "text": "SaaS lending integration",
+          "url": "/blog/saas-integrations"
+        },
+        {
+          "text": "finance",
+          "url": "/"
+        },
+        {
+          "text": "in SaaS",
+          "url": "/"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 7,
+      "h3Count": 8,
+      "h4Count": 1,
+      "headingsInFrontmatter": 16,
+      "hasFaq": true,
+      "contentLength": 12154
+    },
+    {
+      "file": "how-to-scale-a-saas-business.md",
+      "slug": "how-to-scale-a-saas-business",
+      "title": "How to Scale a SaaS Business: A Practical Growth Playbook",
+      "category": "Growth & Strategy",
+      "readingTime": 7,
+      "wordCount": 1498,
+      "publishedAt": "2026-07-17T12:55:03+00:00",
+      "modifiedAt": "2026-07-17T13:18:18+00:00",
+      "featuredImage": "/images/articles/how-to-scale-a-saas-business.webp",
+      "featuredImageAlt": "How to Scale a SaaS Business: A Practical Growth Playbook",
+      "internalLinks": [
+        {
+          "text": "B2B SaaS sales motion",
+          "url": "/blog/what-is-saas-sales"
+        },
+        {
+          "text": "customer success in SaaS",
+          "url": "/blog/customer-success-in-saas-2026"
+        },
+        {
+          "text": "cost of AI in SaaS",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "integrating lending services into SaaS",
+          "url": "/blog/how-to-integrate-lending-services-into-a-saas-product"
+        },
+        {
+          "text": "who develops brand identity for SaaS companies",
+          "url": "/blog/who-develops-brand-identity-for-saas-companies"
+        },
+        {
+          "text": "Growth & Strategy guides",
+          "url": "/blog/growth-strategy"
+        },
+        {
+          "text": "SaaS growth",
+          "url": "/blog/category/growth-strategy"
+        },
+        {
+          "text": "pricing",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "common scaling mistake",
+          "url": "/blog/why-most-saas-mvps-fail"
+        },
+        {
+          "text": "SaaS business grow",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "pre-launch SaaS audit",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        },
+        {
+          "text": "contact our team",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 3,
+      "h4Count": 0,
+      "headingsInFrontmatter": 12,
+      "hasFaq": true,
+      "contentLength": 10128
+    },
+    {
+      "file": "how-to-turn-a-spreadsheet-into-a-saas-product.md",
+      "slug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+      "title": "How to Turn a Spreadsheet Into a SaaS Product (2026 Roadmap)",
+      "category": "AI & Automation",
+      "readingTime": 12,
+      "wordCount": 2329,
+      "publishedAt": "2026-08-31T14:17:22+00:00",
+      "modifiedAt": "2026-08-31T14:58:18+00:00",
+      "featuredImage": "/images/articles/how-to-turn-a-spreadsheet-into-a-saas-product.webp",
+      "featuredImageAlt": "How to Turn a Spreadsheet Into a SaaS Product (A Step-by-Step Roadmap)",
+      "internalLinks": [
+        {
+          "text": "SaaS Platform Development Cost",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "structure",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "How to Scale a SaaS Business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "9 Common SaaS SEO Mistakes",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "SaaS Development Agency vs Freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "choosing your spreadsheet to saas build path",
+          "url": "/images/articles/how-to-turn-a-spreadsheet-into-a-saas-product-content-1.webp"
+        },
+        {
+          "text": "The Three Realistic Paths From Spreadsheet to SaaS Product",
+          "url": "/images/articles/how-to-turn-a-spreadsheet-into-a-saas-product-content-2.webp"
+        },
+        {
+          "text": "How to Validate a SaaS Idea Before Spending $1",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "guide on SaaS platform development costs",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "What is B2B SaaS?",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "reach out to our team",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 12,
+      "h4Count": 0,
+      "headingsInFrontmatter": 22,
+      "hasFaq": true,
+      "contentLength": 14623
+    },
+    {
+      "file": "multi-tenant-saas-architecture.md",
+      "slug": "multi-tenant-saas-architecture",
+      "title": "Multi-Tenant SaaS Architecture: Complete Guide 2026",
+      "category": "Architecture",
+      "readingTime": 9,
+      "wordCount": 1843,
+      "publishedAt": "2026-05-12T09:42:19+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/multi-tenant-saas-architecture.webp",
+      "featuredImageAlt": "Multi-Tenant SaaS Architecture: Complete Guide 2026",
+      "internalLinks": [
+        {
+          "text": "senior developer",
+          "url": "/blog/hiring-a-saas-developer"
+        },
+        {
+          "text": "SaaS website architecture blueprint",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "SaaS database design",
+          "url": "/blog/saas-database-design"
+        },
+        {
+          "text": "infrastructure costs",
+          "url": "/blog/saas-development-cost"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 21,
+      "h4Count": 3,
+      "headingsInFrontmatter": 34,
+      "hasFaq": true,
+      "contentLength": 12825
+    },
+    {
+      "file": "mvp-development-cost.md",
+      "slug": "mvp-development-cost",
+      "title": "MVP Development Cost in 2026: Complete Breakdown",
+      "category": "MVP & Engineering",
+      "readingTime": 13,
+      "wordCount": 2698,
+      "publishedAt": "2026-04-29T09:41:35+00:00",
+      "modifiedAt": "2026-06-24T10:36:22+00:00",
+      "featuredImage": "/images/articles/mvp-development-cost.png",
+      "featuredImageAlt": "MVP Development Cost in 2026: Complete Breakdown",
+      "internalLinks": [
+        {
+          "text": "development cost in 2026",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "startup product development",
+          "url": "/blog/saas-product-development"
+        },
+        {
+          "text": "how to validate a SaaS idea before spending $1",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "30-day SaaS MVP execution plan",
+          "url": "/blog/saas-mvp-in-30-days"
+        },
+        {
+          "text": "no-code SaaS guide",
+          "url": "/blog/no-code-saas-guide"
+        },
+        {
+          "text": "complete SaaS product development roadmap",
+          "url": "/blog/saas-product-development"
+        },
+        {
+          "text": "why most SaaS MVPs fail in the first 90 days",
+          "url": "/blog/why-most-saas-mvps-fail"
+        },
+        {
+          "text": "how to validate a SaaS idea before spending money",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "launch a SaaS MVP in 30 days",
+          "url": "/blog/saas-mvp-in-30-days"
+        },
+        {
+          "text": "SaaS development agency vs freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "SaaS platform development cost per feature",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "MVP & Engineering category",
+          "url": "/blog/mvp-engineering"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "Stripe Connect",
+          "url": "https://docs.stripe.com/billing"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 15,
+      "h3Count": 17,
+      "h4Count": 0,
+      "headingsInFrontmatter": 33,
+      "hasFaq": true,
+      "contentLength": 20955
+    },
+    {
+      "file": "no-code-saas-guide.md",
+      "slug": "no-code-saas-guide",
+      "title": "No-Code SaaS: How to Build and Launch in 2026",
+      "category": "AI & Automation",
+      "readingTime": 8,
+      "wordCount": 1638,
+      "publishedAt": "2026-07-06T12:51:29+00:00",
+      "modifiedAt": "2026-07-07T12:04:06+00:00",
+      "featuredImage": "/images/articles/no-code-saas-guide.png",
+      "featuredImageAlt": "No-Code SaaS: How to Build and Launch a SaaS Product Without Writing Code",
+      "internalLinks": [
+        {
+          "text": "how to turn a spreadsheet into a SaaS product",
+          "url": "/blog/how-to-turn-a-spreadsheet-into-a-saas-product"
+        },
+        {
+          "text": "SaaS MVP development costs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "what is white label SaaS",
+          "url": "/blog/what-is-white-label-saas"
+        },
+        {
+          "text": "SaaS MVP in 30 days",
+          "url": "/blog/saas-mvp-in-30-days"
+        },
+        {
+          "text": "AI & Automation category",
+          "url": "/blog/ai-automation"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 8,
+      "h3Count": 12,
+      "h4Count": 0,
+      "headingsInFrontmatter": 20,
+      "hasFaq": true,
+      "contentLength": 11056
+    },
+    {
+      "file": "saas-audit-checklist-before-launch.md",
+      "slug": "saas-audit-checklist-before-launch",
+      "title": "SaaS Audit Checklist Before Launch (2026 Guide)",
+      "category": "Audits & Economics",
+      "readingTime": 8,
+      "wordCount": 1540,
+      "publishedAt": "2026-05-08T08:23:05+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/saas-audit-checklist-before-launch.webp",
+      "featuredImageAlt": "SaaS Audit Checklist Before Launch (2026 Expert Guide to a Flawless Launch)",
+      "internalLinks": [
+        {
+          "text": "MVP development costs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "Audits & Economics guides",
+          "url": "/blog/audits-economics"
+        },
+        {
+          "text": "who develops brand identity for SaaS companies",
+          "url": "/blog/who-develops-brand-identity-for-saas-companies"
+        },
+        {
+          "text": "common UX mistakes that kill SaaS conversion rates",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "SaaS database design",
+          "url": "/blog/saas-database-design"
+        },
+        {
+          "text": "SaaS integrations architecture",
+          "url": "/blog/saas-integrations"
+        },
+        {
+          "text": "9 common SaaS SEO mistakes that hurt rankings",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "SaaS database design",
+          "url": "/blog/saas-database-design"
+        },
+        {
+          "text": "MVP development costs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "contact our technical editorial desk",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "OWASP Top 10 Security Guidelines",
+          "url": "https://owasp.org/www-project-top-ten/"
+        },
+        {
+          "text": "Mozilla Observatory",
+          "url": "https://observatory.mozilla.org/"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 7,
+      "h3Count": 5,
+      "h4Count": 0,
+      "headingsInFrontmatter": 12,
+      "hasFaq": true,
+      "contentLength": 11035
+    },
+    {
+      "file": "saas-database-design.md",
+      "slug": "saas-database-design",
+      "title": "SaaS Database Design for Growth: Build Once, Scale Safely",
+      "category": "Architecture",
+      "readingTime": 7,
+      "wordCount": 1420,
+      "publishedAt": "2026-06-16T11:01:25+00:00",
+      "modifiedAt": "2026-06-24T10:36:20+00:00",
+      "featuredImage": "/images/articles/saas-database-design.webp",
+      "featuredImageAlt": "SaaS Database Design for Growth: Build Once, Scale Without Breaking",
+      "internalLinks": [
+        {
+          "text": "SaaS development costs",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "backend choices for SaaS",
+          "url": "/blog/backend-choices-for-saas"
+        },
+        {
+          "text": "SaaS website architecture",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "SaaS Architecture category",
+          "url": "/blog/architecture"
+        },
+        {
+          "text": "multi-tenant SaaS architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "SaaS integrations",
+          "url": "/blog/saas-integrations"
+        },
+        {
+          "text": "backend choices for SaaS",
+          "url": "/blog/backend-choices-for-saas"
+        },
+        {
+          "text": "multi-tenant SaaS architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "contact our technical editorial desk",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "PostgreSQL",
+          "url": "https://www.postgresql.org/docs/"
+        },
+        {
+          "text": "PostgreSQL Row-Level Security (RLS)",
+          "url": "https://www.postgresql.org/docs/current/ddl-rowsecurity.html"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 11,
+      "h4Count": 3,
+      "headingsInFrontmatter": 24,
+      "hasFaq": true,
+      "contentLength": 13830
+    },
+    {
+      "file": "saas-development-agency-vs-freelancer.md",
+      "slug": "saas-development-agency-vs-freelancer",
+      "title": "SaaS Development Agency vs Freelancer: Which Fits Your Vision?",
+      "category": "MVP & Engineering",
+      "readingTime": 7,
+      "wordCount": 1453,
+      "publishedAt": "2026-06-11T09:42:24+00:00",
+      "modifiedAt": "2026-06-24T10:36:20+00:00",
+      "featuredImage": "/images/articles/saas-development-agency-vs-freelancer.webp",
+      "featuredImageAlt": "SaaS Development Agency vs Freelancer: Which One Actually Builds Your Vision?",
+      "internalLinks": [
+        {
+          "text": "MVP development cost",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "how to choose a SaaS development partner in 2026",
+          "url": "/blog/choose-saas-development-partner"
+        },
+        {
+          "text": "white label SaaS",
+          "url": "/blog/what-is-white-label-saas"
+        },
+        {
+          "text": "hire a SaaS developer",
+          "url": "/blog/hiring-a-saas-developer"
+        },
+        {
+          "text": "MVP & Engineering guides",
+          "url": "/blog/mvp-engineering"
+        },
+        {
+          "text": "Node.js backend",
+          "url": "/blog/backend-choices-for-saas"
+        },
+        {
+          "text": "SaaS development",
+          "url": "/blog/saas-development-cost"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 6,
+      "h3Count": 0,
+      "h4Count": 7,
+      "headingsInFrontmatter": 13,
+      "hasFaq": true,
+      "contentLength": 9156
+    },
+    {
+      "file": "saas-development-cost.md",
+      "slug": "saas-development-cost",
+      "title": "How Much Does SaaS Development Cost in 2026?",
+      "category": "Audits & Economics",
+      "readingTime": 9,
+      "wordCount": 1875,
+      "publishedAt": "2026-04-15T13:17:10+00:00",
+      "modifiedAt": "2026-06-24T10:36:22+00:00",
+      "featuredImage": "/images/articles/saas-development-cost.webp",
+      "featuredImageAlt": "How Much Does SaaS Development Cost in 2026?",
+      "internalLinks": [
+        {
+          "text": "per-feature SaaS platform development cost breakdown",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "how much it costs to add AI to SaaS",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "B2C SaaS development",
+          "url": "/blog/hiring-a-saas-developer"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 0,
+      "h4Count": 21,
+      "headingsInFrontmatter": 31,
+      "hasFaq": true,
+      "contentLength": 12911
+    },
+    {
+      "file": "saas-integrations.md",
+      "slug": "saas-integrations",
+      "title": "SaaS Integrations That Matter in Early Stage (2026 Guide)",
+      "category": "Architecture",
+      "readingTime": 15,
+      "wordCount": 3067,
+      "publishedAt": "2026-04-30T14:19:29+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/saas-integrations.webp",
+      "featuredImageAlt": "SaaS Integrations That Matter in Early Stage (2026 Guide)",
+      "internalLinks": [
+        {
+          "text": "SaaS website architecture blueprint",
+          "url": "/blog/saas-website-architecture"
+        },
+        {
+          "text": "backend choices for SaaS",
+          "url": "/blog/backend-choices-for-saas"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 10,
+      "h3Count": 0,
+      "h4Count": 10,
+      "headingsInFrontmatter": 20,
+      "hasFaq": true,
+      "contentLength": 19158
+    },
+    {
+      "file": "saas-mvp-in-30-days.md",
+      "slug": "saas-mvp-in-30-days",
+      "title": "SaaS MVP in 30 Days: Is It Actually Possible?",
+      "category": "MVP & Engineering",
+      "readingTime": 9,
+      "wordCount": 1745,
+      "publishedAt": "2026-04-29T10:58:35+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/saas-mvp-in-30-days.webp",
+      "featuredImageAlt": "SaaS MVP in 30 Days: Is It Actually Possible?",
+      "internalLinks": [
+        {
+          "text": "SaaS MVP development cost breakdown",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "validating a SaaS idea before spending money",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "why early SaaS MVPs fail in their first 90 days",
+          "url": "/blog/why-most-saas-mvps-fail"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 0,
+      "h4Count": 12,
+      "headingsInFrontmatter": 21,
+      "hasFaq": true,
+      "contentLength": 10603
+    },
+    {
+      "file": "saas-platform-development-cost-2025-2026-per-feature.md",
+      "slug": "saas-platform-development-cost-2025-2026-per-feature",
+      "title": "SaaS Platform Development Cost in 2026: Per-Feature Guide",
+      "category": "Audits & Economics",
+      "readingTime": 9,
+      "wordCount": 1719,
+      "publishedAt": "2026-08-05T15:34:09+00:00",
+      "modifiedAt": "2026-08-10T08:31:37+00:00",
+      "featuredImage": "/images/articles/saas-platform-development-cost-2025-2026-per-feature.webp",
+      "featuredImageAlt": "SaaS Platform Development Cost 2025-2026: A Per-Feature Breakdown",
+      "internalLinks": [
+        {
+          "text": "SaaS development cost",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "How Much Does It Cost to Add AI to a SaaS?",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "How to Validate a SaaS Idea Before Spending $1",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "How to Scale a SaaS Business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "SaaS Development Agency vs Freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "how to turn a spreadsheet into a SaaS product",
+          "url": "/blog/how-to-turn-a-spreadsheet-into-a-saas-product"
+        },
+        {
+          "text": "SaaS Launch Lab",
+          "url": "/"
+        },
+        {
+          "text": "contact our editorial and technical team",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 7,
+      "h3Count": 10,
+      "h4Count": 0,
+      "headingsInFrontmatter": 17,
+      "hasFaq": true,
+      "contentLength": 11525
+    },
+    {
+      "file": "saas-product-development.md",
+      "slug": "saas-product-development",
+      "title": "SaaS Product Development: The Complete 2026 Guide",
+      "category": "MVP & Engineering",
+      "readingTime": 11,
+      "wordCount": 2256,
+      "publishedAt": "2026-08-12T12:53:56+00:00",
+      "modifiedAt": "2026-08-12T13:01:56+00:00",
+      "featuredImage": "/images/articles/saas-product-development.webp",
+      "featuredImageAlt": "SaaS Product Development: The Complete 2026 Guide (From Idea to Scale)",
+      "internalLinks": [
+        {
+          "text": "how much does it cost to build a SaaS product",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "SaaS Development Agency vs Freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "costs in 2026",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "SaaS ideas",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "just build an MVP",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "How Much Does It Cost to Add AI to a SaaS?",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "SaaS Product Development lifecycle",
+          "url": "/images/articles/saas-product-development-content-1.webp"
+        },
+        {
+          "text": "How to Scale a SaaS Business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "SaaS Product Development cost by complexity",
+          "url": "/images/articles/saas-product-development-content-2.webp"
+        },
+        {
+          "text": "B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "Multi-Tenant SaaS Architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "Common SaaS SEO",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "Common UX Mistakes",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "How to Choose a SaaS Development Partner",
+          "url": "/blog/choose-saas-development-partner"
+        },
+        {
+          "text": "SaaS product development",
+          "url": "/blog/how-to-integrate-lending-services-into-a-saas-product"
+        },
+        {
+          "text": "**SaaS Launch Lab guide to launching and marketing a SaaS product**",
+          "url": "/"
+        },
+        {
+          "text": "SaaS Audit Checklist Before Launch",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 13,
+      "h4Count": 0,
+      "headingsInFrontmatter": 22,
+      "hasFaq": true,
+      "contentLength": 15158
+    },
+    {
+      "file": "saas-website-architecture.md",
+      "slug": "saas-website-architecture",
+      "title": "SaaS Website Architecture: Complete Blueprint for Scalability",
+      "category": "Architecture",
+      "readingTime": 16,
+      "wordCount": 3130,
+      "publishedAt": "2026-05-15T12:24:45+00:00",
+      "modifiedAt": "2026-06-24T10:36:20+00:00",
+      "featuredImage": "/images/articles/saas-website-architecture.webp",
+      "featuredImageAlt": "SaaS Website Architecture: The Complete Blueprint for Building Scalable, Secure Products",
+      "internalLinks": [
+        {
+          "text": "start of a SaaS project",
+          "url": "/blog/hiring-a-saas-developer"
+        },
+        {
+          "text": "multi-tenancy",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "SaaS database design for growth",
+          "url": "/blog/saas-database-design"
+        },
+        {
+          "text": "backend choices for SaaS",
+          "url": "/blog/backend-choices-for-saas"
+        },
+        {
+          "text": "early-stage SaaS integrations",
+          "url": "/blog/saas-integrations"
+        },
+        {
+          "text": "SaaS website",
+          "url": "/blog/how-to-integrate-lending-services-into-a-saas-product"
+        },
+        {
+          "text": "how much it costs",
+          "url": "/blog/saas-development-cost"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 13,
+      "h3Count": 14,
+      "h4Count": 6,
+      "headingsInFrontmatter": 33,
+      "hasFaq": true,
+      "contentLength": 21442
+    },
+    {
+      "file": "validate-saas-idea.md",
+      "slug": "validate-saas-idea",
+      "title": "How to Validate a SaaS Idea Before Spending $1 (2026)",
+      "category": "MVP & Engineering",
+      "readingTime": 10,
+      "wordCount": 2070,
+      "publishedAt": "2026-06-04T10:54:06+00:00",
+      "modifiedAt": "2026-06-24T10:36:20+00:00",
+      "featuredImage": "/images/articles/validate-saas-idea.webp",
+      "featuredImageAlt": "How to Validate a SaaS Idea Before Spending $1 (2026)",
+      "internalLinks": [
+        {
+          "text": "no-code SaaS guide",
+          "url": "/blog/no-code-saas-guide"
+        },
+        {
+          "text": "B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "SaaS development costs",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "turn a spreadsheet into a SaaS product",
+          "url": "/blog/how-to-turn-a-spreadsheet-into-a-saas-product"
+        },
+        {
+          "text": "MVP & Engineering guides",
+          "url": "/blog/mvp-engineering"
+        },
+        {
+          "text": "SaaS MVP development costs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "SaaS MVP in 30 days",
+          "url": "/blog/saas-mvp-in-30-days"
+        },
+        {
+          "text": "pre-launch SaaS audit checklist",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 8,
+      "h3Count": 12,
+      "h4Count": 0,
+      "headingsInFrontmatter": 20,
+      "hasFaq": true,
+      "contentLength": 13027
+    },
+    {
+      "file": "what-is-b2b-saas.md",
+      "slug": "what-is-b2b-saas",
+      "title": "What Is B2B SaaS? 2026 Guide with Real-World Examples",
+      "category": "Growth & Strategy",
+      "readingTime": 8,
+      "wordCount": 1694,
+      "publishedAt": "2026-01-26T14:47:10+00:00",
+      "modifiedAt": "2026-07-29T15:09:05+00:00",
+      "featuredImage": "/images/articles/what-is-b2b-saas.webp",
+      "featuredImageAlt": "What is B2B SaaS? The Ultimate 2026 Guide with Real-World Examples",
+      "internalLinks": [
+        {
+          "text": "customer",
+          "url": "/blog/customer-success-in-saas-2026"
+        },
+        {
+          "text": "What Is SaaS Sales?",
+          "url": "/blog/what-is-saas-sales"
+        },
+        {
+          "text": "How to Scale a SaaS Business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "what is b2b SaaS",
+          "url": "/images/articles/what-is-b2b-saas-content-1.webp"
+        },
+        {
+          "text": "Common SaaS SEO Mistakes",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "Common UX Mistakes That Kill Conversion",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "How to Choose a SaaS Development Partner in 2026",
+          "url": "/blog/choose-saas-development-partner"
+        },
+        {
+          "text": "How Does B2B SaaS Work",
+          "url": "/images/articles/what-is-b2b-saas-content-2.webp"
+        },
+        {
+          "text": "How to Validate a SaaS Idea Before Spending $1",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "Enterprise SaaS backend",
+          "url": "/blog/backend-choices-for-saas"
+        },
+        {
+          "text": "SaaS Development Agency vs Freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "white label SaaS",
+          "url": "/blog/what-is-white-label-saas"
+        },
+        {
+          "text": "SaaS product development",
+          "url": "/blog/saas-product-development"
+        },
+        {
+          "text": "Growth & Strategy category",
+          "url": "/blog/growth-strategy"
+        },
+        {
+          "text": "How Much Does It Cost to Add AI to a SaaS?",
+          "url": "/blog/cost-of-ai-in-saas"
+        },
+        {
+          "text": "How Much Does SaaS Development Cost in 2026?",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "SaaS Audit Checklist Before Launch",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        },
+        {
+          "text": "B2B SaaS",
+          "url": "/blog/category/growth-strategy"
+        },
+        {
+          "text": "Why Most SaaS MVPs Fail in the First 90 Days",
+          "url": "/blog/why-most-saas-mvps-fail"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 12,
+      "h3Count": 3,
+      "h4Count": 0,
+      "headingsInFrontmatter": 15,
+      "hasFaq": true,
+      "contentLength": 12457
+    },
+    {
+      "file": "what-is-saas-sales.md",
+      "slug": "what-is-saas-sales",
+      "title": "What Is SaaS Sales? A Complete Guide to Modern Playbooks",
+      "category": "Growth & Strategy",
+      "readingTime": 9,
+      "wordCount": 1787,
+      "publishedAt": "2026-07-15T11:22:32+00:00",
+      "modifiedAt": "2026-07-15T13:31:19+00:00",
+      "featuredImage": "/images/articles/what-is-saas-sales.webp",
+      "featuredImageAlt": "What Is SaaS Sales? A Complete Guide",
+      "internalLinks": [
+        {
+          "text": "Software-as-a-Service",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "SaaS software",
+          "url": "/blog/9-common-saas-seo-mistakes"
+        },
+        {
+          "text": "B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "scaling a SaaS business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "customer success in SaaS in 2026",
+          "url": "/blog/customer-success-in-saas-2026"
+        },
+        {
+          "text": "common mistake",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 16,
+      "h4Count": 0,
+      "headingsInFrontmatter": 25,
+      "hasFaq": true,
+      "contentLength": 11398
+    },
+    {
+      "file": "what-is-white-label-saas.md",
+      "slug": "what-is-white-label-saas",
+      "title": "What Is White Label SaaS? 2026 Guide to Rebrandable Software",
+      "category": "Growth & Strategy",
+      "readingTime": 7,
+      "wordCount": 1460,
+      "publishedAt": "2026-05-07T14:03:37+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/what-is-white-label-saas.png",
+      "featuredImageAlt": "What Is White Label SaaS? (Complete Guide for 2026 Growth)",
+      "internalLinks": [
+        {
+          "text": "SaaS development costs",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "Growth & Strategy journal",
+          "url": "/blog/growth-strategy"
+        },
+        {
+          "text": "who develops brand identity for SaaS companies",
+          "url": "/blog/who-develops-brand-identity-for-saas-companies"
+        },
+        {
+          "text": "what is B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "multi-tenant SaaS architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "SaaS development cost",
+          "url": "/blog/saas-development-cost"
+        },
+        {
+          "text": "multi-tenant SaaS architecture",
+          "url": "/blog/multi-tenant-saas-architecture"
+        },
+        {
+          "text": "editorial team",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "IETF RFC 8555 (ACME protocol)",
+          "url": "https://datatracker.ietf.org/doc/html/rfc8555"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 4,
+      "h4Count": 0,
+      "headingsInFrontmatter": 12,
+      "hasFaq": true,
+      "contentLength": 10995
+    },
+    {
+      "file": "who-develops-brand-identity-for-saas-companies.md",
+      "slug": "who-develops-brand-identity-for-saas-companies",
+      "title": "Who Develops Brand Identity for SaaS Companies?",
+      "category": "Growth & Strategy",
+      "readingTime": 7,
+      "wordCount": 1380,
+      "publishedAt": "2026-05-13T12:37:17+00:00",
+      "modifiedAt": "2026-06-24T10:36:21+00:00",
+      "featuredImage": "/images/articles/who-develops-brand-identity-for-saas-companies.webp",
+      "featuredImageAlt": "Who Develops Brand Identity for SaaS Companies?",
+      "internalLinks": [
+        {
+          "text": "Growth & Strategy guides",
+          "url": "/blog/growth-strategy"
+        },
+        {
+          "text": "common UX mistakes that kill SaaS conversion rates",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "SaaS development agency vs freelancer",
+          "url": "/blog/saas-development-agency-vs-freelancer"
+        },
+        {
+          "text": "B2B SaaS product lines",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "SaaS product development lifecycle",
+          "url": "/blog/saas-product-development"
+        },
+        {
+          "text": "SaaS product development",
+          "url": "/blog/saas-product-development"
+        },
+        {
+          "text": "common UX mistakes that kill SaaS conversion rates",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "contact our technical editorial desk",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [
+        {
+          "text": "W3C WCAG 2.1 AA standards",
+          "url": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+        }
+      ],
+      "h1Count": 0,
+      "h2Count": 9,
+      "h3Count": 7,
+      "h4Count": 0,
+      "headingsInFrontmatter": 16,
+      "hasFaq": true,
+      "contentLength": 11964
+    },
+    {
+      "file": "why-most-saas-mvps-fail.md",
+      "slug": "why-most-saas-mvps-fail",
+      "title": "Why Most SaaS MVPs Fail in the First 90 Days",
+      "category": "MVP & Engineering",
+      "readingTime": 9,
+      "wordCount": 1849,
+      "publishedAt": "2026-07-20T11:13:42+00:00",
+      "modifiedAt": "2026-07-29T11:13:28+00:00",
+      "featuredImage": "/images/articles/why-most-saas-mvps-fail.webp",
+      "featuredImageAlt": "Why Most SaaS MVPs Fail in the First 90 Days",
+      "internalLinks": [
+        {
+          "text": "B2B SaaS",
+          "url": "/blog/what-is-b2b-saas"
+        },
+        {
+          "text": "common UX mistakes that kill SaaS conversion rates",
+          "url": "/blog/common-ux-mistakes-saas-conversion-rates"
+        },
+        {
+          "text": "SaaS product development",
+          "url": "/blog/saas-product-development"
+        },
+        {
+          "text": "MVP & Engineering guides",
+          "url": "/blog/mvp-engineering"
+        },
+        {
+          "text": "MVPs",
+          "url": "/blog/mvp-development-cost"
+        },
+        {
+          "text": "launch a SaaS MVP in 30 days",
+          "url": "/blog/saas-mvp-in-30-days"
+        },
+        {
+          "text": "who develops brand identity for SaaS companies",
+          "url": "/blog/who-develops-brand-identity-for-saas-companies"
+        },
+        {
+          "text": "how to validate a SaaS idea before spending money",
+          "url": "/blog/validate-saas-idea"
+        },
+        {
+          "text": "SaaS launch",
+          "url": "/blog/saas-audit-checklist-before-launch"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 11,
+      "h3Count": 2,
+      "h4Count": 0,
+      "headingsInFrontmatter": 13,
+      "hasFaq": true,
+      "contentLength": 11371
+    }
+  ],
+  "inboundLinks": {
+    "9-common-saas-seo-mistakes": [
+      {
+        "from": "common-ux-mistakes-saas-conversion-rates",
+        "text": "9 common SaaS SEO mistakes"
+      },
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "technical SaaS SEO strategy"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "9 Common SaaS SEO Mistakes"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "9 common SaaS SEO mistakes that hurt rankings"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "Common SaaS SEO"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "Common SaaS SEO Mistakes"
+      },
+      {
+        "from": "what-is-saas-sales",
+        "text": "SaaS software"
+      }
+    ],
+    "backend-choices-for-saas": [
+      {
+        "from": "hiring-a-saas-developer",
+        "text": "backend choices for SaaS: Node, Django, or Laravel"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "backend choices for SaaS"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "backend choices for SaaS"
+      },
+      {
+        "from": "saas-development-agency-vs-freelancer",
+        "text": "Node.js backend"
+      },
+      {
+        "from": "saas-integrations",
+        "text": "backend choices for SaaS"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "backend choices for SaaS"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "Enterprise SaaS backend"
+      }
+    ],
+    "choose-saas-development-partner": [
+      {
+        "from": "hiring-a-saas-developer",
+        "text": "how to choose a SaaS development partner in 2026"
+      },
+      {
+        "from": "saas-development-agency-vs-freelancer",
+        "text": "how to choose a SaaS development partner in 2026"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "How to Choose a SaaS Development Partner"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "How to Choose a SaaS Development Partner in 2026"
+      }
+    ],
+    "common-ux-mistakes-saas-conversion-rates": [
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "common UX mistakes that kill SaaS conversion rates"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "common UX mistakes that kill SaaS conversion rates"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "Common UX Mistakes"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "Common UX Mistakes That Kill Conversion"
+      },
+      {
+        "from": "what-is-saas-sales",
+        "text": "common mistake"
+      },
+      {
+        "from": "who-develops-brand-identity-for-saas-companies",
+        "text": "common UX mistakes that kill SaaS conversion rates"
+      },
+      {
+        "from": "who-develops-brand-identity-for-saas-companies",
+        "text": "common UX mistakes that kill SaaS conversion rates"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "common UX mistakes that kill SaaS conversion rates"
+      }
+    ],
+    "cost-of-ai-in-saas": [
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "AI feature costs"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "cost of AI in SaaS"
+      },
+      {
+        "from": "saas-development-cost",
+        "text": "how much it costs to add AI to SaaS"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "How Much Does It Cost to Add AI to a SaaS?"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "How Much Does It Cost to Add AI to a SaaS?"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "How Much Does It Cost to Add AI to a SaaS?"
+      }
+    ],
+    "customer-success-in-saas-2026": [
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "customer success in SaaS"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "customer"
+      },
+      {
+        "from": "what-is-saas-sales",
+        "text": "customer success in SaaS in 2026"
+      }
+    ],
+    "hiring-a-saas-developer": [
+      {
+        "from": "choose-saas-development-partner",
+        "text": "SaaS development partner"
+      },
+      {
+        "from": "multi-tenant-saas-architecture",
+        "text": "senior developer"
+      },
+      {
+        "from": "saas-development-agency-vs-freelancer",
+        "text": "hire a SaaS developer"
+      },
+      {
+        "from": "saas-development-cost",
+        "text": "B2C SaaS development"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "start of a SaaS project"
+      }
+    ],
+    "how-to-integrate-lending-services-into-a-saas-product": [
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "integrating lending services into SaaS"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "SaaS product development"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "SaaS website"
+      }
+    ],
+    "how-to-scale-a-saas-business": [
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "how to scale a SaaS business"
+      },
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "how to scale a SaaS business"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "How to Scale a SaaS Business"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "How to Scale a SaaS Business"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "How to Scale a SaaS Business"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "How to Scale a SaaS Business"
+      },
+      {
+        "from": "what-is-saas-sales",
+        "text": "scaling a SaaS business"
+      }
+    ],
+    "how-to-turn-a-spreadsheet-into-a-saas-product": [
+      {
+        "from": "no-code-saas-guide",
+        "text": "how to turn a spreadsheet into a SaaS product"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "how to turn a spreadsheet into a SaaS product"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "turn a spreadsheet into a SaaS product"
+      }
+    ],
+    "multi-tenant-saas-architecture": [
+      {
+        "from": "backend-choices-for-saas",
+        "text": "multi-tenant SaaS architecture"
+      },
+      {
+        "from": "hiring-a-saas-developer",
+        "text": "multi-tenant SaaS architecture"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "multi-tenant SaaS architecture"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "multi-tenant SaaS architecture"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "Multi-Tenant SaaS Architecture"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "multi-tenancy"
+      },
+      {
+        "from": "what-is-white-label-saas",
+        "text": "multi-tenant SaaS architecture"
+      },
+      {
+        "from": "what-is-white-label-saas",
+        "text": "multi-tenant SaaS architecture"
+      }
+    ],
+    "mvp-development-cost": [
+      {
+        "from": "choose-saas-development-partner",
+        "text": "MVP development costs"
+      },
+      {
+        "from": "choose-saas-development-partner",
+        "text": "MVP development costs"
+      },
+      {
+        "from": "hiring-a-saas-developer",
+        "text": "MVP development cost breakdown"
+      },
+      {
+        "from": "no-code-saas-guide",
+        "text": "SaaS MVP development costs"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "MVP development costs"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "MVP development costs"
+      },
+      {
+        "from": "saas-development-agency-vs-freelancer",
+        "text": "MVP development cost"
+      },
+      {
+        "from": "saas-mvp-in-30-days",
+        "text": "SaaS MVP development cost breakdown"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "just build an MVP"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "SaaS MVP development costs"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "MVPs"
+      }
+    ],
+    "no-code-saas-guide": [
+      {
+        "from": "mvp-development-cost",
+        "text": "no-code SaaS guide"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "no-code SaaS guide"
+      }
+    ],
+    "saas-audit-checklist-before-launch": [
+      {
+        "from": "common-ux-mistakes-saas-conversion-rates",
+        "text": "SaaS audit checklist before launch"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "pre-launch SaaS audit"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "SaaS Audit Checklist Before Launch"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "pre-launch SaaS audit checklist"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "SaaS Audit Checklist Before Launch"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "SaaS launch"
+      }
+    ],
+    "saas-database-design": [
+      {
+        "from": "backend-choices-for-saas",
+        "text": "SaaS database design strategies"
+      },
+      {
+        "from": "multi-tenant-saas-architecture",
+        "text": "SaaS database design"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "SaaS database design"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "SaaS database design"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "SaaS database design for growth"
+      }
+    ],
+    "saas-development-agency-vs-freelancer": [
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "SaaS company"
+      },
+      {
+        "from": "choose-saas-development-partner",
+        "text": "SaaS development agency vs freelancer"
+      },
+      {
+        "from": "choose-saas-development-partner",
+        "text": "SaaS development agency vs freelancer"
+      },
+      {
+        "from": "hiring-a-saas-developer",
+        "text": "SaaS development agency vs freelancer"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "SaaS Development Agency vs Freelancer"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "SaaS development agency vs freelancer"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "SaaS Development Agency vs Freelancer"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "SaaS Development Agency vs Freelancer"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "SaaS Development Agency vs Freelancer"
+      },
+      {
+        "from": "what-is-saas-sales",
+        "text": "Software-as-a-Service"
+      },
+      {
+        "from": "who-develops-brand-identity-for-saas-companies",
+        "text": "SaaS development agency vs freelancer"
+      }
+    ],
+    "saas-development-cost": [
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "How Much Does SaaS Development Cost in 2026?"
+      },
+      {
+        "from": "cost-of-ai-in-saas",
+        "text": "overall SaaS development costs"
+      },
+      {
+        "from": "multi-tenant-saas-architecture",
+        "text": "infrastructure costs"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "development cost in 2026"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "SaaS development costs"
+      },
+      {
+        "from": "saas-development-agency-vs-freelancer",
+        "text": "SaaS development"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "SaaS development cost"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "costs in 2026"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "how much it costs"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "SaaS development costs"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "How Much Does SaaS Development Cost in 2026?"
+      },
+      {
+        "from": "what-is-white-label-saas",
+        "text": "SaaS development costs"
+      },
+      {
+        "from": "what-is-white-label-saas",
+        "text": "SaaS development cost"
+      }
+    ],
+    "saas-integrations": [
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "SaaS integrations"
+      },
+      {
+        "from": "how-to-integrate-lending-services-into-a-saas-product",
+        "text": "SaaS lending integration"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "SaaS integrations architecture"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "SaaS integrations"
+      },
+      {
+        "from": "saas-website-architecture",
+        "text": "early-stage SaaS integrations"
+      }
+    ],
+    "saas-mvp-in-30-days": [
+      {
+        "from": "choose-saas-development-partner",
+        "text": "launch a SaaS MVP in 30 days"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "30-day SaaS MVP execution plan"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "launch a SaaS MVP in 30 days"
+      },
+      {
+        "from": "no-code-saas-guide",
+        "text": "SaaS MVP in 30 days"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "SaaS MVP in 30 days"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "launch a SaaS MVP in 30 days"
+      }
+    ],
+    "saas-platform-development-cost-2025-2026-per-feature": [
+      {
+        "from": "cost-of-ai-in-saas",
+        "text": "per-feature SaaS platform development cost guide"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "pricing"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "SaaS Platform Development Cost"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "guide on SaaS platform development costs"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "SaaS platform development cost per feature"
+      },
+      {
+        "from": "saas-development-cost",
+        "text": "per-feature SaaS platform development cost breakdown"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "how much does it cost to build a SaaS product"
+      }
+    ],
+    "saas-product-development": [
+      {
+        "from": "mvp-development-cost",
+        "text": "startup product development"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "complete SaaS product development roadmap"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "SaaS product development"
+      },
+      {
+        "from": "who-develops-brand-identity-for-saas-companies",
+        "text": "SaaS product development lifecycle"
+      },
+      {
+        "from": "who-develops-brand-identity-for-saas-companies",
+        "text": "SaaS product development"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "SaaS product development"
+      }
+    ],
+    "saas-website-architecture": [
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "SaaS websites"
+      },
+      {
+        "from": "backend-choices-for-saas",
+        "text": "SaaS website architecture blueprint"
+      },
+      {
+        "from": "common-ux-mistakes-saas-conversion-rates",
+        "text": "SaaS website architecture"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "structure"
+      },
+      {
+        "from": "multi-tenant-saas-architecture",
+        "text": "SaaS website architecture blueprint"
+      },
+      {
+        "from": "saas-database-design",
+        "text": "SaaS website architecture"
+      },
+      {
+        "from": "saas-integrations",
+        "text": "SaaS website architecture blueprint"
+      }
+    ],
+    "validate-saas-idea": [
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "How to Validate a SaaS Idea Before Spending $1"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "how to validate a SaaS idea before spending $1"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "how to validate a SaaS idea before spending money"
+      },
+      {
+        "from": "saas-mvp-in-30-days",
+        "text": "validating a SaaS idea before spending money"
+      },
+      {
+        "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "How to Validate a SaaS Idea Before Spending $1"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "SaaS ideas"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "How to Validate a SaaS Idea Before Spending $1"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "how to validate a SaaS idea before spending money"
+      }
+    ],
+    "what-is-b2b-saas": [
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "what B2B SaaS actually means"
+      },
+      {
+        "from": "9-common-saas-seo-mistakes",
+        "text": "what is B2B SaaS"
+      },
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "B2B SaaS"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "SaaS business grow"
+      },
+      {
+        "from": "how-to-turn-a-spreadsheet-into-a-saas-product",
+        "text": "What is B2B SaaS?"
+      },
+      {
+        "from": "saas-product-development",
+        "text": "B2B SaaS"
+      },
+      {
+        "from": "validate-saas-idea",
+        "text": "B2B SaaS"
+      },
+      {
+        "from": "what-is-saas-sales",
+        "text": "B2B SaaS"
+      },
+      {
+        "from": "what-is-white-label-saas",
+        "text": "what is B2B SaaS"
+      },
+      {
+        "from": "who-develops-brand-identity-for-saas-companies",
+        "text": "B2B SaaS product lines"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "B2B SaaS"
+      }
+    ],
+    "what-is-saas-sales": [
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "what is SaaS sales"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "B2B SaaS sales motion"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "What Is SaaS Sales?"
+      }
+    ],
+    "what-is-white-label-saas": [
+      {
+        "from": "common-ux-mistakes-saas-conversion-rates",
+        "text": "what is white label SaaS"
+      },
+      {
+        "from": "no-code-saas-guide",
+        "text": "what is white label SaaS"
+      },
+      {
+        "from": "saas-development-agency-vs-freelancer",
+        "text": "white label SaaS"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "white label SaaS"
+      }
+    ],
+    "who-develops-brand-identity-for-saas-companies": [
+      {
+        "from": "common-ux-mistakes-saas-conversion-rates",
+        "text": "who develops brand identity for SaaS companies"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "who develops brand identity for SaaS companies"
+      },
+      {
+        "from": "saas-audit-checklist-before-launch",
+        "text": "who develops brand identity for SaaS companies"
+      },
+      {
+        "from": "what-is-white-label-saas",
+        "text": "who develops brand identity for SaaS companies"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "who develops brand identity for SaaS companies"
+      }
+    ],
+    "why-most-saas-mvps-fail": [
+      {
+        "from": "choose-saas-development-partner",
+        "text": "why most SaaS MVPs fail"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "common scaling mistake"
+      },
+      {
+        "from": "mvp-development-cost",
+        "text": "why most SaaS MVPs fail in the first 90 days"
+      },
+      {
+        "from": "saas-mvp-in-30-days",
+        "text": "why early SaaS MVPs fail in their first 90 days"
+      },
+      {
+        "from": "what-is-b2b-saas",
+        "text": "Why Most SaaS MVPs Fail in the First 90 Days"
+      }
+    ]
+  }
+}

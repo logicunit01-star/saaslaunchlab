@@ -151,42 +151,53 @@ export default async function AuthorProfilePage({ params }: AuthorPageProps) {
                   {author.bio}
                 </p>
 
-                {/* Verified Professional Profile Links */}
-                <div className="flex items-center gap-3 pt-3 flex-wrap">
-                  {author.linkedin && (
-                    <a
-                      href={author.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg transition-colors shadow-xs"
+                {/* Professional Profile Links */}
+                {(author.linkedin || author.github || author.twitter) ? (
+                  <div className="flex items-center gap-3 pt-3 flex-wrap">
+                    {author.linkedin && (
+                      <a
+                        href={author.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg transition-colors shadow-xs"
+                      >
+                        <Linkedin className="w-3.5 h-3.5 text-sky-600" />
+                        <span>LinkedIn Profile</span>
+                      </a>
+                    )}
+                    {author.github && (
+                      <a
+                        href={author.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg transition-colors shadow-xs"
+                      >
+                        <Github className="w-3.5 h-3.5 text-slate-700" />
+                        <span>GitHub</span>
+                      </a>
+                    )}
+                    {author.twitter && (
+                      <a
+                        href={author.twitter}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg transition-colors shadow-xs"
+                      >
+                        <Twitter className="w-3.5 h-3.5 text-sky-500" />
+                        <span>X (Twitter)</span>
+                      </a>
+                    )}
+                  </div>
+                ) : (
+                  <div className="pt-3">
+                    <Link
+                      href="/about"
+                      className="inline-flex items-center space-x-1.5 text-xs font-semibold text-sky-600 hover:text-sky-700"
                     >
-                      <Linkedin className="w-3.5 h-3.5 text-sky-600" />
-                      <span>LinkedIn Profile [PLACEHOLDER]</span>
-                    </a>
-                  )}
-                  {author.github && (
-                    <a
-                      href={author.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg transition-colors shadow-xs"
-                    >
-                      <Github className="w-3.5 h-3.5 text-slate-700" />
-                      <span>GitHub [PLACEHOLDER]</span>
-                    </a>
-                  )}
-                  {author.twitter && (
-                    <a
-                      href={author.twitter}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-3 py-1.5 rounded-lg transition-colors shadow-xs"
-                    >
-                      <Twitter className="w-3.5 h-3.5 text-sky-500" />
-                      <span>X / Twitter [PLACEHOLDER]</span>
-                    </a>
-                  )}
-                </div>
+                      <span>Read our editorial mission & standards &rarr;</span>
+                    </Link>
+                  </div>
+                )}
               </div>
             </div>
           </div>

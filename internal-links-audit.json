@@ -1,0 +1,1883 @@
+[
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "SEO blogs",
+    "url": "/blog",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "SaaS websites",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "what B2B SaaS actually means",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "how to scale a SaaS business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "what is B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "How Much Does SaaS Development Cost in 2026?",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "common UX mistakes that kill SaaS conversion rates",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "editorial desk and engineering guides",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "Audits & Economics guides",
+    "url": "/blog/category/audits-economics",
+    "linkType": "category",
+    "destSlug": "audits-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "9-common-saas-seo-mistakes",
+    "text": "SaaS company",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "backend-choices-for-saas",
+    "text": "SaaS website architecture blueprint",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "backend-choices-for-saas",
+    "text": "multi-tenant SaaS architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "backend-choices-for-saas",
+    "text": "SaaS database design strategies",
+    "url": "/blog/saas-database-design",
+    "linkType": "article",
+    "destSlug": "saas-database-design",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "SaaS development partner",
+    "url": "/blog/hiring-a-saas-developer",
+    "linkType": "article",
+    "destSlug": "hiring-a-saas-developer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "SaaS development agency vs freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "MVP development costs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "MVP & Engineering category",
+    "url": "/blog/category/mvp-engineering",
+    "linkType": "category",
+    "destSlug": "mvp-engineering",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "launch a SaaS MVP in 30 days",
+    "url": "/blog/saas-mvp-in-30-days",
+    "linkType": "article",
+    "destSlug": "saas-mvp-in-30-days",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "why most SaaS MVPs fail",
+    "url": "/blog/why-most-saas-mvps-fail",
+    "linkType": "article",
+    "destSlug": "why-most-saas-mvps-fail",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "SaaS development agency vs freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "MVP development costs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "choose-saas-development-partner",
+    "text": "contact our technical editorial team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "common-ux-mistakes-saas-conversion-rates",
+    "text": "who develops brand identity for SaaS companies",
+    "url": "/blog/who-develops-brand-identity-for-saas-companies",
+    "linkType": "article",
+    "destSlug": "who-develops-brand-identity-for-saas-companies",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "common-ux-mistakes-saas-conversion-rates",
+    "text": "SaaS website architecture",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "common-ux-mistakes-saas-conversion-rates",
+    "text": "9 common SaaS SEO mistakes",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "common-ux-mistakes-saas-conversion-rates",
+    "text": "SaaS audit checklist before launch",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "common-ux-mistakes-saas-conversion-rates",
+    "text": "what is white label SaaS",
+    "url": "/blog/what-is-white-label-saas",
+    "linkType": "article",
+    "destSlug": "what-is-white-label-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "common-ux-mistakes-saas-conversion-rates",
+    "text": "Audits & Economics guides",
+    "url": "/blog/category/audits-economics",
+    "linkType": "category",
+    "destSlug": "audits-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "cost-of-ai-in-saas",
+    "text": "per-feature SaaS platform development cost guide",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "cost-of-ai-in-saas",
+    "text": "overall SaaS development costs",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "AI feature costs",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "technical SaaS SEO strategy",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "how to scale a SaaS business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "what is SaaS sales",
+    "url": "/blog/what-is-saas-sales",
+    "linkType": "article",
+    "destSlug": "what-is-saas-sales",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "SaaS integrations",
+    "url": "/blog/saas-integrations",
+    "linkType": "article",
+    "destSlug": "saas-integrations",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "Growth & Strategy guides",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
+    "text": "contact our editorial team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "hiring-a-saas-developer",
+    "text": "SaaS development agency vs freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "hiring-a-saas-developer",
+    "text": "how to choose a SaaS development partner in 2026",
+    "url": "/blog/choose-saas-development-partner",
+    "linkType": "article",
+    "destSlug": "choose-saas-development-partner",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "hiring-a-saas-developer",
+    "text": "multi-tenant SaaS architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "hiring-a-saas-developer",
+    "text": "backend choices for SaaS: Node, Django, or Laravel",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "hiring-a-saas-developer",
+    "text": "MVP development cost breakdown",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "hiring-a-saas-developer",
+    "text": "MVP & Engineering guides",
+    "url": "/blog/category/mvp-engineering",
+    "linkType": "category",
+    "destSlug": "mvp-engineering",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-integrate-lending-services-into-a-saas-product",
+    "text": "SaaS lending integration",
+    "url": "/blog/saas-integrations",
+    "linkType": "article",
+    "destSlug": "saas-integrations",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-integrate-lending-services-into-a-saas-product",
+    "text": "finance",
+    "url": "/",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-integrate-lending-services-into-a-saas-product",
+    "text": "in SaaS",
+    "url": "/",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "B2B SaaS sales motion",
+    "url": "/blog/what-is-saas-sales",
+    "linkType": "article",
+    "destSlug": "what-is-saas-sales",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "customer success in SaaS",
+    "url": "/blog/customer-success-in-saas-2026",
+    "linkType": "article",
+    "destSlug": "customer-success-in-saas-2026",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "cost of AI in SaaS",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "integrating lending services into SaaS",
+    "url": "/blog/how-to-integrate-lending-services-into-a-saas-product",
+    "linkType": "article",
+    "destSlug": "how-to-integrate-lending-services-into-a-saas-product",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "who develops brand identity for SaaS companies",
+    "url": "/blog/who-develops-brand-identity-for-saas-companies",
+    "linkType": "article",
+    "destSlug": "who-develops-brand-identity-for-saas-companies",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "Growth & Strategy guides",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "SaaS growth",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "pricing",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "common scaling mistake",
+    "url": "/blog/why-most-saas-mvps-fail",
+    "linkType": "article",
+    "destSlug": "why-most-saas-mvps-fail",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "SaaS business grow",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "pre-launch SaaS audit",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "contact our team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "SaaS Platform Development Cost",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "structure",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "How to Scale a SaaS Business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "9 Common SaaS SEO Mistakes",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "SaaS Development Agency vs Freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "How to Validate a SaaS Idea Before Spending $1",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "guide on SaaS platform development costs",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "What is B2B SaaS?",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "text": "reach out to our team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "multi-tenant-saas-architecture",
+    "text": "senior developer",
+    "url": "/blog/hiring-a-saas-developer",
+    "linkType": "article",
+    "destSlug": "hiring-a-saas-developer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "multi-tenant-saas-architecture",
+    "text": "SaaS website architecture blueprint",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "multi-tenant-saas-architecture",
+    "text": "SaaS database design",
+    "url": "/blog/saas-database-design",
+    "linkType": "article",
+    "destSlug": "saas-database-design",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "multi-tenant-saas-architecture",
+    "text": "infrastructure costs",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "development cost in 2026",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "startup product development",
+    "url": "/blog/saas-product-development",
+    "linkType": "article",
+    "destSlug": "saas-product-development",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "how to validate a SaaS idea before spending $1",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "30-day SaaS MVP execution plan",
+    "url": "/blog/saas-mvp-in-30-days",
+    "linkType": "article",
+    "destSlug": "saas-mvp-in-30-days",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "no-code SaaS guide",
+    "url": "/blog/no-code-saas-guide",
+    "linkType": "article",
+    "destSlug": "no-code-saas-guide",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "complete SaaS product development roadmap",
+    "url": "/blog/saas-product-development",
+    "linkType": "article",
+    "destSlug": "saas-product-development",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "why most SaaS MVPs fail in the first 90 days",
+    "url": "/blog/why-most-saas-mvps-fail",
+    "linkType": "article",
+    "destSlug": "why-most-saas-mvps-fail",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "how to validate a SaaS idea before spending money",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "launch a SaaS MVP in 30 days",
+    "url": "/blog/saas-mvp-in-30-days",
+    "linkType": "article",
+    "destSlug": "saas-mvp-in-30-days",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "SaaS development agency vs freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "SaaS platform development cost per feature",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "mvp-development-cost",
+    "text": "MVP & Engineering category",
+    "url": "/blog/category/mvp-engineering",
+    "linkType": "category",
+    "destSlug": "mvp-engineering",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "no-code-saas-guide",
+    "text": "how to turn a spreadsheet into a SaaS product",
+    "url": "/blog/how-to-turn-a-spreadsheet-into-a-saas-product",
+    "linkType": "article",
+    "destSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "no-code-saas-guide",
+    "text": "SaaS MVP development costs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "no-code-saas-guide",
+    "text": "what is white label SaaS",
+    "url": "/blog/what-is-white-label-saas",
+    "linkType": "article",
+    "destSlug": "what-is-white-label-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "no-code-saas-guide",
+    "text": "SaaS MVP in 30 days",
+    "url": "/blog/saas-mvp-in-30-days",
+    "linkType": "article",
+    "destSlug": "saas-mvp-in-30-days",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "no-code-saas-guide",
+    "text": "AI & Automation category",
+    "url": "/blog/category/ai-automation",
+    "linkType": "category",
+    "destSlug": "ai-automation",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "MVP development costs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "Audits & Economics guides",
+    "url": "/blog/category/audits-economics",
+    "linkType": "category",
+    "destSlug": "audits-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "who develops brand identity for SaaS companies",
+    "url": "/blog/who-develops-brand-identity-for-saas-companies",
+    "linkType": "article",
+    "destSlug": "who-develops-brand-identity-for-saas-companies",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "common UX mistakes that kill SaaS conversion rates",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "SaaS database design",
+    "url": "/blog/saas-database-design",
+    "linkType": "article",
+    "destSlug": "saas-database-design",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "SaaS integrations architecture",
+    "url": "/blog/saas-integrations",
+    "linkType": "article",
+    "destSlug": "saas-integrations",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "9 common SaaS SEO mistakes that hurt rankings",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "SaaS database design",
+    "url": "/blog/saas-database-design",
+    "linkType": "article",
+    "destSlug": "saas-database-design",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "MVP development costs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-audit-checklist-before-launch",
+    "text": "contact our technical editorial desk",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "SaaS development costs",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "backend choices for SaaS",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "SaaS website architecture",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "SaaS Architecture category",
+    "url": "/blog/category/architecture",
+    "linkType": "category",
+    "destSlug": "architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "multi-tenant SaaS architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "SaaS integrations",
+    "url": "/blog/saas-integrations",
+    "linkType": "article",
+    "destSlug": "saas-integrations",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "backend choices for SaaS",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "multi-tenant SaaS architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-database-design",
+    "text": "contact our technical editorial desk",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "MVP development cost",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "how to choose a SaaS development partner in 2026",
+    "url": "/blog/choose-saas-development-partner",
+    "linkType": "article",
+    "destSlug": "choose-saas-development-partner",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "white label SaaS",
+    "url": "/blog/what-is-white-label-saas",
+    "linkType": "article",
+    "destSlug": "what-is-white-label-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "hire a SaaS developer",
+    "url": "/blog/hiring-a-saas-developer",
+    "linkType": "article",
+    "destSlug": "hiring-a-saas-developer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "MVP & Engineering guides",
+    "url": "/blog/category/mvp-engineering",
+    "linkType": "category",
+    "destSlug": "mvp-engineering",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "Node.js backend",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-agency-vs-freelancer",
+    "text": "SaaS development",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-cost",
+    "text": "per-feature SaaS platform development cost breakdown",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-cost",
+    "text": "how much it costs to add AI to SaaS",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-development-cost",
+    "text": "B2C SaaS development",
+    "url": "/blog/hiring-a-saas-developer",
+    "linkType": "article",
+    "destSlug": "hiring-a-saas-developer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-integrations",
+    "text": "SaaS website architecture blueprint",
+    "url": "/blog/saas-website-architecture",
+    "linkType": "article",
+    "destSlug": "saas-website-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-integrations",
+    "text": "backend choices for SaaS",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-mvp-in-30-days",
+    "text": "SaaS MVP development cost breakdown",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-mvp-in-30-days",
+    "text": "validating a SaaS idea before spending money",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-mvp-in-30-days",
+    "text": "why early SaaS MVPs fail in their first 90 days",
+    "url": "/blog/why-most-saas-mvps-fail",
+    "linkType": "article",
+    "destSlug": "why-most-saas-mvps-fail",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "SaaS development cost",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "How Much Does It Cost to Add AI to a SaaS?",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "How to Validate a SaaS Idea Before Spending $1",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "How to Scale a SaaS Business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "SaaS Development Agency vs Freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "how to turn a spreadsheet into a SaaS product",
+    "url": "/blog/how-to-turn-a-spreadsheet-into-a-saas-product",
+    "linkType": "article",
+    "destSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "SaaS Launch Lab",
+    "url": "/",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "text": "contact our editorial and technical team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "how much does it cost to build a SaaS product",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "SaaS Development Agency vs Freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "costs in 2026",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "SaaS ideas",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "just build an MVP",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "How Much Does It Cost to Add AI to a SaaS?",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "How to Scale a SaaS Business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "Multi-Tenant SaaS Architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "Common SaaS SEO",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "Common UX Mistakes",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "How to Choose a SaaS Development Partner",
+    "url": "/blog/choose-saas-development-partner",
+    "linkType": "article",
+    "destSlug": "choose-saas-development-partner",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "SaaS product development",
+    "url": "/blog/how-to-integrate-lending-services-into-a-saas-product",
+    "linkType": "article",
+    "destSlug": "how-to-integrate-lending-services-into-a-saas-product",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "**SaaS Launch Lab guide to launching and marketing a SaaS product**",
+    "url": "/",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-product-development",
+    "text": "SaaS Audit Checklist Before Launch",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "start of a SaaS project",
+    "url": "/blog/hiring-a-saas-developer",
+    "linkType": "article",
+    "destSlug": "hiring-a-saas-developer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "multi-tenancy",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "SaaS database design for growth",
+    "url": "/blog/saas-database-design",
+    "linkType": "article",
+    "destSlug": "saas-database-design",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "backend choices for SaaS",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "early-stage SaaS integrations",
+    "url": "/blog/saas-integrations",
+    "linkType": "article",
+    "destSlug": "saas-integrations",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "SaaS website",
+    "url": "/blog/how-to-integrate-lending-services-into-a-saas-product",
+    "linkType": "article",
+    "destSlug": "how-to-integrate-lending-services-into-a-saas-product",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-website-architecture",
+    "text": "how much it costs",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "no-code SaaS guide",
+    "url": "/blog/no-code-saas-guide",
+    "linkType": "article",
+    "destSlug": "no-code-saas-guide",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "SaaS development costs",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "turn a spreadsheet into a SaaS product",
+    "url": "/blog/how-to-turn-a-spreadsheet-into-a-saas-product",
+    "linkType": "article",
+    "destSlug": "how-to-turn-a-spreadsheet-into-a-saas-product",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "MVP & Engineering guides",
+    "url": "/blog/category/mvp-engineering",
+    "linkType": "category",
+    "destSlug": "mvp-engineering",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "SaaS MVP development costs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "SaaS MVP in 30 days",
+    "url": "/blog/saas-mvp-in-30-days",
+    "linkType": "article",
+    "destSlug": "saas-mvp-in-30-days",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "validate-saas-idea",
+    "text": "pre-launch SaaS audit checklist",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "customer",
+    "url": "/blog/customer-success-in-saas-2026",
+    "linkType": "article",
+    "destSlug": "customer-success-in-saas-2026",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "What Is SaaS Sales?",
+    "url": "/blog/what-is-saas-sales",
+    "linkType": "article",
+    "destSlug": "what-is-saas-sales",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "How to Scale a SaaS Business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "Common SaaS SEO Mistakes",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "Common UX Mistakes That Kill Conversion",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "How to Choose a SaaS Development Partner in 2026",
+    "url": "/blog/choose-saas-development-partner",
+    "linkType": "article",
+    "destSlug": "choose-saas-development-partner",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "How to Validate a SaaS Idea Before Spending $1",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "Enterprise SaaS backend",
+    "url": "/blog/backend-choices-for-saas",
+    "linkType": "article",
+    "destSlug": "backend-choices-for-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "SaaS Development Agency vs Freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "white label SaaS",
+    "url": "/blog/what-is-white-label-saas",
+    "linkType": "article",
+    "destSlug": "what-is-white-label-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "SaaS product development",
+    "url": "/blog/saas-product-development",
+    "linkType": "article",
+    "destSlug": "saas-product-development",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "Growth & Strategy category",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "How Much Does It Cost to Add AI to a SaaS?",
+    "url": "/blog/cost-of-ai-in-saas",
+    "linkType": "article",
+    "destSlug": "cost-of-ai-in-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "How Much Does SaaS Development Cost in 2026?",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "SaaS Audit Checklist Before Launch",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "B2B SaaS",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-b2b-saas",
+    "text": "Why Most SaaS MVPs Fail in the First 90 Days",
+    "url": "/blog/why-most-saas-mvps-fail",
+    "linkType": "article",
+    "destSlug": "why-most-saas-mvps-fail",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-saas-sales",
+    "text": "Software-as-a-Service",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-saas-sales",
+    "text": "SaaS software",
+    "url": "/blog/9-common-saas-seo-mistakes",
+    "linkType": "article",
+    "destSlug": "9-common-saas-seo-mistakes",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-saas-sales",
+    "text": "B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-saas-sales",
+    "text": "scaling a SaaS business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-saas-sales",
+    "text": "customer success in SaaS in 2026",
+    "url": "/blog/customer-success-in-saas-2026",
+    "linkType": "article",
+    "destSlug": "customer-success-in-saas-2026",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-saas-sales",
+    "text": "common mistake",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "SaaS development costs",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "Growth & Strategy journal",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "who develops brand identity for SaaS companies",
+    "url": "/blog/who-develops-brand-identity-for-saas-companies",
+    "linkType": "article",
+    "destSlug": "who-develops-brand-identity-for-saas-companies",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "what is B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "multi-tenant SaaS architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "SaaS development cost",
+    "url": "/blog/saas-development-cost",
+    "linkType": "article",
+    "destSlug": "saas-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "multi-tenant SaaS architecture",
+    "url": "/blog/multi-tenant-saas-architecture",
+    "linkType": "article",
+    "destSlug": "multi-tenant-saas-architecture",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "what-is-white-label-saas",
+    "text": "editorial team",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "Growth & Strategy guides",
+    "url": "/blog/category/growth-strategy",
+    "linkType": "category",
+    "destSlug": "growth-strategy",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "common UX mistakes that kill SaaS conversion rates",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "SaaS development agency vs freelancer",
+    "url": "/blog/saas-development-agency-vs-freelancer",
+    "linkType": "article",
+    "destSlug": "saas-development-agency-vs-freelancer",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "B2B SaaS product lines",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "SaaS product development lifecycle",
+    "url": "/blog/saas-product-development",
+    "linkType": "article",
+    "destSlug": "saas-product-development",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "SaaS product development",
+    "url": "/blog/saas-product-development",
+    "linkType": "article",
+    "destSlug": "saas-product-development",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "common UX mistakes that kill SaaS conversion rates",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "who-develops-brand-identity-for-saas-companies",
+    "text": "contact our technical editorial desk",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "B2B SaaS",
+    "url": "/blog/what-is-b2b-saas",
+    "linkType": "article",
+    "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "common UX mistakes that kill SaaS conversion rates",
+    "url": "/blog/common-ux-mistakes-saas-conversion-rates",
+    "linkType": "article",
+    "destSlug": "common-ux-mistakes-saas-conversion-rates",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "SaaS product development",
+    "url": "/blog/saas-product-development",
+    "linkType": "article",
+    "destSlug": "saas-product-development",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "MVP & Engineering guides",
+    "url": "/blog/category/mvp-engineering",
+    "linkType": "category",
+    "destSlug": "mvp-engineering",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "MVPs",
+    "url": "/blog/mvp-development-cost",
+    "linkType": "article",
+    "destSlug": "mvp-development-cost",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "launch a SaaS MVP in 30 days",
+    "url": "/blog/saas-mvp-in-30-days",
+    "linkType": "article",
+    "destSlug": "saas-mvp-in-30-days",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "who develops brand identity for SaaS companies",
+    "url": "/blog/who-develops-brand-identity-for-saas-companies",
+    "linkType": "article",
+    "destSlug": "who-develops-brand-identity-for-saas-companies",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "how to validate a SaaS idea before spending money",
+    "url": "/blog/validate-saas-idea",
+    "linkType": "article",
+    "destSlug": "validate-saas-idea",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "SaaS launch",
+    "url": "/blog/saas-audit-checklist-before-launch",
+    "linkType": "article",
+    "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  }
+]

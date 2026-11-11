@@ -85,12 +85,7 @@ export default async function RootLayout({
     "@id": `${siteConfig.url}/#organization`,
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/logo.png`,
-    sameAs: [
-      "https://x.com/[PLACEHOLDER_TWITTER]",
-      "https://github.com/[PLACEHOLDER_GITHUB]",
-      "https://linkedin.com/in/[PLACEHOLDER_LINKEDIN]"
-    ]
+    logo: `${siteConfig.url}/images/logo.png`
   };
 
   const webSiteJsonLd = {

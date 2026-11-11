@@ -59,19 +59,19 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
         </p>
       )}
 
-      {/* Author Byline */}
+      {/* Author / Editorial Byline */}
       <div className="flex items-center space-x-3 pt-2">
         <div className="w-9 h-9 rounded-full bg-slate-900 text-sky-400 flex items-center justify-center font-bold text-xs shrink-0 shadow-xs">
-          AV
+          ED
         </div>
         <div className="text-xs">
           <Link
-            href="/author/alex-vance"
+            href="/author/editorial-team"
             className="font-bold text-slate-900 hover:text-sky-600 transition-colors"
           >
-            Alex Vance [PLACEHOLDER]
+            SaaS Launch Lab Editorial Team
           </Link>
-          <div className="text-slate-500">Lead Systems Architect &bull; Peer-Reviewed</div>
+          <div className="text-slate-500">Systems Architects &bull; Peer-Reviewed Technical Blueprint</div>
         </div>
       </div>
 

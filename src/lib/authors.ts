@@ -10,25 +10,19 @@ export interface AuthorInfo {
 }
 
 export const AUTHORS: Record<string, AuthorInfo> = {
-  "alex-vance": {
-    slug: "alex-vance",
-    name: "Alex Vance [PLACEHOLDER]",
-    role: "Lead Systems Architect & Technical Editor",
-    bio: "Systems architect and technical writer specializing in multi-tenant cloud platforms, PostgreSQL scaling, and rapid SaaS engineering. [PLACEHOLDER_BIO: Verified engineering experience and background to be updated].",
-    avatar: "/images/authors/alex-vance.webp",
-    twitter: "https://x.com/[PLACEHOLDER_TWITTER]",
-    github: "https://github.com/[PLACEHOLDER_GITHUB]",
-    linkedin: "https://linkedin.com/in/[PLACEHOLDER_LINKEDIN]"
-  },
   "editorial-team": {
     slug: "editorial-team",
-    name: "Editorial Staff & Technical Reviewers",
-    role: "Systems Architects & Software Editors",
-    bio: "The SaaS Launch Lab editorial collective brings together software engineers, cloud architects, and product veterans dedicated to publishing rigorous, hype-free SaaS engineering blueprints.",
-    avatar: "/images/authors/editorial-team.webp",
-    twitter: "https://x.com/[PLACEHOLDER_TWITTER]",
-    github: "https://github.com/[PLACEHOLDER_GITHUB]",
-    linkedin: "https://linkedin.com/in/[PLACEHOLDER_LINKEDIN]"
+    name: "SaaS Launch Lab Editorial Team",
+    role: "Technical Editorial Desk & Systems Architects",
+    bio: "The SaaS Launch Lab editorial collective brings together software engineers, cloud architects, and product veterans dedicated to publishing rigorous, hype-free SaaS engineering blueprints and unit-economic breakdowns.",
+    avatar: "/images/authors/editorial-team.webp"
+  },
+  "alex-vance": {
+    slug: "alex-vance",
+    name: "Alex Vance",
+    role: "Lead Systems Architect & Technical Editor",
+    bio: "Systems architect and technical writer specializing in multi-tenant cloud platforms, PostgreSQL scaling, distributed backend architecture, and rapid SaaS engineering.",
+    avatar: "/images/authors/alex-vance.webp"
   }
 };
 
@@ -37,7 +31,7 @@ export function getAuthorBySlug(slug: string): AuthorInfo | null {
 }
 
 export function getDefaultAuthor(): AuthorInfo {
-  return AUTHORS["alex-vance"];
+  return AUTHORS["editorial-team"];
 }
 
 export function getAllAuthorSlugs(): string[] {

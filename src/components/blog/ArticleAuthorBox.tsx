@@ -62,41 +62,52 @@ export function ArticleAuthorBox({
           </p>
 
           {/* Social / professional profile links */}
-          <div className="flex items-center gap-3 pt-2 flex-wrap">
-            {author.linkedin && (
-              <a
-                href={author.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-1 text-[11px] font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-2.5 py-1 rounded-md transition-colors"
+          {(author.linkedin || author.github || author.twitter) ? (
+            <div className="flex items-center gap-3 pt-2 flex-wrap">
+              {author.linkedin && (
+                <a
+                  href={author.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-[11px] font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-2.5 py-1 rounded-md transition-colors"
+                >
+                  <Linkedin className="w-3 h-3 text-sky-600" />
+                  <span>LinkedIn</span>
+                </a>
+              )}
+              {author.github && (
+                <a
+                  href={author.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-[11px] font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-2.5 py-1 rounded-md transition-colors"
+                >
+                  <Github className="w-3 h-3 text-slate-700" />
+                  <span>GitHub</span>
+                </a>
+              )}
+              {author.twitter && (
+                <a
+                  href={author.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-[11px] font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-2.5 py-1 rounded-md transition-colors"
+                >
+                  <Twitter className="w-3 h-3 text-sky-500" />
+                  <span>X (Twitter)</span>
+                </a>
+              )}
+            </div>
+          ) : (
+            <div className="pt-2">
+              <Link
+                href="/about"
+                className="inline-flex items-center space-x-1 text-[11px] font-semibold text-sky-600 hover:text-sky-700"
               >
-                <Linkedin className="w-3 h-3 text-sky-600" />
-                <span>LinkedIn [PLACEHOLDER]</span>
-              </a>
-            )}
-            {author.github && (
-              <a
-                href={author.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-1 text-[11px] font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-2.5 py-1 rounded-md transition-colors"
-              >
-                <Github className="w-3 h-3 text-slate-700" />
-                <span>GitHub [PLACEHOLDER]</span>
-              </a>
-            )}
-            {author.twitter && (
-              <a
-                href={author.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-1 text-[11px] font-semibold text-slate-700 hover:text-sky-600 bg-white border border-slate-200 px-2.5 py-1 rounded-md transition-colors"
-              >
-                <Twitter className="w-3 h-3 text-sky-500" />
-                <span>X [PLACEHOLDER]</span>
-              </a>
-            )}
-          </div>
+                <span>Read our editorial review process & standards &rarr;</span>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
