@@ -286,6 +286,9 @@
   .top-28 {
     top: calc(var(--spacing) * 28);
   }
+  .isolate {
+    isolation: isolate;
+  }
   .z-40 {
     z-index: 40;
   }

@@ -1,9 +1,5 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
 import { Article, ArticleMeta, HeadingItem } from "@/types/article";
-
-const ARTICLES_DIR = path.join(process.cwd(), "src/content/articles");
+import { PRECOMPILED_ARTICLES } from "@/data/articles";
 
 let cachedArticles: Article[] | null = null;
 
@@ -12,40 +8,60 @@ function loadArticles(): Article[] {
     return cachedArticles;
   }
 
-  if (!fs.existsSync(ARTICLES_DIR)) {
-    return [];
+  // 1. Primary: Use in-memory precompiled articles.
+  // This is essential for Cloudflare Pages / Cloudflare Workers where the local Node filesystem (fs) is not available at runtime.
+  if (Array.isArray(PRECOMPILED_ARTICLES) && PRECOMPILED_ARTICLES.length > 0) {
+    cachedArticles = PRECOMPILED_ARTICLES;
+    return cachedArticles;
   }
 
-  const fileNames = fs.readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".md"));
+  // 2. Secondary fallback for local Node.js environment if precompiled array is empty
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const fs = require("fs");
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const path = require("path");
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const matter = require("gray-matter");
 
-  const articles: Article[] = fileNames
-    .map((fileName) => {
-      const fullPath = path.join(ARTICLES_DIR, fileName);
-      const fileContents = fs.readFileSync(fullPath, "utf8");
-      const { data, content } = matter(fileContents);
+    const ARTICLES_DIR = path.join(process.cwd(), "src/content/articles");
+    if (fs.existsSync(ARTICLES_DIR)) {
+      const fileNames = fs.readdirSync(ARTICLES_DIR).filter((f: string) => f.endsWith(".md"));
 
-      const headings: HeadingItem[] = Array.isArray(data.headings) ? data.headings : [];
+      const articles: Article[] = fileNames
+        .map((fileName: string) => {
+          const fullPath = path.join(ARTICLES_DIR, fileName);
+          const fileContents = fs.readFileSync(fullPath, "utf8");
+          const { data, content } = matter(fileContents);
 
-      return {
-        slug: data.slug || fileName.replace(/\.md$/, ""),
-        title: data.title || "Untitled",
-        originalUrl: data.originalUrl || "",
-        publishedAt: data.publishedAt || new Date().toISOString(),
-        modifiedAt: data.modifiedAt || data.publishedAt || new Date().toISOString(),
-        excerpt: data.excerpt || "",
-        category: data.category || "General",
-        readingTime: Number(data.readingTime) || 5,
-        wordCount: Number(data.wordCount) || 1000,
-        featuredImage: data.featuredImage || "/images/articles/placeholder.webp",
-        featuredImageAlt: data.featuredImageAlt || data.title || "",
-        headings,
-        content: content.trim()
-      };
-    })
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+          const headings: HeadingItem[] = Array.isArray(data.headings) ? data.headings : [];
 
-  cachedArticles = articles;
-  return articles;
+          return {
+            slug: data.slug || fileName.replace(/\.md$/, ""),
+            title: data.title || "Untitled",
+            originalUrl: data.originalUrl || "",
+            publishedAt: data.publishedAt || new Date().toISOString(),
+            modifiedAt: data.modifiedAt || data.publishedAt || new Date().toISOString(),
+            excerpt: data.excerpt || "",
+            category: data.category || "General",
+            readingTime: Number(data.readingTime) || 5,
+            wordCount: Number(data.wordCount) || 1000,
+            featuredImage: data.featuredImage || "/images/articles/placeholder.webp",
+            featuredImageAlt: data.featuredImageAlt || data.title || "",
+            headings,
+            content: content.trim()
+          };
+        })
+        .sort((a: Article, b: Article) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+
+      cachedArticles = articles;
+      return articles;
+    }
+  } catch {
+    // Non-Node.js runtime environment (e.g. Cloudflare Worker isolate)
+  }
+
+  return [];
 }
 
 export async function getAllArticles(): Promise<ArticleMeta[]> {
