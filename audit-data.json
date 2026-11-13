@@ -1245,14 +1245,23 @@
           "url": "/contact"
         }
       ],
-      "externalLinks": [],
+      "externalLinks": [
+        {
+          "text": "Stripe's SaaS metrics guide",
+          "url": "https://stripe.com/resources/more/saas-metrics-guide"
+        },
+        {
+          "text": "AWS SaaS architecture guidelines",
+          "url": "https://aws.amazon.com/blogs/apn/saas-architecture-fundamentals/"
+        }
+      ],
       "h1Count": 0,
       "h2Count": 14,
       "h3Count": 26,
       "h4Count": 0,
       "headingsInFrontmatter": 40,
       "hasFaq": true,
-      "contentLength": 28459
+      "contentLength": 28888
     },
     {
       "file": "saas-website-architecture.md",

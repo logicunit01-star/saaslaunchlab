@@ -123,8 +123,8 @@ headings:
     title: Recommended Dashboard Metrics
     id: recommended-dashboard-metrics
   - level: 2
-    title: Frequently Asked Questions
-    id: frequently-asked-questions
+    title: Frequently Asked Questions About SaaS Unit Economics
+    id: frequently-asked-questions-about-saas-unit-economics
   - level: 2
     title: Final Thoughts
     id: final-thoughts
@@ -184,7 +184,7 @@ For a more accurate calculation, include relevant acquisition expenses such as:
 - Campaign production and creative asset costs.
 - Other directly attributable acquisition expenses.
 
-Do not automatically include every company expense. Product development, general administration, and unrelated operating costs are not normally part of customer acquisition cost.
+Do not automatically include every company expense. Product development, general administration, and unrelated operating costs are not normally part of customer acquisition cost. As detailed in [Stripe's SaaS metrics guide](https://stripe.com/resources/more/saas-metrics-guide), calculating a fully loaded CAC prevents founders from masking marketing inefficiencies.
 
 ### CAC Calculation Example
 
@@ -354,7 +354,7 @@ The gross margin percentage formula is:
 - Direct customer support and technical success staffing.
 - Software licenses and tools directly involved in production service delivery.
 
-General research and development, sales, marketing, and general administrative salaries are treated as operating expenses (OpEx) rather than COGS.
+General research and development, sales, marketing, and general administrative salaries are treated as operating expenses (OpEx) rather than COGS. Aligning these costs with [AWS SaaS architecture guidelines](https://aws.amazon.com/blogs/apn/saas-architecture-fundamentals/) ensures tenant isolation and resource utilization don't trigger unexpected cost surges.
 
 ### Gross Margin Calculation Example
 
@@ -568,7 +568,7 @@ Founders should avoid managing metrics in scattered spreadsheets. A centralized 
 
 *Figure: Illustrative SaaS unit economics dashboard displaying key performance metrics and unit economics benchmarks.*
 
-## Frequently Asked Questions
+## Frequently Asked Questions About SaaS Unit Economics
 
 **What are unit economics in SaaS?**
 SaaS unit economics is the financial analysis of the direct revenue, customer acquisition costs, and ongoing delivery costs associated with an individual customer or account. It determines whether a software business can generate sustainable gross profit as it scales.
