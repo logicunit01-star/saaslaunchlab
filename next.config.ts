@@ -2,31 +2,19 @@ import type { NextConfig } from "next";
 import path from "path";
 
 const nextConfig: NextConfig = {
+  output: "export",
   reactStrictMode: true,
   typescript: {
     ignoreBuildErrors: true,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
         hostname: "saaslaunchlab.com",
       },
     ],
-  },
-  async redirects() {
-    return [
-      {
-        source: "/blogs",
-        destination: "/blog",
-        permanent: true,
-      },
-      {
-        source: "/blogs/:slug*",
-        destination: "/blog/:slug*",
-        permanent: true,
-      },
-    ];
   },
   webpack: (config) => {
     config.resolve.alias = {

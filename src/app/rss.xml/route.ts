@@ -1,6 +1,7 @@
 import { getAllArticlesWithContent } from "@/lib/articles";
 import { siteConfig } from "@/lib/config";
 
+export const dynamic = "force-static";
 export const revalidate = 3600;
 
 export async function GET() {

@@ -4,6 +4,8 @@ import { getAllArticles } from "@/lib/articles";
 import { getAllCategorySlugs } from "@/lib/categories";
 import { getAllAuthorSlugs } from "@/lib/authors";
 
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articles = await getAllArticles();
   const baseUrl = siteConfig.url;
