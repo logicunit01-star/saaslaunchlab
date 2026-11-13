@@ -1,8 +1,19 @@
 const fs = require('fs');
 const path = require('path');
-const tw = require('tailwindcss');
 
 async function main() {
+  let tw;
+  try {
+    tw = require('tailwindcss');
+  } catch (err) {
+    console.warn("Notice: tailwindcss module cannot be loaded directly:", err.message);
+    if (fs.existsSync('src/app/globals.css') && fs.statSync('src/app/globals.css').size > 1000) {
+      console.log("Using existing precompiled src/app/globals.css");
+      return;
+    }
+    throw err;
+  }
+
   console.log("Compiling Tailwind CSS with official brand colors...");
 
   const baseCss = `
@@ -243,11 +254,26 @@ body {
   }
 
   console.log(`Scanning ${srcFiles.length} files, found ${candidates.size} potential class tokens.`);
-  const compiled = compiler.build([...candidates]);
-  console.log(`Generated CSS length: ${compiled.length} bytes.`);
-
-  fs.writeFileSync('src/app/globals.css', compiled, 'utf8');
-  console.log("Successfully updated src/app/globals.css with compiled styles!");
+  try {
+    const compiled = compiler.build([...candidates]);
+    console.log(`Generated CSS length: ${compiled.length} bytes.`);
+    fs.writeFileSync('src/app/globals.css', compiled, 'utf8');
+    console.log("Successfully updated src/app/globals.css with compiled styles!");
+  } catch (compileErr) {
+    console.warn("Notice: Tailwind compilation encountered an error:", compileErr.message);
+    if (fs.existsSync('src/app/globals.css') && fs.statSync('src/app/globals.css').size > 1000) {
+      console.log("Preserved existing precompiled src/app/globals.css");
+      return;
+    }
+    throw compileErr;
+  }
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error(err);
+  if (fs.existsSync('src/app/globals.css') && fs.statSync('src/app/globals.css').size > 1000) {
+    console.log("Continuing with existing src/app/globals.css");
+    process.exit(0);
+  }
+  process.exit(1);
+});
