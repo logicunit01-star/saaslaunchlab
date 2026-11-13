@@ -138,7 +138,7 @@ As a [SaaS business grow](/blog/what-is-b2b-saas)s, the founder's gut feel, whic
 - Net Revenue Retention (NRR): a strong sign of scalable growth, since it captures expansion and churn together
 - Time to value: how quickly new customers reach a meaningful outcome
 
-A healthy scaling business typically aims for an LTV: CAC ratio of at least 3:1, and an NRR above 100%, meaning existing customers are expanding faster than churn is pulling revenue away.
+A healthy scaling business typically aims for an LTV: CAC ratio of at least 3:1, and an NRR above 100%, meaning existing customers are expanding faster than churn is pulling revenue away. Review our detailed guide on [SaaS unit economics](/blog/saas-unit-economics) to calculate your exact LTV, ARPU, and payback milestones.
 
 ## 7. Expand Into New Markets or Segments Carefully
 

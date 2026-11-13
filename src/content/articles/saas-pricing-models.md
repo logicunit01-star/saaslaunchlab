@@ -590,7 +590,7 @@ A good pricing strategy should balance customer affordability, perceived value, 
 - **Use understandable pricing metrics:** Avoid billing units that customers cannot easily measure.
 - **Provide transparent usage limits:** Display included allowances and additional charges.
 - **Offer suitable plans:** Address different customer requirements without creating unnecessary complexity.
-- **Monitor unit economics:** Ensure that customer revenue can support infrastructure and service costs. Before taking a new pricing structure live, review our [SaaS audit checklist before launch](/blog/saas-audit-checklist-before-launch) to verify that metering, webhook handling, and margin safeguards are fully tested. You can also explore our broader coverage in [SaaS Audits & Economics](/blog/category/audits-economics).
+- **Monitor unit economics:** Ensure that customer revenue can support infrastructure and service costs. Model your customer acquisition costs and payback thresholds using our comprehensive guide to [SaaS unit economics](/blog/saas-unit-economics). Before taking a new pricing structure live, review our [SaaS audit checklist before launch](/blog/saas-audit-checklist-before-launch) to verify that metering, webhook handling, and margin safeguards are fully tested. You can also explore our broader coverage in [SaaS Audits & Economics](/blog/category/audits-economics).
 - **Use customer research:** Conduct interviews and analyze purchasing objections.
 - **Review pricing regularly:** Reassess your pricing as the product and market evolve.
 - **Test changes carefully:** Measure the impact on conversion, revenue, churn, and customer satisfaction.

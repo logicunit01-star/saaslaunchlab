@@ -316,6 +316,15 @@
   },
   {
     "sourceSlug": "customer-success-in-saas-2026",
+    "text": "SaaS unit economics",
+    "url": "/blog/saas-unit-economics",
+    "linkType": "article",
+    "destSlug": "saas-unit-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "customer-success-in-saas-2026",
     "text": "B2B SaaS",
     "url": "/blog/what-is-b2b-saas",
     "linkType": "article",
@@ -518,6 +527,15 @@
     "url": "/blog/what-is-b2b-saas",
     "linkType": "article",
     "destSlug": "what-is-b2b-saas",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "how-to-scale-a-saas-business",
+    "text": "SaaS unit economics",
+    "url": "/blog/saas-unit-economics",
+    "linkType": "article",
+    "destSlug": "saas-unit-economics",
     "isBroken": false,
     "isGeneric": false
   },
@@ -1261,6 +1279,15 @@
   },
   {
     "sourceSlug": "saas-pricing-models",
+    "text": "SaaS unit economics",
+    "url": "/blog/saas-unit-economics",
+    "linkType": "article",
+    "destSlug": "saas-unit-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-pricing-models",
     "text": "SaaS audit checklist before launch",
     "url": "/blog/saas-audit-checklist-before-launch",
     "linkType": "article",
@@ -1418,6 +1445,87 @@
     "url": "/blog/saas-audit-checklist-before-launch",
     "linkType": "article",
     "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS development costs",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS customer success",
+    "url": "/blog/customer-success-in-saas-2026",
+    "linkType": "article",
+    "destSlug": "customer-success-in-saas-2026",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS pricing models",
+    "url": "/blog/saas-pricing-models",
+    "linkType": "article",
+    "destSlug": "saas-pricing-models",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS platform development costs",
+    "url": "/blog/saas-platform-development-cost-2025-2026-per-feature",
+    "linkType": "article",
+    "destSlug": "saas-platform-development-cost-2025-2026-per-feature",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS MVP challenges",
+    "url": "/blog/why-most-saas-mvps-fail",
+    "linkType": "article",
+    "destSlug": "why-most-saas-mvps-fail",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "scaling a SaaS business",
+    "url": "/blog/how-to-scale-a-saas-business",
+    "linkType": "article",
+    "destSlug": "how-to-scale-a-saas-business",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "SaaS Audits & Economics",
+    "url": "/blog/category/audits-economics",
+    "linkType": "category",
+    "destSlug": "audits-economics",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "saas-unit-economics",
+    "text": "editorial desk",
+    "url": "/contact",
+    "linkType": "site",
+    "destSlug": null,
     "isBroken": false,
     "isGeneric": false
   },
@@ -1994,6 +2102,15 @@
     "url": "/blog/saas-audit-checklist-before-launch",
     "linkType": "article",
     "destSlug": "saas-audit-checklist-before-launch",
+    "isBroken": false,
+    "isGeneric": false
+  },
+  {
+    "sourceSlug": "why-most-saas-mvps-fail",
+    "text": "SaaS unit economics",
+    "url": "/blog/saas-unit-economics",
+    "linkType": "article",
+    "destSlug": "saas-unit-economics",
     "isBroken": false,
     "isGeneric": false
   }

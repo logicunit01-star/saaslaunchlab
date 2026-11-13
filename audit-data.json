@@ -278,6 +278,10 @@
           "url": "/blog/what-is-saas-sales"
         },
         {
+          "text": "SaaS unit economics",
+          "url": "/blog/saas-unit-economics"
+        },
+        {
           "text": "B2B SaaS",
           "url": "/blog/what-is-b2b-saas"
         },
@@ -301,7 +305,7 @@
       "h4Count": 12,
       "headingsInFrontmatter": 21,
       "hasFaq": true,
-      "contentLength": 12499
+      "contentLength": 12668
     },
     {
       "file": "hiring-a-saas-developer.md",
@@ -441,6 +445,10 @@
           "url": "/blog/what-is-b2b-saas"
         },
         {
+          "text": "SaaS unit economics",
+          "url": "/blog/saas-unit-economics"
+        },
+        {
           "text": "pre-launch SaaS audit",
           "url": "/blog/saas-audit-checklist-before-launch"
         },
@@ -456,7 +464,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 12,
       "hasFaq": true,
-      "contentLength": 10137
+      "contentLength": 10274
     },
     {
       "file": "how-to-turn-a-spreadsheet-into-a-saas-product.md",
@@ -1064,6 +1072,10 @@
           "url": "/blog/customer-success-in-saas-2026"
         },
         {
+          "text": "SaaS unit economics",
+          "url": "/blog/saas-unit-economics"
+        },
+        {
           "text": "SaaS audit checklist before launch",
           "url": "/blog/saas-audit-checklist-before-launch"
         },
@@ -1088,7 +1100,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 41,
       "hasFaq": true,
-      "contentLength": 28024
+      "contentLength": 28168
     },
     {
       "file": "saas-product-development.md",
@@ -1179,6 +1191,68 @@
       "headingsInFrontmatter": 22,
       "hasFaq": true,
       "contentLength": 15158
+    },
+    {
+      "file": "saas-unit-economics.md",
+      "slug": "saas-unit-economics",
+      "title": "SaaS Unit Economics: CAC, LTV, ARPU & Gross Margin",
+      "category": "Audits & Economics",
+      "readingTime": 15,
+      "wordCount": 3100,
+      "publishedAt": "2026-11-13T13:30:00+00:00",
+      "modifiedAt": "2026-11-13T13:30:00+00:00",
+      "featuredImage": "/images/articles/saas-unit-economics.webp",
+      "featuredImageAlt": "SaaS Unit Economics Dashboard: CAC, LTV, ARPU, Gross Margin & Payback Metrics",
+      "internalLinks": [
+        {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
+        },
+        {
+          "text": "SaaS development costs",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "SaaS customer success",
+          "url": "/blog/customer-success-in-saas-2026"
+        },
+        {
+          "text": "SaaS pricing models",
+          "url": "/blog/saas-pricing-models"
+        },
+        {
+          "text": "SaaS platform development costs",
+          "url": "/blog/saas-platform-development-cost-2025-2026-per-feature"
+        },
+        {
+          "text": "SaaS MVP challenges",
+          "url": "/blog/why-most-saas-mvps-fail"
+        },
+        {
+          "text": "scaling a SaaS business",
+          "url": "/blog/how-to-scale-a-saas-business"
+        },
+        {
+          "text": "SaaS Unit Economics Dashboard: CAC, LTV, ARPU, Gross Margin & Payback Metrics",
+          "url": "/images/articles/saas-unit-economics.webp"
+        },
+        {
+          "text": "SaaS Audits & Economics",
+          "url": "/blog/category/audits-economics"
+        },
+        {
+          "text": "editorial desk",
+          "url": "/contact"
+        }
+      ],
+      "externalLinks": [],
+      "h1Count": 0,
+      "h2Count": 14,
+      "h3Count": 26,
+      "h4Count": 0,
+      "headingsInFrontmatter": 40,
+      "hasFaq": true,
+      "contentLength": 28459
     },
     {
       "file": "saas-website-architecture.md",
@@ -1597,6 +1671,10 @@
         {
           "text": "SaaS launch",
           "url": "/blog/saas-audit-checklist-before-launch"
+        },
+        {
+          "text": "SaaS unit economics",
+          "url": "/blog/saas-unit-economics"
         }
       ],
       "externalLinks": [],
@@ -1606,7 +1684,7 @@
       "h4Count": 0,
       "headingsInFrontmatter": 13,
       "hasFaq": true,
-      "contentLength": 11380
+      "contentLength": 11557
     }
   ],
   "inboundLinks": {
@@ -1762,6 +1840,10 @@
         "text": "customer success in SaaS"
       },
       {
+        "from": "saas-unit-economics",
+        "text": "SaaS customer success"
+      },
+      {
         "from": "what-is-b2b-saas",
         "text": "customer"
       },
@@ -1826,6 +1908,10 @@
       {
         "from": "saas-product-development",
         "text": "How to Scale a SaaS Business"
+      },
+      {
+        "from": "saas-unit-economics",
+        "text": "scaling a SaaS business"
       },
       {
         "from": "what-is-b2b-saas",
@@ -2176,6 +2262,14 @@
       {
         "from": "saas-product-development",
         "text": "how much does it cost to build a SaaS product"
+      },
+      {
+        "from": "saas-unit-economics",
+        "text": "SaaS development costs"
+      },
+      {
+        "from": "saas-unit-economics",
+        "text": "SaaS platform development costs"
       }
     ],
     "saas-pricing-models": [
@@ -2193,6 +2287,14 @@
       },
       {
         "from": "saas-platform-development-cost-2025-2026-per-feature",
+        "text": "SaaS pricing models"
+      },
+      {
+        "from": "saas-unit-economics",
+        "text": "SaaS pricing models"
+      },
+      {
+        "from": "saas-unit-economics",
         "text": "SaaS pricing models"
       },
       {
@@ -2224,6 +2326,24 @@
       {
         "from": "why-most-saas-mvps-fail",
         "text": "SaaS product development"
+      }
+    ],
+    "saas-unit-economics": [
+      {
+        "from": "customer-success-in-saas-2026",
+        "text": "SaaS unit economics"
+      },
+      {
+        "from": "how-to-scale-a-saas-business",
+        "text": "SaaS unit economics"
+      },
+      {
+        "from": "saas-pricing-models",
+        "text": "SaaS unit economics"
+      },
+      {
+        "from": "why-most-saas-mvps-fail",
+        "text": "SaaS unit economics"
       }
     ],
     "saas-website-architecture": [
@@ -2410,6 +2530,10 @@
       {
         "from": "saas-mvp-in-30-days",
         "text": "why early SaaS MVPs fail in their first 90 days"
+      },
+      {
+        "from": "saas-unit-economics",
+        "text": "SaaS MVP challenges"
       },
       {
         "from": "what-is-b2b-saas",

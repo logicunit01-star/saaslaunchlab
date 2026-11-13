@@ -115,7 +115,7 @@ A few shifts have made customer success unavoidable this year, rather than a nic
 
 #### 1. Acquisition Has Gotten More Expensive
 
-New customer acquisition costs have climbed steadily across the SaaS sector, meaning the economics of most subscription businesses now depend on retaining existing customers rather than constantly refilling the top of the funnel. Retention has quietly become the more affordable growth lever.
+New customer acquisition costs have climbed steadily across the SaaS sector, meaning the economics of most subscription businesses now depend on retaining existing customers rather than constantly refilling the top of the funnel. Analyzing your [SaaS unit economics](/blog/saas-unit-economics)—especially LTV, gross margin, and churn impact—reveals the financial leverage customer success provides. Retention has quietly become the more affordable growth lever.
 
 #### 2. AI Has Changed the Job, Not Replaced It
 

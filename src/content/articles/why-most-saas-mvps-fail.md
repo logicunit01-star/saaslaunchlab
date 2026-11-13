@@ -157,7 +157,7 @@ Every cancellation in this window deserves a short, direct follow-up: "What were
 
 ## 7. Running Out of Runway Before Finding Product-Market Fit
 
-Sometimes the product, audience, and pricing are all reasonably sound but the founder simply runs out of time and money before the pieces click into place.
+Sometimes the product, audience, and pricing are all reasonably sound but the founder simply runs out of time and money before the pieces click into place. Without tracking core [SaaS unit economics](/blog/saas-unit-economics) like CAC and payback velocity, marketing spend drains runway before repeatable conversion is established.
 
 This is why the first 90 days deserve a tighter operating rhythm than most founders use:
 
