@@ -223,7 +223,7 @@ These are illustrative figures. They show why a SaaS business should examine cha
 
 ## 2. Customer Lifetime Value (LTV)
 
-Customer Lifetime Value (LTV) estimates the total economic value a customer generates throughout their relationship with a SaaS business. For unit economics, it is more useful to calculate **lifetime gross profit** rather than simply adding up gross subscription revenue.
+Customer Lifetime Value (LTV) estimates the total economic value a customer generates throughout their relationship with a SaaS business. For an in-depth breakdown of cohort decay, formula variations, and retention curves, see our complete guide to [SaaS customer lifetime value](/blog/saas-customer-lifetime-value). For unit economics, it is more useful to calculate **lifetime gross profit** rather than simply adding up gross subscription revenue.
 
 Why? Because serving a customer costs money. Hosting, customer support, third-party APIs, payment processing, and other direct delivery expenses reduce the amount of revenue the company actually retains.
 
