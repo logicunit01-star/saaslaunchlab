@@ -240,7 +240,7 @@ The development invoice is only part of what you'll actually spend. The majority
 
 #### 🖥️ Cloud Infrastructure — $4,000–$15,000 upfront + $200–$1,500/month
 
-Initial DevOps setup on AWS, GCP, or Azure requires 40–120 hours of engineering time. This is before a single user signs up.
+Initial DevOps setup on AWS, GCP, or Azure requires 40–120 hours of engineering time before a single user signs up. For a complete breakdown of ongoing server, database, and bandwidth expenses across early and growth stages, review our detailed guide on [SaaS hosting costs](/blog/saas-hosting-costs).
 
 #### 🔌 Third-Party Service Fees — $200–$500/month at launch
 

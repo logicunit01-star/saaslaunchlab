@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { decodeHtmlEntities } from "@/lib/utils";
+import { HostingCostCalculator } from "@/components/tools/HostingCostCalculator";
 
 interface ArticleBodyProps {
   content: string;
@@ -92,6 +93,17 @@ export function ArticleBody({ content }: ArticleBodyProps) {
   for (let i = 0; i < rawBlocks.length; i++) {
     const block = rawBlocks[i].trim();
     if (!block) continue;
+
+    // 0. Interactive Custom Calculators & Tools
+    if (
+      block === ":::calculator" ||
+      block === ":::calculator-hosting-cost" ||
+      block === "[calculator:hosting-cost]" ||
+      block.startsWith(":::calculator")
+    ) {
+      elements.push(<HostingCostCalculator key={i} />);
+      continue;
+    }
 
     // 1. Code Block
     if (block.startsWith("```")) {

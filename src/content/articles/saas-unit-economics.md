@@ -543,7 +543,7 @@ Evaluate your subscription packaging. If power users consume substantial compute
 
 ### Monitor Infrastructure Costs
 
-As your application grows, audit database queries, caching layers, and external API calls. Small architectural efficiencies implemented during development can substantially boost gross margins at scale.
+As your application grows, audit database queries, caching layers, and external API calls. See our engineering guide to [SaaS hosting costs](/blog/saas-hosting-costs) to calculate cloud expenses per customer and eliminate infrastructure waste. Small architectural efficiencies implemented during development can substantially boost gross margins at scale.
 
 ### Analyze Customer Cohorts
 

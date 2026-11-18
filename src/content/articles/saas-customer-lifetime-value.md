@@ -177,7 +177,7 @@ Customer lifetime value depends on six interconnected variables:
 
 1. **Average Revenue Per Account (ARPA):** The blended recurring subscription revenue per paying customer.
 2. **Customer Retention and Churn Rate:** The speed at which paying subscribers leave the platform.
-3. **Gross Profit Margin:** The percentage of revenue retained after deducting direct service delivery costs (cloud infrastructure, hosting, third-party APIs, and direct support).
+3. **Gross Profit Margin:** The percentage of revenue retained after deducting direct service delivery costs ([SaaS hosting costs](/blog/saas-hosting-costs), cloud infrastructure, third-party APIs, and direct support).
 4. **Subscription Upgrades and Expansion:** The additional revenue generated when accounts add seats, upgrade tiers, or consume more usage.
 5. **Subscription Downgrades (Contraction):** The loss of monthly recurring revenue when accounts reduce usage or downgrade tiers before cancelling.
 6. **Average Customer Lifespan:** The expected duration (in months or years) that an account remains active.
