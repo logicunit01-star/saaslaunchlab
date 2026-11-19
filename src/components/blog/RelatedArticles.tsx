@@ -39,7 +39,7 @@ export function RelatedArticles({ articles }: RelatedArticlesProps) {
           >
             <Link
               href={`/blog/${article.slug}`}
-              className="relative aspect-16/10 w-full bg-slate-100 overflow-hidden block"
+              className="relative aspect-[1200/630] w-full bg-slate-900/5 overflow-hidden block"
             >
               <Image
                 src={article.featuredImage}

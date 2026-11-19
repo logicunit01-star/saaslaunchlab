@@ -21,7 +21,7 @@ export function FeaturedArticle({ article }: FeaturedArticleProps) {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-8 hover:shadow-lg hover:border-sky-200 transition-all duration-200 group">
           {/* Article Image */}
-          <div className="lg:col-span-7 relative aspect-16/10 rounded-xl overflow-hidden bg-slate-100">
+          <div className="lg:col-span-7 relative aspect-[1200/630] rounded-xl overflow-hidden bg-slate-900/5">
             <Link href={`/blog/${article.slug}`} className="block w-full h-full">
               <Image
                 src={article.featuredImage}

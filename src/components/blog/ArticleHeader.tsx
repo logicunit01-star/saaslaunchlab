@@ -103,14 +103,15 @@ export function ArticleHeader({ article }: ArticleHeaderProps) {
 
       {/* Featured Image */}
       {article.featuredImage && (
-        <div className="relative aspect-16/9 w-full rounded-2xl overflow-hidden bg-slate-100 mt-6 border border-slate-200/80 shadow-xs">
+        <div className="w-full rounded-2xl overflow-hidden bg-slate-900/5 mt-6 border border-slate-200/80 shadow-xs">
           <Image
             src={article.featuredImage}
             alt={article.featuredImageAlt || article.title}
-            fill
+            width={1200}
+            height={630}
             priority
             sizes="(max-width: 1024px) 100vw, 850px"
-            className="object-cover"
+            className="w-full h-auto object-contain block"
           />
         </div>
       )}

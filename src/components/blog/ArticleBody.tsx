@@ -284,17 +284,18 @@ export function ArticleBody({ content }: ArticleBodyProps) {
       const src = imgMatch[2];
       elements.push(
         <figure key={i} className="my-8">
-          <div className="relative aspect-16/10 w-full overflow-hidden rounded-xl border border-slate-200 bg-slate-100">
+          <div className="w-full overflow-hidden rounded-xl border border-slate-200/90 bg-slate-900/5 shadow-xs">
             <Image
               src={src}
               alt={alt}
-              fill
-              sizes="(max-width: 1024px) 100vw, 800px"
-              className="object-cover"
+              width={1200}
+              height={630}
+              sizes="(max-width: 1024px) 100vw, 850px"
+              className="w-full h-auto object-contain rounded-xl block"
             />
           </div>
           {alt && (
-            <figcaption className="text-center text-xs text-slate-500 mt-2 italic">
+            <figcaption className="text-center text-xs text-slate-500 mt-2.5 italic">
               {alt}
             </figcaption>
           )}

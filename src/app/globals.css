@@ -623,6 +623,9 @@
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
+  .mt-2\.5 {
+    margin-top: calc(var(--spacing) * 2.5);
+  }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
@@ -748,6 +751,9 @@
   }
   .aspect-16\/10 {
     aspect-ratio: 16/10;
+  }
+  .aspect-\[1200\/630\] {
+    aspect-ratio: 1200/630;
   }
   .h-1\.5 {
     height: calc(var(--spacing) * 1.5);
@@ -1374,6 +1380,9 @@
   }
   .bg-slate-900 {
     background-color: var(--color-slate-900);
+  }
+  .bg-slate-900\/5 {
+    background-color: color-mix(in oklab, var(--color-slate-900) 5%, transparent);
   }
   .bg-slate-900\/90 {
     background-color: color-mix(in oklab, var(--color-slate-900) 90%, transparent);

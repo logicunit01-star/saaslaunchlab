@@ -46,7 +46,7 @@ export function EditorialSections({ articles }: EditorialSectionsProps) {
                   href={`/blog/${article.slug}`}
                   className="flex flex-col bg-white p-5 rounded-xl border border-slate-200/80 hover:border-slate-300 hover:shadow-sm transition-all group"
                 >
-                  <div className="relative aspect-16/9 rounded-lg overflow-hidden bg-slate-100 mb-4">
+                  <div className="relative aspect-[1200/630] rounded-lg overflow-hidden bg-slate-900/5 mb-4">
                     <Image
                       src={article.featuredImage}
                       alt={article.title}
@@ -103,7 +103,7 @@ export function EditorialSections({ articles }: EditorialSectionsProps) {
                   href={`/blog/${article.slug}`}
                   className="flex flex-col bg-white p-5 rounded-xl border border-slate-200/80 hover:border-slate-300 hover:shadow-sm transition-all group"
                 >
-                  <div className="relative aspect-16/9 rounded-lg overflow-hidden bg-slate-100 mb-4">
+                  <div className="relative aspect-[1200/630] rounded-lg overflow-hidden bg-slate-900/5 mb-4">
                     <Image
                       src={article.featuredImage}
                       alt={article.title}
