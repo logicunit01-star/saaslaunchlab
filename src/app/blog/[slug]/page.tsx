@@ -18,7 +18,7 @@ import { ArrowLeft } from "lucide-react";
 
 function extractFaqs(markdown: string): { question: string; answer: string }[] {
   const faqMatch = markdown.match(
-    /(?:##|###)\s*(?:Frequently Asked Questions|FAQs|FAQ)[\s\S]*?(?=(?:##\s+[^#]|$))/i
+    /(?:##|###)\s*(?:\d+[\.\)]\s*)?(?:Frequently Asked Questions|FAQs|FAQ)[\s\S]*?(?=(?:##\s+[^#]|$))/i
   );
   if (!faqMatch) return [];
   const faqSection = faqMatch[0];

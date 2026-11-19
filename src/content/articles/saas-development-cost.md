@@ -109,7 +109,7 @@ headings:
 ---
 Quick Answer: SaaS development costs range from $15,000 for a lean MVP to $500,000+ for an enterprise platform in 2026. Most early-stage products fall between $25,000 and $100,000. The exact number depends on features, team location, integrations, and compliance requirements.
 
-To see how individual technical modules impact total expenditure, explore our detailed [per-feature SaaS platform development cost breakdown](/blog/saas-platform-development-cost-2025-2026-per-feature). If your product roadmap includes machine learning or large language models, analyze token and vector hosting economics in our report on [how much it costs to add AI to SaaS](/blog/cost-of-ai-in-saas).
+To see how individual technical modules impact total expenditure, explore our detailed [per-feature SaaS platform development cost breakdown](/blog/saas-platform-development-cost-2025-2026-per-feature). To model your own custom project hours, rates, and contingency, use our interactive [SaaS development cost calculator](/blog/saas-development-cost-calculator). If your product roadmap includes machine learning or large language models, analyze token and vector hosting economics in our report on [how much it costs to add AI to SaaS](/blog/cost-of-ai-in-saas).
 
 ## Why SaaS Development Cost Varies So Widely in 2026
 

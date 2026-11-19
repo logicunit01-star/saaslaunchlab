@@ -521,6 +521,9 @@
   }
 }
 @layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
   .collapse {
     visibility: collapse;
   }
@@ -548,11 +551,17 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+  .inset-y-0 {
+    inset-block: calc(var(--spacing) * 0);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
   .top-28 {
     top: calc(var(--spacing) * 28);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
   }
   .isolate {
     isolation: isolate;
@@ -586,6 +595,9 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
   }
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
@@ -1348,6 +1360,9 @@
   .bg-slate-100 {
     background-color: var(--color-slate-100);
   }
+  .bg-slate-200 {
+    background-color: var(--color-slate-200);
+  }
   .bg-slate-800 {
     background-color: var(--color-slate-800);
   }
@@ -1577,8 +1592,14 @@
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
   }
+  .pl-3\.5 {
+    padding-left: calc(var(--spacing) * 3.5);
+  }
   .pl-6 {
     padding-left: calc(var(--spacing) * 6);
+  }
+  .pl-8 {
+    padding-left: calc(var(--spacing) * 8);
   }
   .text-center {
     text-align: center;
@@ -1811,6 +1832,9 @@
   .accent-sky-500 {
     accent-color: var(--color-sky-500);
   }
+  .accent-sky-600 {
+    accent-color: var(--color-sky-600);
+  }
   .opacity-90 {
     opacity: 90%;
   }
@@ -1909,6 +1933,9 @@
   .duration-500 {
     --tw-duration: 500ms;
     transition-duration: 500ms;
+  }
+  .\[calculator\:development-cost\] {
+    calculator: development-cost;
   }
   .\[calculator\:hosting-cost\] {
     calculator: hosting-cost;
@@ -2196,9 +2223,20 @@
       border-color: var(--color-rose-500);
     }
   }
+  .focus\:border-sky-500 {
+    &:focus {
+      border-color: var(--color-sky-500);
+    }
+  }
   .focus\:border-slate-400 {
     &:focus {
       border-color: var(--color-slate-400);
+    }
+  }
+  .focus\:ring-2 {
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
   .focus\:ring-sky-500 {
@@ -2213,6 +2251,12 @@
         outline: 2px solid transparent;
         outline-offset: 2px;
       }
+    }
+  }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
     }
   }
   .focus-visible\:ring-2 {
@@ -2329,6 +2373,12 @@
   .sm\:pt-24 {
     @media (width >= 40rem) {
       padding-top: calc(var(--spacing) * 24);
+    }
+  }
+  .sm\:text-2xl {
+    @media (width >= 40rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
   .sm\:text-3xl {

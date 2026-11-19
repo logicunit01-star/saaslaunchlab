@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { decodeHtmlEntities } from "@/lib/utils";
 import { HostingCostCalculator } from "@/components/tools/HostingCostCalculator";
+import { DevCostCalculator } from "@/components/tools/DevCostCalculator";
 
 interface ArticleBodyProps {
   content: string;
@@ -95,6 +96,16 @@ export function ArticleBody({ content }: ArticleBodyProps) {
     if (!block) continue;
 
     // 0. Interactive Custom Calculators & Tools
+    if (
+      block === ":::calculator-dev-cost" ||
+      block === ":::calculator-development-cost" ||
+      block === "[calculator:development-cost]" ||
+      block === ":::calculator-saas-development"
+    ) {
+      elements.push(<DevCostCalculator key={i} />);
+      continue;
+    }
+
     if (
       block === ":::calculator" ||
       block === ":::calculator-hosting-cost" ||
